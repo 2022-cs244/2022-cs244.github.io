@@ -5,7 +5,9 @@ layout: default
 # Time and Location
 
 Spring 2018
+
 Monday/Wednesday 4:30PM - 5:50PM
+
 Lecture Room: 110-101 in the Main Quad
 
 # Overview
