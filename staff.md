@@ -4,7 +4,7 @@ title: Staff
 permalink: /staff/
 ---
 
-For faster reply, please use CS344 Piazzza forum on the left.
+To reach us quickly, please use the CS344 Piazza forum.
 
 ### More Information
 
@@ -12,12 +12,7 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact Information
 
------------------------------|------------------------------------------------------------
-[](images/nickm.png)         | Professor [Nick McKeown](http://yuba.stanford.edu/~nickm/)
-                             | Email: [nickm@stanford.edu](mailto:nickm@stanford.edu)
-                             | Office: Gates 338
------------------------------|------------------------------------------------------------
-[](images/steve.png)         | TA: Stephen Ibanez
-                             | Email [sibanez@stanford.edu](mailto:sibanez@stanford.edu)
-                             | Office: Gates 314
------------------------------|------------------------------------------------------------
+|       | Contact Info |
+|-------|:-------------|
+|[](images/nickm.png)         | <ul><li>Professor [Nick McKeown](http://yuba.stanford.edu/~nickm/)</li><li>Email: [nickm@stanford.edu](mailto:nickm@stanford.edu)</li><li>Office: Gates 338</li></ul>  |
+|[](images/steve.png)         | <ul><li>TA: Stephen Ibanez</li><li>Email [sibanez@stanford.edu](mailto:sibanez@stanford.edu)</li><li>Office: Gates 314</li></ul>  |
