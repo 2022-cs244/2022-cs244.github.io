@@ -9,7 +9,7 @@ name: CS344 Stanford
 description: Build an Internet Router
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/cs344-logo.png
+avatar: https://raw.githubusercontent.com/CS344-Stanford/CS344-Stanford.github.io/master/images/cs344-logo.png
 
 #
 # Flags below are optional
