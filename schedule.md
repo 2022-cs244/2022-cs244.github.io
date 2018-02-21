@@ -6,5 +6,6 @@ permalink: /schedule/
 
 This is the schedule:
 
-* Milestone 1
-* Milestone 2
+| Milestone | Due Date | Deliverables |
+|-----------|----------|--------------|
+| M1        |   3/4    |    D1        |
