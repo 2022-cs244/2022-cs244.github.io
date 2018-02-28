@@ -4,4 +4,4 @@ title: Documentation
 permalink: /documentation/
 ---
 
-* [PWOSPF](/_documentation/pwospf.md)
+* [PWOSPF](/_documentation/pwospf)
