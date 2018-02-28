@@ -4,4 +4,4 @@ title: Documentation
 permalink: /documentation/
 ---
 
-* [PWOSPF]({{ site.baseurl }}/_documentation/pwospf.html)
+* [PWOSPF]({{ site.baseurl }}/documentation/pwospf)
