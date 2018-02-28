@@ -16,7 +16,7 @@ High-performance network system design. Students will work in teams of two to bu
 
 # Teams
 
-The class will be broken down into teams of two students. One teammate will be responsible for the P4 data-plane implementation and the other teammate will be responsible for the Python control-plane. We leave it up to each team to decide how to they would like to divide up the workload amongst themselves. However, we highly encourge the close collaboration and consulation so that each member is intimiately familiar with both aspects of the router implementation.
+The class will be broken down into teams of two students. One teammate will be responsible for the P4 data-plane implementation and the other teammate will be responsible for the Python control-plane. We leave it up to each team to decide how to they would like to divide up the workload amongst themselves. However, we highly encourge close collaboration and consulation so that each member is intimiately familiar with both aspects of the router implementation.
 
 # Class Router Interoperation
 
