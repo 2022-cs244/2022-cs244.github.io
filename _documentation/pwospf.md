@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PWOSPF
-permalink: /_documentation/pwospf
 ---
 
 ```
