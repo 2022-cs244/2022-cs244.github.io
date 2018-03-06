@@ -1,2 +1,6 @@
+---
+layout: page
+title: Control Plane Starter Code
+---
 
-# Control Plane Starter Code
+
