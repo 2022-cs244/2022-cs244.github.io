@@ -6,13 +6,16 @@ permalink: /schedule/
 
 # Deliverables
 
+Due April 6th:
+* Getting Started
+
 Due April 10th:
 * P4 bmv2 exercises
 * P4->NetFPGA exercises
 
 Due April 24th:
-* Complete P4 portion of router using P4->NetFPGA
-* Complete Python control-plane portion for router
+* Complete Data-Plane Implementation
+* Complete Control-Plane Implementation
 
 Due May 1st:
 * Proposal for advanced features project
