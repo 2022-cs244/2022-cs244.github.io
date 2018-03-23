@@ -23,7 +23,7 @@ Each exercise has some starter code marked with `TODO` comments. Your job is to 
 Submission
 ----------
 
-When you are ready to submit commit all of your changes to the source files and follow the steps below to add a tag to the commit you would like the instructors to review. You should NOT add any generated files including your bitstream to your repository. Instead, please email your bitstream to sibanez@stanford.edu along with a link to your github repository.
+When you are ready to submit, commit all of your changes to the source files and follow the steps below to add a tag to the commit you would like the instructors to review. You should NOT add any generated files including your bitstream to your repository. Instead, please email your bitstream to sibanez@stanford.edu along with a link to your github repository.
 
 ```
 $ git tag -a tutorials-submission -m "Submission of my P4->NetFPGA Tutorial Assignments"
