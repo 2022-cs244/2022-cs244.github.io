@@ -7,7 +7,7 @@ permalink: /schedule/
 # Deliverables
 
 Due April 6th:
-* Getting Started
+* [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
 
 Due April 10th:
 * P4 bmv2 exercises
