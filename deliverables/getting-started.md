@@ -30,11 +30,15 @@ Use the ssh key in the email from the instructor to log onto your development ma
 For Unix Workstations:
 * Change the permissions on the key to read only: 
 
-    `$ chmod 400 ~/.ssh/<my-ssh-key>`
+```
+$ chmod 400 ~/.ssh/<my-ssh-key>
+```
 
 * Use the following command to connect to a machine: 
 
-    `$ ssh -i ~/.ssh/<my-ssh-key> cs344@<dev-machine-name>.stanford.edu`
+```
+$ ssh -i ~/.ssh/<my-ssh-key> cs344@<dev-machine-name>.stanford.edu
+```
 
 Make sure that you can sucessfully log onto your machine. Ask on piazza if you run into issues.
 
@@ -95,7 +99,7 @@ $ git remote add upstream https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-
 $ git remote -v
 ```
 
-You should see that you now have two remotes, `origin` and `upstream`. When working on your projects throughout the quarter, you will push changes to `origin`. If the instructors need to make a change to the starter code we will push changes to `https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18.git`, post an instructor note on piazza, and ask you to pull the changes from upstream: `$ git pull upstream master`. Please keep in mind that making modifications to the provided starter code may require you to manually merge in changes from `upstream`.
+You should see that you now have two remotes, `origin` and `upstream`. When working on your projects throughout the quarter, you will push changes to `origin`. If the instructors need to make a change to the starter code we will push changes to `https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18.git`, post an instructor note on piazza, and ask you to pull the changes from `upstream`: `$ git pull upstream master`. Please keep in mind that making modifications to the provided starter code may require you to manually merge in changes from `upstream`.
 
 Step 4 - Access to the Lab
 ------
