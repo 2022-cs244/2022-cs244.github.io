@@ -21,7 +21,7 @@ The instructor will send you an email after adding you to the repository, this e
 Step 2 - Development Machine Access
 ------
 
-Each team will be given access to a development machine. See the [Team Assignments]() page to check which development machine your team has been assigned to. Each machine is running Ubuntu 14.04 and contains the following two hardware components installed on PCIe slots:
+Each team will be given access to a development machine. See the [Team Assignments]({{ site.baseurl }}/teams) page to check which development machine your team has been assigned to. Each machine is running Ubuntu 14.04 and contains the following two hardware components installed on PCIe slots:
 * NetFPGA SUME board
 * Dual port 10G NIC
 
