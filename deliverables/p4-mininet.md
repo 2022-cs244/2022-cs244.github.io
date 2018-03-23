@@ -24,7 +24,7 @@ P4.org has put together a set of tutorial exercises designed to incrementally in
 Getting Started
 ---------------
 
-This assignment is to be completed as a team. That is, your team will have one repository containing all of your solutions. You can decide how you would like to split up the work, but we highly encourage each teammate to attempt each exercise. These exercises are your first opportunity to gain experience with P4 wrestle with the fundamental ideas.
+This assignment is to be completed as a team. That is, your team will have one repository containing all of your solutions. You can decide how you would like to split up the work, but we highly encourage each teammate to attempt each exercise. These exercises are your first opportunity to gain experience with P4 and wrestle with the fundamental ideas.
 
 You should use your own laptops for this assignment and NOT the developement machine to which your team has been assigned.
 
