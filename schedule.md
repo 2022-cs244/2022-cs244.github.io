@@ -10,8 +10,8 @@ Due April 6th:
 * [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
 
 Due April 10th:
-* [P4 Mininet exercises]({{ site.bareurl }}/deliverables/p4-mininet)
-* P4->NetFPGA exercises
+* [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet)
+* [P4->NetFPGA exercises]({{ site.baseurl }}/deliverables/p4-netfpga-tutorials)
 
 Due April 24th:
 * Complete Data-Plane Implementation
