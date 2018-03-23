@@ -101,7 +101,15 @@ $ git remote -v
 
 You should see that you now have two remotes, `origin` and `upstream`. When working on your projects throughout the quarter, you will push changes to `origin`. If the instructors need to make a change to the starter code we will push changes to `https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18.git`, post an instructor note on piazza, and ask you to pull the changes from `upstream`: `$ git pull upstream master`. Please keep in mind that making modifications to the provided starter code may require you to manually merge in changes from `upstream`.
 
-Step 4 - Access to the Lab
+Step 4 - Decision Time and First Commits
+------
+
+As a team you must both work together to build your internet router. That being said, one team member will be mainly responsible for the P4 data plane implementation and the other team member will be mainly responsible for the Python control plane implementation. Once you decide how to allocate responsibilities update the README file in the `SUME_FOLDER/contrib-projects/sume-sdnet-switch/projects/simple_router/` directory to indicate who is responsible for what. Throughout the quarter you MUST keep this README file up to date with descriptions of your router design and explain your various design choices. Consider including diagrams, pseudocode, flow charts, or whatever else you think would be helpful to explain your design to the instructors. Every Friday instructors will review this design document to ensure you are keeping it up to date and to ensure you are on the correct track. Instructors may take this opportunity to offer suggestions and/or ask probing questions. A portion of the total points is reserved for these documentation checks so it is important to keep this document clear and organized.
+
+After you have updated the README file be sure to commit the changes and push it to your remote repository before the due date of this deliverable.
+
+
+Step 5 - Access to the Lab
 ------
 
 You will be working with real hardware this quarter! This means that you will get hands on experience in the lab. The lab is room 325 in the Gates computer science building. In order to access the lab you will need a key. You should be cc'ed on an email from Lancy Nazaroff to the Gates Key Office ask them to give you access to Gates 325. If you already have a key to the Gates building they will add room 325 to your key. If you do not already have a key then you will need to provide a $20 security deposit when you pick up your key, please bring cash. The security deposit will be refunded when you return the key so do NOT lose the key! After you have a key with access to Gates 325, be sure to initialize the key as soon as you can. Do so by inserting the key into the handle and waiting for the beep. You are encouraged to check out the development machines when you go to initialize your key, they are on the side of the lab closest to the professor's office. The machines are labeled so you should be able to easily find your assigned machine.
