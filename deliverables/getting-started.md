@@ -91,7 +91,7 @@ $ sudo bash
 # lsmod | grep sume_riffa
 ```
 
-* Point your local clone to github repo that you originally forked:
+* Point your local clone to the github repo that you originally forked:
 
 ```
 $ cd $SUME_FOLDER
