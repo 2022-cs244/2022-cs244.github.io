@@ -41,28 +41,28 @@ Make sure that you can sucessfully log onto your machine. Ask on piazza if you r
 Step 3 - Setting up your fork
 ------
 
-1. Create a fork of the [P4-NetFPGA-CS344-18](https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18) repo.
+* Create a fork of the [P4-NetFPGA-CS344-18](https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18) repo.
 
-You may fork the repo into a personal github account or you may create a new github organization for the team and fork the repo there. If you don't know how to create a fork, here is brief guide: https://guides.github.com/activities/forking/
+You may fork the repo into a personal github account or you may create a new github organization for the team and fork the repo there. If you don't know how to create a fork, [here is brief guide](https://guides.github.com/activities/forking/).
 
-2. Once you have created your fork, clone the repository onto your development machine:
+* Once you have created your fork, clone the repository onto your development machine:
 
 ```
 $ git clone https://github.com/<username>/<repo-name>.git
 ```
 
-3. Update the `tools/settings.sh` file so that `SUME_FOLDER` points to the installation location of the repo.
+* Update the `tools/settings.sh` file so that `SUME_FOLDER` points to the installation location of the repo.
 
-4. Add the following two lines to your `~/.bashrc` file (updating the path appropriately):
+* Add the following two lines to your `~/.bashrc` file (updating the path appropriately):
 
 ```
 #### P4-NetFPGA #####
 source ~/path/to/my-repo/tools/settings.sh
 ```
 
-5. Log out and log back in, then make sure that running `$ cd $SUME_FOLDER` puts you into your cloned repo. The development machines already have all of the required dependencies installed, so there's not too much more to set up.
+* Log out and log back in, then make sure that running `$ cd $SUME_FOLDER` puts you into your cloned repo. The development machines already have all of the required dependencies installed, so there's not too much more to set up.
 
-6. Build the SUME hardware library cores and some software to access registers:
+* Build the SUME hardware library cores and some software to access registers:
 
 ```
 $ cd $SUME_FOLDER/lib/hw/xilinx/cores/tcam_v1_1_0/ && make update && make
@@ -76,7 +76,7 @@ $ cd $SUME_FOLDER && make
 
 You will only need to run these commands once unless you (or the instrucors) make changes to one of the modules in the `$SUME_FOLDER/lib` folder.
 
-7. Build and load the SUME drivers:
+* Build and load the SUME drivers:
 
 ```
 $ sudo bash
@@ -87,7 +87,7 @@ $ sudo bash
 # lsmod | grep sume_riffa
 ```
 
-8. Point your local clone to github repo that you originally forked:
+* Point your local clone to github repo that you originally forked:
 
 ```
 $ cd $SUME_FOLDER
