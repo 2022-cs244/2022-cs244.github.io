@@ -10,7 +10,7 @@ Due April 6th:
 * [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
 
 Due April 10th:
-* P4 bmv2 exercises
+* [P4 Mininet exercises]({{ site.bareurl }}/deliverables/p4-mininet)
 * P4->NetFPGA exercises
 
 Due April 24th:
