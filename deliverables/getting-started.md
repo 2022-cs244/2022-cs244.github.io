@@ -7,7 +7,7 @@ This is your first deliverable of the course. The goals are as follows:
 * Set up the repository that you will be using for the rest of the quarter on your assigned development machine
 * Make sure that you have access to everything that you will need
 
-This assignment is to be completed as a team. That is, each will only have one repository.
+This assignment is to be completed as a team. That is, each team will only have one repository.
 
 Step 1 - Repo Access
 ------
