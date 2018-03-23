@@ -11,9 +11,10 @@ Tutorial Assignments
 --------------------
 
 The [P4->NetFPGA Tutorials](https://github.com/NetFPGA/P4-NetFPGA-public/wiki/Tutorial-Assignments) page describes three exercises:
-    * Switch Calculator
-    * TCP Monitor
-    * In-band Network Telemetry (INT)
+
+* Switch Calculator
+* TCP Monitor
+* In-band Network Telemetry (INT)
 
 The starter code for these exercises is already in the repository that you set up on your development machine in the [Getting Started]({{ site.baseurl }}/deliverables/getting-started) deliverable. This is where you should complete these exercises.
 
