@@ -30,7 +30,7 @@ Use the ssh key in the email from the instructor to log onto your development ma
 For Unix Workstations:
 * Change the permissions on the key to read only: 
 
-    `$ chmod 400 ~/.ssh/<my-ssh-key>`. 
+    `$ chmod 400 ~/.ssh/<my-ssh-key>`
 
 * Use the following command to connect to a machine: 
 
