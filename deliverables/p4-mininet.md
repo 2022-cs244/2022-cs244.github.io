@@ -21,6 +21,59 @@ P4.org has put together a set of tutorial exercises designed to incrementally in
 
 ![topo]({{ site.baseurl }}/images/mininet-topo.png)
 
-Getting Set Up
---------------
+Getting Started
+---------------
+
+This assignment is to be completed as a team. That is, your team will have one repository containing all of your solutions. You can decide how you would like to split up the work, but we highly encourage each teammate to attempt each exercise. These exercises are your first opportunity to gain experience with P4 wrestle with the fundamental ideas.
+
+You should use your own laptops for this assignment and NOT the developement machine to which your team has been assigned.
+
+1. Install [Vagrant](https://vagrantup.com/) and [VirtualBox](https://virtualbox.org/) on your local laptop.
+
+2. Create a fork of the [p4-mininet-tutorials](https://github.com/CS344-Stanford-18/p4-mininet-tutorials) repository.
+
+3. Clone your fork onto your local laptop.
+
+4. `cd` into the [p4-mininet-tutorials/P4D2_2018_East/vm](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/tree/master/P4D2_2018_East/vm) directory and run `$ vagrant up`. It will take about 30 minutes for the virtual machine to provision so be patient, go grab a cup of coffee :)
+
+5. Once the previous command completes you should see a login prompt within Virtual Box. Log in with username `p4` and password `p4`. Then run `$ sudo shutdown -r now`. When the machine reboots, you should have a graphical desktop machine with the all software required to run the exercises pre-installed.
+
+The Exercises
+-------------
+
+The exercises are organized into four modules:
+
+1. Introduction and Language Basics:
+    * [Basic Forwarding](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/tree/master/P4D2_2018_East/exercises/basic)
+    * [Basic Tunneling](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/blob/master/P4D2_2018_East/exercises/basic_tunnel)
+    
+2. P4Runtime and the Control Plane:
+    * [P4Runtime](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/blob/master/P4D2_2018_East/exercises/p4runtime)
+    
+3. Monitoring and Debugging:
+    * [Explicit Congestion Notification](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/blob/master/P4D2_2018_East/exercises/ecn)
+    * [Multi-Hop Route Inspection](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/blob/master/P4D2_2018_East/exercises/mri)
+    
+4. Advanced Data Structures:
+    * [Source Routing](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/blob/master/P4D2_2018_East/exercises/source_routing)
+    * [Calculator](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/blob/master/P4D2_2018_East/exercises/calc)
+    
+5. Dynamic Behavior:
+    * [Load Balancing](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/tree/master/P4D2_2018_East/exercises/load_balance)
+    
+Refer to the `README` files within each exercise directory for a detailed description of the goals and how to perform the evaluations. Each exercise provides some starter code marked with `TODO` comments. Your goal is to complete the provided starter code and make sure that each exercise behaves as expected.
+
+Submission
+----------
+
+After you have completed all of the exercises and would like to submit your work, simply add a tag to your latest commit and push the tag to your remote repository.
+
+Submission process:
+
+```
+$ git tag -a submission -m "Submission of my P4 Mininet exercises"
+$ git push origin submission
+```
+
+After the assignment deadline, the instructors will checkout the commit to which the `submission` tag points on your repository and make sure that all exercises are working properly.
 
