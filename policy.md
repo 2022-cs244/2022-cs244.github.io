@@ -15,3 +15,19 @@ Programming is something you learn by doing. If you copy someone else’s work, 
 * Your copied work will be sent to Judicial Affairs.
 
 (This was blatantly plagiarised from the CS193N web page!)
+
+# Grading
+
+The emphasis is on developing the required functionality and achieving interoperability with other’s solutions. We will pay careful attention to your design document of who contributed what in each team!
+
+*Deliverables*: If you are late for a deliverable, then you lose 2 points per day, up to 3 days late. After that you receive zero for that deliverable.  Over the quarter each *team* has a total of 3 free late days that you can use however you want for any milestone without penalty.
+
+Marks are awarded to an individual (I) or the team (T).
+
+Points | Item               | Description
+-------|--------------------|------------
+10 (I) | Participation      | This will be a subjective judgement by us based on aspects such as our interaction with you in regular meetings, your team’s final write-up on who did what, and by watching the online discussions.
+5  (T) | Interoperability   | Your router should interoperate correctly with the routers from all other teams. We will conduct an interoperability test session to verify interoperability.
+50 (T) | Functionality      | The code deliverables
+25 (T) | Documentaion       | The weekly documentation checks
+10 (T) | Presentation       | Final presentation
