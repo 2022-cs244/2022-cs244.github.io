@@ -14,7 +14,7 @@ Lab: Gates 325
 
 # Announcements
 
-Due to a limited amount of hardware and development machine, we will be limiting enrollment to 12 students. As such, we ask that you fill out the short application linked to below so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://goo.gl/forms/nJXtf9csQokQFvD23) **before April 2nd at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on April 3rd by 5PM.
+Due to a limited amount of hardware and development machine, we will be limiting enrollment to 12 students. As such, we ask that you fill out a short application so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://goo.gl/forms/nJXtf9csQokQFvD23) **before April 2nd at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on April 3rd by 5PM.
 
 # Overview
 
