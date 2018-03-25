@@ -15,5 +15,9 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
 
 Complete [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
 
+# Make a Plan!
+
+Develop an interoperability plan early!
+
 
 # Hints
