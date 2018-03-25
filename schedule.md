@@ -9,8 +9,7 @@ April 2nd:
     * Intro to class
     * Logistics and administration
     * P4 Intro - Part I
-* **Due by 11:59 PM:**
-    * [Course Application](https://goo.gl/forms/nJXtf9csQokQFvD23) 
+* **Due by 11:59 PM:** [Course Application](https://goo.gl/forms/nJXtf9csQokQFvD23) 
 
 April 3rd:
 * Instructors will send out application results by 5PM
