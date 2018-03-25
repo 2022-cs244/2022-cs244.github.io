@@ -11,8 +11,12 @@ April 2nd:
     * P4 Intro - Part I
 * **Due by 11:59 PM:** [Course Application](https://goo.gl/forms/nJXtf9csQokQFvD23) 
 
+---
+
 April 3rd:
 * Instructors will send out application results by 5PM
+
+---
 
 April 4th:
 * Lecture 2 Topics:
@@ -20,8 +24,12 @@ April 4th:
     * P4 Langauge Basics
     * Hands on learning with P4 - Please complete the Getting Started portion of the [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet) before class, and bring your laptops with you 
 
+---
+
 April 6th:
 * **Due by 11:59 PM:** [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
+
+---
 
 April 9th:
 * Lecture 3 Topics:
@@ -29,9 +37,13 @@ April 9th:
     * Intro to NetFPGA
     * P4->NetFPGA Workflow Overview
 
+---
+
 April 10th:
 * **Due by 11:59PM:** [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet)
 * **Due by 11:59PM:** [P4->NetFPGA exercises]({{ site.baseurl }}/deliverables/p4-netfpga-tutorials)
+
+---
 
 April 11th:
 * Lecture 4 Topics:
@@ -39,23 +51,35 @@ April 11th:
     * Basic hardware design
     * Running simulations, reading waveforms
     * Timing constraints
-    
+
+---
+
 April 16th:
 * Lecture 5:
     * Guest Lecture - P4 Applications
+
+---
 
 April 24th:
 * **Due by 11:59PM:** Complete Data-Plane Implementation
 * **Due by 11:59PM:** Complete Control-Plane Implementation
 
+---
+
 May 1st:
 * **Due by 11:59PM:** Proposal for advanced features project
+
+---
 
 May 8th:
 * Interoperability test
 
+---
+
 May 24th:
 * **Due by 11:59PM:** Advanced features progress report
+
+---
 
 June 10th:
 * Final demonstrations and presentations
