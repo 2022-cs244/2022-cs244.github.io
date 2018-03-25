@@ -81,7 +81,7 @@ May 24th:
 
 ---
 
-June 10th:
+June 12th:
 * Final demonstrations and presentations
 
 
