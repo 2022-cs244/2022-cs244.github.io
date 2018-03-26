@@ -78,15 +78,21 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
 
 * Are you handling PWOSPF HELLO packets correctly in the data-plane? What IP address are they sent to?
 * Be sure to make use of the CLI tool to add/remove/inspect table entries and read/write counters
-* `cat ${P4_PROJECT_DIR}/src/commands.txt | ${P4_PROJECT_DIR}/sw/CLI/P4_SWITCH_CLI.py`
+* Here is useful command for configuring the tables in your P4 switch:
+    * `cat ${P4_PROJECT_DIR}/src/commands.txt | ${P4_PROJECT_DIR}/sw/CLI/P4_SWITCH_CLI.py`
 * VNC Viewer
 * Possible initial tests:
     * Is your router forwarding correctly with statically configured table entries?
     * Can you ping each of the routers interfaces?
     * Is the router responding to ARP requests?
     * Be careful if you are trying to ping one interface from the other. Unless you are careful, linux will force the traffic to use the loopback interface rather than sending packets out onto the wire. [It is possible](https://serverfault.com/questions/127636/force-local-ip-traffic-to-an-external-interface) to do this, but it'll be easier (and less confusing) if you can arrange a time with a neighboring group to use their NIC. Then you can do small tests like sending pings through the router, traceroute to and through the router, send iperf flows through the router, and so on.
-* Configure interface with IP address: `# ifconfig eth1 1.2.3.4 netmask 255.255.255.0`
-* Configure interface with MAC address: `# ifconfig eth1 hw ether 00:11:22:33:44:55`
-* Adding routing table entries on Ubuntu: `# route add -net 1.1.1.0 netmask 255.255.255.0 gw 12.12.12.13 dev eth2`
-* Show routing table entries: `# route -n`
-* Show arp table entries: `# arp -i eth1`
+* Configure interface with IP address: 
+    * `# ifconfig eth1 1.2.3.4 netmask 255.255.255.0`
+* Configure interface with MAC address:
+    * `# ifconfig eth1 hw ether 00:11:22:33:44:55`
+* Adding routing table entries on Ubuntu:
+    * `# route add -net 1.1.1.0 netmask 255.255.255.0 gw 12.12.12.13 dev eth2`
+* Show routing table entries:
+    * `# route -n`
+* Show arp table entries:
+    * `# arp -i eth1`
