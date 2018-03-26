@@ -21,6 +21,7 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
     * ICMP
     * [PWOSPF](https://cs344-stanford.github.io/documentation/pwospf/)
 * Learn how to use P4 and P4->NetFPGA:
+
     * [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet)
     * [P4->NetFPGA exercises]({{ site.baseurl }}/deliverables/p4-netfpga-tutorials)
 * Review the basic requirements for the data-plane and control-plane (see below).
