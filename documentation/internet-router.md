@@ -21,7 +21,7 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
     * ICMP
     * [PWOSPF](https://cs344-stanford.github.io/documentation/pwospf/)
 * Learn how to use P4 and P4->NetFPGA:
-    * [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet)
+    * [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet)
     * [P4->NetFPGA exercises]({{ site.baseurl }}/deliverables/p4-netfpga-tutorials)
 * Review the basic requirements for the data-plane and control-plane (see below).
 * Develop an interoperability plan early! As a class, you will want to decide on a concrete plan to make sure that everyone's router will end up interoperable. We strongly suggest that the teams work together to do incremental tests of their implementations against each other. For example, after implementing the PWOSPF HELLO protocol, ensure that inter-team routers can successfully perform neighbor discovery before going on to develop the link state updates. Testing components individually provides a much saner debugging environment than a fully built system.
