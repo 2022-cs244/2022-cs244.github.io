@@ -14,7 +14,7 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
 # Approach
 
 * Complete [Getting Started]({{ site.baseurl }}/deliverables/getting-started) deliverable to get everything that you will need set up.
-* Read and understand the provided starter code, [here]() is a brief overview.
+* Read and understand the provided starter code, [here]({{ site.baseurl }}/documentation/starter-code) is a brief overview.
 * Review the protocols. Consider rewatching some of the CS144 lectures if you need a refresher on the protocols listed below.
     * IP - understand how a router makes a decision about forwarding an IP packet based on its routing table
     * ARP
