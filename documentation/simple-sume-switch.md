@@ -20,11 +20,16 @@ struct sume_metadata_t {
     bit<16> nf1_q_size; // measured in 32-byte words
     bit<16> nf0_q_size; // measured in 32-byte words
     bit<8> send_dig_to_cpu; // send digest_data to CPU
-    bit<8> drop; // * DEPRICATED *
-    port_t dst_port; // one-hot encoded: {DMA3, NF3, DMA2, NF2, DMA1, NF1, DMA0, NF0}
-    port_t src_port; // one-hot encoded: {DMA3, NF3, DMA2, NF2, DMA1, NF1, DMA0, NF0}
+    bit<8> drop; // * DEPRECATED *
+    port_t dst_port; // one-hot encoded (see below)
+    port_t src_port; // one-hot encoded (see below)
     bit<16> pkt_len; // (bytes) unsigned int
 }
+
+The format of the dst_port and src_port fields is as follows:
+
+  bit-7     bit-6     bit-5     bit-4     bit-3     bit-2     bit-1     bit-0
+(nf3_dma)-(nf3_phy)-(nf2_dma)-(nf2_phy)-(nf1_dma)-(nf1_phy)-(nf0_dma)-(nf0_phy)
 ```
 
    * `pkt_len` - the size of the packet (not including the Ethernet preamble or FCS) in bytes.
