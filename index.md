@@ -4,13 +4,13 @@ layout: default
 
 # Time and Location
 
-Spring 2018
+**Term:** Spring 2018
 
-Monday/Wednesday 4:30PM - 5:50PM
+**Lectures:** 
+   * Monday/Wednesday 4:30PM - 5:50PM
+   * 110-101 in the Main Quad
 
-Lecture Room: 110-101 in the Main Quad
-
-Lab: Gates 325
+**Lab:** Gates 325
 
 # Announcements
 
