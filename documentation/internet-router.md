@@ -7,7 +7,7 @@ One of the main goals of this course is to design and build a fully functioning 
 
 # Tools
 
-We will use the [P4->NetFPGA Workflow](https://github.com/NetFPGA/P4-NetFPGA-public/wiki) to implement the data-plane portion of the router. This workflow attempts to abstract away many of the low level details required for hardware development. The goal is for it to be usable by P4 developers with no prior HDL design experience.
+We will use the [P4->NetFPGA Workflow](https://github.com/NetFPGA/P4-NetFPGA-public/wiki) to implement the data-plane portion of the router. This workflow attempts to abstract away many of the low level details required for hardware development. One of the goals is for it to be usable by P4 developers with no prior HDL design experience.
 
 The control-plane will be written in Python on top of the [Scapy](https://scapy.readthedocs.io/en/latest/) packet processing library. Scapy is a very flexible packet generator, sniffer, parser, and editor; and it is quite easy to use, making developers more productive.
 
@@ -37,9 +37,9 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
 # Data-Plane Basic Requirements
 
 * Provide a routing table that can store IP address/prefix pairs with their associated port and next-hop IP address.
-* Use the routing table to perform a longest prefix match on destination IP addresses and return the appropriate egress port and next-hop address. 
+* Use the routing table to perform a longest prefix match on destination IP addresses and return the appropriate egress port and next-hop address (or 0.0.0.0 for a directly attached destination). 
     * NOTE: We will use a ternary match table for the routing table because LPM tables are not fully supported by SDNet yet.
-* Provide an ARP table that can store at least 64 entries. This will accept an IP address as a search key and will return the associated MAC address (if found). This table is modified by the software (which runs its own ARP protocol) via P4->NetFPGA API calls.
+* Provide an ARP table that can store at least 64 entries. This will accept an IP address as a search key and will return the associated MAC address (if found). This table is modified by the software, which runs its own ARP protocol.
 * Provide a “local IP address table”. This will accept an IP address as a search key and will return a signal that indicates whether the correspond address was found. This table is used to identify IP addresses that should be forwarded to the CPU.
 * Decode incoming IP packets and perform the operations required by a router. These include (but are not limited to):
     * verify that the existing checksum and TTL are valid
@@ -49,8 +49,9 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
     * decrement TTL
     * calculate a new IP checksum
     * transmit the new packet via the appropriate egress port
-    * local IP packets (destined for the router) should be sent to the software.
-    * PWOSPF packets should be sent to the software.
+    * local IP packets (destined for the router) should be sent to the software
+    * PWOSPF packets should be sent to the software
+    * packets for which no matching entry is found in the routing table should be sent to the software
     * any packets that the hardware cannot deal with should be forwarded to the CPU. (e.g. not Version 4 IP)
 * Provide counters for the following:
     * IP packets
@@ -72,7 +73,7 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
 
 # You Decide
 
-* Responding to ARP requests is actually fairly easy to express in P4. You can decide whether you want to implement ARP responding in the control-plane or the data-plane.
+* Responding to ARP requests is actually fairly straight forward to express in P4. You can decide whether you want to implement ARP responding in the control-plane or the data-plane.
 
 
 # Hints and Tips
