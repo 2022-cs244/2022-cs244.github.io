@@ -88,6 +88,8 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
     * Can you ping each of the routers interfaces?
     * Is the router responding to ARP requests?
     * Be careful if you are trying to ping one interface from the other. Unless you are careful, linux will force the traffic to use the loopback interface rather than sending packets out onto the wire. [It is possible](https://serverfault.com/questions/127636/force-local-ip-traffic-to-an-external-interface) to do this, but it'll be easier (and less confusing) if you can arrange a time with a neighboring group to use their NIC. Then you can do small tests like sending pings through the router, traceroute to and through the router, send iperf flows through the router, and so on.
+* Occassionally the `nf0` - `nf3` network interfaces do not come up after programming the FPGA. Try running the following command to bring it back up:
+    * `# ifdown nf0 && ifup nf0`
 * Configure interface with IP address: 
     * `# ifconfig eth1 1.2.3.4 netmask 255.255.255.0`
 * Configure interface with MAC address:
