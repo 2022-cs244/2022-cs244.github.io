@@ -45,3 +45,43 @@ The format of the dst_port and src_port fields is as follows:
 
 * **in/out control:** these signals are used to add/remove entries from tables and read/write control registers.
 
+
+# A Note About Interface Names
+
+Many new users are often confused about the interface names. The NetFPGA SUME board has 4 SFP+ ports (a.k.a physical interfaces). We often call these interfaces `nf0`, `nf1`, `nf2`, and `nf3` where `nf0` is the port closest to the link lights on the SUME board. There is one bit in the `src_port` and `dst_port` fields for each of these ports (bits 0, 2, 4, and 6).
+
+If you type `ifconfig` on the linux host machine after programming the FPGA you should something like the output shown below. The `nf0`, `nf1`, `nf2`, and `nf3` shown here mean something very different than what is explained above. These network interfaces are the means by which the host machine can communicate with the data-plane in the FPGA. There is also one bit for each of these interfaces in the `src_port` and `dst_port` fields (bits 1, 3, 5, and 7). So for example, if the data-plane wants to send a packet up to the host and have it arrive on the `nf0` linux network interface then it must set bit 1 of the `dst_port` field (e.g. `dst_port = 0b00000010`).
+
+```
+$ ifconfig
+.
+.
+.
+nf0       Link encap:Ethernet  HWaddr 02:53:55:4d:45:00
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:300 (300.0 B)
+
+nf1       Link encap:Ethernet  HWaddr 02:53:55:4d:45:01
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:300 (300.0 B)
+
+nf2       Link encap:Ethernet  HWaddr 02:53:55:4d:45:02
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:300 (300.0 B)
+
+nf3       Link encap:Ethernet  HWaddr 02:53:55:4d:45:03
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:300 (300.0 B)
+```
