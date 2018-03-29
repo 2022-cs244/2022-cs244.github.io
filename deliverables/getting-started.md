@@ -114,5 +114,12 @@ Step 5 - Access to the Lab
 
 You will be working with real hardware this quarter! This means that you will get hands on experience in the lab. The lab is room 325 in the Gates computer science building. In order to access the lab you will need a key. You should be cc'ed on an email from Lancy Nazaroff to the Gates Key Office asking them to give you access to Gates 325. If you already have a key to the Gates building they will add room 325 to your key. If you do not already have a key then you will need to provide a $20 security deposit when you pick up your key, please bring cash. The security deposit will be refunded when you return the key so do NOT lose the key! After you have a key with access to Gates 325, be sure to initialize the key as soon as you can. Do so by inserting the key into the handle and waiting for the beep. You are encouraged to check out the development machines when you go to initialize your key, they are on the side of the lab closest to the professors' offices. The machines are labeled so you should be able to easily find your assigned machine.
 
+Step 6 - Sign up for Team Meeting Slots
+------
+
+Teams will be required to meet with instructors and discuss their current progress and next steps. These meetings are mainly used to ensure that teams are making progress and are on the right track. Instructors will be available to meeting with teams during the scheduled lecture slots since not all lectures will be held. Each team must sign up for two meeting slots before the interoperability test and two meeting slots after for a total of 4 meetings. Please sign up for your first two meeting slots before this deliverable is due.
+
+[Team Meeting Slots](https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18/wiki/Team-Meeting-Slots)
+
 That's all for now!
 
