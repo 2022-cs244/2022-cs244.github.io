@@ -12,7 +12,7 @@ To reach us quickly, please use the CS344 Piazza forum.
   * Email: [nickm@stanford.edu](mailto:nickm@stanford.edu)
   * Office: Gates 338
 
-* TA: Stephen Ibanez
+* Stephen Ibanez
   * Email [sibanez@stanford.edu](mailto:sibanez@stanford.edu)
   * Office: Gates 314
   * Office hours: Tues & Fri, 1:30-3:00PM, Gates 315
