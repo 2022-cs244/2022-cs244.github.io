@@ -65,6 +65,11 @@ April 24th:
 
 ---
 
+April 27th:
+* **Due by 11:59PM:** Interoperability test proposal (one document from entire class)
+
+---
+
 May 1st:
 * **Due by 11:59PM:** Proposal for advanced features project
 
