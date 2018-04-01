@@ -8,7 +8,6 @@ April 2nd:
 * Lecture 1 Topics:
     * Intro to class
     * Logistics and administration
-    * P4 Intro - Part I
 * **Due by 11:59 PM:** [Course Application](https://goo.gl/forms/nJXtf9csQokQFvD23) 
 
 ---
@@ -20,7 +19,7 @@ April 3rd:
 
 April 4th:
 * Lecture 2 Topics:
-    * P4 Intro - Part II
+    * P4 Introduction and Motivation
     * P4 Langauge Basics
     * Hands on learning with P4 - Please complete the Getting Started portion of the [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet) before class, and bring your laptops with you 
 
