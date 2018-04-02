@@ -133,7 +133,7 @@ This is used in the topology visualization. If you don’t use the visualization
 
 #### test_topology.py
 
-Contains a topology that can be used for testing. This is used in sanity check and in the topology visualizer.
+Contains a topology that can be used for testing. This is used in sanity check and in the topology visualizer. You should modify `ROUTING_TABLE` to reflect that format of your p4 routing table.
 
 #### topology_visualizer.py
 
