@@ -41,12 +41,12 @@ PWOSPF Interface:
   topology.  Interfaces between neighboring routers are connected by links which
   must have an associated subnet and mask.  All links are assumed to be
   bi-directional.  Note you must support multiple routers connected to a
-  single interface, ie. via a hub or switch. 
+  single interface, ie. via a hub or switch.
 
   An interface within a pwospf router is defined by the following values:
 
   32 bit ip address  - IP address of associated interface
-  32 bit mask mask   - subnet mask of assocaited interface
+  32 bit mask mask   - subnet mask of associated interface
   16 bit helloint    - interval in seconds between HELLO broadcasts
   list [
     32 bit neighbor id - ID of neighboring router.
@@ -95,11 +95,11 @@ PWOSPF Link State Updates:
   updates operate via a simple sequenced, unacknowledged flooding scheme in
   which received packets are flooded to all neighbors except the neighbor from
   whom the packet was received.  Generated packets are flooded to all
-  neighbors (they should be addressed directly to each neighbor - i.e., do not 
+  neighbors (they should be addressed directly to each neighbor - i.e., do not
   send them to the special ALLSPFRouters address). LSU packets are used to build
-and maintain the network topology database at each router.  If the LSU packet does not 
-advertise a change in the state of the topology as is already reflected in the database it is 
-discarded and the sequence number is updated.  Otherwise, the information is used to update 
+and maintain the network topology database at each router.  If the LSU packet does not
+advertise a change in the state of the topology as is already reflected in the database it is
+discarded and the sequence number is updated.  Otherwise, the information is used to update
 the database and the router's forwarding tables are recalculated using Djikstra's algorithm.
 
   A gateway router may advertise an additional default subnet for an interface
@@ -142,7 +142,7 @@ The Topology Database
 Handling Incoming PWOSPF Packets
 
  Each host participating in a PWOSPF topology must check the following values
- on incoming pwospf packets: 
+ on incoming pwospf packets:
 
  o The version number field must specify protocol version 2.
  o The 16-bit checksum on the PWOSPF packet's contents must be
@@ -258,7 +258,7 @@ Router ID
 Area ID
     A 32 bit number identifying the area that this packet belongs to.
     All OSPF packets are associated with a single area.  Most travel a
-    single hop only. 
+    single hop only.
 
 Checksum
     The standard IP checksum of the entire contents of the packet,
@@ -275,7 +275,7 @@ AuType
 Authentication
    Set to zero in PWOSPF
 
-HELLO Packet Format 
+HELLO Packet Format
 
   Hello packets are PWOSPF packet type 1.  These packets are sent periodically
   on all interfaces in order to establish and maintain neighbor relationships.
@@ -315,7 +315,7 @@ HELLO Packet Format
   HelloInt
       The number of seconds between this router's Hello packets.
 
-LSU Packet Format 
+LSU Packet Format
 
   LSU packets implement the flooding of link states and  are used to build and
   maintain the network topology database at each router.  Each link state
@@ -415,7 +415,7 @@ LSU Packet Format
       Mask   255.255.255.254
       RID    192.168.128.5  (B's router ID)
 
-  B could advertise the following routes 
+  B could advertise the following routes
 
   1. (link shared with A)
       Subnet 192.168.128.4
