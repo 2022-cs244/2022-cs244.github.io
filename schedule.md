@@ -85,7 +85,7 @@ May 24th:
 
 ---
 
-June 12th:
+June 13th @ 3:30PM:
 * Final demonstrations and presentations
 
 
