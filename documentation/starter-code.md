@@ -73,6 +73,18 @@ This file will contain your control plane implementation. You should update `han
 
 To start the control plane, run `python control_plane.py`. By default, PWOSPF is disabled. To enable PWOSPF, use the `--pwospf` argument. To use the topology visualization (described below), run with `--visualize`. To configure the router with a particular topology that is defined in a json file, use `--config [filename]`.
 
+To use the topology visualization you will need to implement the `topology` method, which should return your router's view of the current topology.
+
+To configure the router from a file, you will need to implement `load_tables`, which should populate the tables given the provided interfaces and routing table. You will also need to update `parse_config_file` to use the correct action name and action data.
+
+#### arp_cache.py
+
+A skeleton class for implementing the ARP cache.
+
+#### PWOSPF_handler.py
+
+A skeleton class for implementing PWOSPF.
+
 #### routing_consts.py
 
 A collection of constants used in routing, such as ICMP types and the intervals on which to send PWOSPF updates. You may want to modify the digest codes.
