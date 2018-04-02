@@ -159,7 +159,7 @@ Scapy objects for the PWOSPF, LSU, LSU Advertisement, and HELLO headers. The PWO
 
 Provides a set of baseline tests for the functionality of your control plane, both with and without PWOSPF enabled. There is a `TIMEOUT_TESTS` property that can be set to `False` if you would like to disable the tests that cause delays, such as the arp cache timeout test. These tests are not comprehensive, and you are encouraged to add your own.
 
-In order for the tests to run, your control plane must have a `handle_packet` function and take in `config`, `routing_table`, and `pwospf_enabled` initialization parameters. At minimum, your `config` should allow the tables api, send function, and interfaces to be configured. (Our implemenation also allows timeouts to be configurable so that timeout tests can run faster.) You also must call your arp cache table `arp_cache_table` in order to run the tests. Alternatively, you are welcome to modify the tests.
+In order for the tests to run, your control plane must have a `handle_packet` function and take in `config`, `routing_table`, and `pwospf_enabled` initialization parameters. At minimum, your `config` should allow the tables api, send function, and interfaces to be configured. (Our implemenation also allows timeouts to be configurable so that timeout tests can run faster.) You also must call your arp cache table `arp_cache_table` in order to run the tests. We will use these tests to check basic functionality of your control-plane at the first milestone. You may make edits to this file, but do not fundamentally alter the essence of the functionality they are intended to test.
 
 #### sim_tables_api.py
 
