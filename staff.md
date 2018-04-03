@@ -14,9 +14,10 @@ To reach us quickly, please use the CS344 Piazza forum.
   * Office hours: Wednesday 1:30 - 2:30 PM, Gates 344
 
 * Stephen Ibanez (TF)
-  * Email [sibanez@stanford.edu](mailto:sibanez@stanford.edu)
+  * Email: [sibanez@stanford.edu](mailto:sibanez@stanford.edu)
   * Office: Gates 314
-  * Office hours: Tues & Fri, 1:30 - 3:00PM, Gates 315
+  * Office hours: Tuesday & Thursday, 2:45 - 4:15PM, Gates 315
 
 * Sarah Tollman (CA)
-  * Email [stollman@stanford.edu](mailto:stollman@stanford.edu)
+  * Email: [stollman@stanford.edu](mailto:stollman@stanford.edu)
+  * Office hours: Tuesday & Thursday, 2:45 - 4:15PM, Gates 315
