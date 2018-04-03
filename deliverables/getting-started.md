@@ -16,7 +16,7 @@ Each team should send an email to sibanez@stanford.edu with the github username 
 
 After the instructor receives your email you will be added to the [CS344-Stanford-18](https://github.com/CS344-Stanford-18) github organization and you should have access to the [P4-NetFPGA-CS344-18](https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18) repository. Please email the instructor if you are having trouble accessing the repository.
 
-The instructor will send you an email after adding you to the repository, this email will contain an ssh key that you must use to access your development machine, as described in step 2 below. Do NOT share this ssh key with anyone else before checking with the instructor first.
+The instructor will send you an email after adding you to the repository, this email will contain the password that you can use to access the development machine to which you have been assigned. Feel free to change your password once you log on.
 
 Step 2 - Development Machine Access
 ------
@@ -25,20 +25,9 @@ Each team will be given access to a development machine. See the [Team Assignmen
 * NetFPGA SUME board
 * Dual port 10G NIC
 
-Use the ssh key in the email from the instructor to log onto your development machine. The username to use is `cs344`.
-
-For Unix Workstations:
-* Change the permissions on the key to read only: 
-
-```
-$ chmod 400 ~/.ssh/<my-ssh-key>
-```
-
-* Use the following command to connect to a machine: 
-
-```
-$ ssh -i ~/.ssh/<my-ssh-key> cs344@<dev-machine-name>.stanford.edu
-```
+Each machine has three accounts:
+* `cs344` and `cs344-2` - one account for each team member assigned to this development machine.
+* `cs344-dev-test` - one additional account for teams that would like to "borrow" another team's development machine for testing purposes.
 
 Make sure that you can sucessfully log onto your machine. Ask on piazza if you run into issues.
 
@@ -99,7 +88,7 @@ $ git remote add upstream https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-
 $ git remote -v
 ```
 
-You should see that you now have two remotes, `origin` and `upstream`. When working on your projects throughout the quarter, you will push changes to `origin`. If the instructors need to make a change to the starter code we will push changes to `https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18.git`, post an instructor note on piazza, and ask you to pull the changes from `upstream`: `$ git pull upstream master`. Please keep in mind that making modifications to the provided starter code may require you to manually merge in changes from `upstream`.
+You should see that you now have two remotes, `origin` and `upstream`. When working on your projects throughout the quarter, you will push changes to `origin`. If the instructors need to make a change to the starter code we will push changes to `https://github.com/CS344-Stanford-18/P4-NetFPGA-CS344-18.git`, post an instructor note on piazza, and ask you to pull the changes from `upstream`: `$ git pull upstream master`. Please this in mind as you modify the starter code.
 
 Step 4 - Decision Time and First Commits
 ------
