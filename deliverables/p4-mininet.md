@@ -28,6 +28,8 @@ This assignment is to be completed as a team. That is, your team will have one r
 
 You should use your own laptops for this assignment and NOT the developement machine to which your team has been assigned.
 
+#### Installation Using Vagrant
+
 1. Install [Vagrant](https://vagrantup.com/) and [VirtualBox](https://virtualbox.org/) on your local laptop.
 
 2. Create a fork of the [p4-mininet-tutorials](https://github.com/CS344-Stanford-18/p4-mininet-tutorials) repository.
@@ -37,6 +39,23 @@ You should use your own laptops for this assignment and NOT the developement mac
 4. `cd` into the [p4-mininet-tutorials/P4D2_2018_East/vm](https://github.com/CS344-Stanford-18/p4-mininet-tutorials/tree/master/P4D2_2018_East/vm) directory and run `$ vagrant up`. It will take about 30 minutes for the virtual machine to provision so be patient, go grab a cup of coffee :)
 
 5. Once the previous command completes you should see a login prompt within Virtual Box. Log in with username `p4` and password `p4`. Then run `$ sudo shutdown -r now`. When the machine reboots, you should have a graphical desktop machine with the all software required to run the exercises pre-installed.
+
+#### Directly Downloading the VM Image
+
+If for some reason you cannot build the VM image on your own you can directly download the image from Google Drive.
+
+1. Install [VirtualBox](https://virtualbox.org/) on your laptop.
+
+2. Download the VM image: [P4 Tutorial 2018-03-05.ova](https://drive.google.com/open?id=1ACkpD66zoBJHCX2K50OO8-pssJGZhzMr).
+
+3. Import the virtual machine into VirtualBox. Open VirtualBox, select “File > Import Appliance”, and navigate to the downloaded file.
+
+4. Boot virtual machine. Select “P4 Tutorial 2018-03-05”, and click “Start”.
+
+5. Create a fork of the [p4-mininet-tutorials](https://github.com/CS344-Stanford-18/p4-mininet-tutorials) repository.
+
+6. Clone your forked repository into `p4` user's home directory on the VM and work from within your clone, *not* the `tutorials` folder preinstalled on the VM.
+
 
 The Exercises
 -------------
