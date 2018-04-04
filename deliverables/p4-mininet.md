@@ -54,7 +54,8 @@ If for some reason you cannot build the VM image on your own you can directly do
 
 5. Create a fork of the [p4-mininet-tutorials](https://github.com/CS344-Stanford-18/p4-mininet-tutorials) repository.
 
-6. Clone your forked repository into `p4` user's home directory on the VM and work from within your clone, *not* the `tutorials` folder preinstalled on the VM.
+
+Clone your forked repository into `p4` user's home directory on the VM and work from within your clone, *not* the `tutorials` folder preinstalled on the VM.
 
 
 The Exercises
