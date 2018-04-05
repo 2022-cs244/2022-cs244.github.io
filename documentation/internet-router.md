@@ -100,3 +100,5 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
     * `# route -n`
 * Show arp table entries:
     * `# arp -i eth1`
+* If you try to program the FPGA and you see something like the following message: `Check programming FPGA or Reboot machine !`, that probably means that the machine has been shut off since the last time the FPGA was programmed. If the links of the SUME board do not come up when the BIOS enumerates the PCIe endpoints then the SUME board will not be detected. The easiest solution to this problem is simply to do a warm reboot after programming the FPGA: `$ sudo reboot now`. Then try programming the FPGA again after the machine comes back up.
+* You can safely ignore the following error that you get when programming the FPGA: `rmmod: ERROR: Module sume_riffa is not currently loaded` because the programming script simply always attempts to unload and reload the `sume_riffa` drivers (even if they are not currently loaded).
