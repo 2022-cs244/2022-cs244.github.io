@@ -38,6 +38,8 @@ Step 3 - Setting up your fork
 
 You may fork the repo into a personal github account or you may create a new github organization for the team and fork the repo there. If you don't know how to create a fork, [here is brief guide](https://guides.github.com/activities/forking/).
 
+* The instructors will need access to your repositories so please add Sarah Tollman (github username: `sktollman`) as a collaborator on your fork.
+
 * Once you have created your fork, clone the repository onto your development machine:
 
 ```
