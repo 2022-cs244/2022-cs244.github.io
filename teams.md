@@ -12,4 +12,4 @@ Team 3    | Mitchell Dumovic & Vickram Gidwani | packet-3
 Team 4    | Petar Penkov & Hristo Stoyanov | packet-4
 Team 5    | Emre Orbay & Yilong Li | packet-5
 Team 6    | Mark Mendoza & Devon Warshaw | nf-test1
-Team 7    | Jestin Ma & Aamir Jamal | TBD
+Team 7    | Jestin Ma & Aamir Jamal | nf-test2
