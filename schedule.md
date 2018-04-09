@@ -44,7 +44,7 @@ April 10th:
 
 ---
 
-April 11th:
+(Date TBD):
 * Lecture 4 Topics:
     * Intro to FPGA development
     * Basic hardware design
