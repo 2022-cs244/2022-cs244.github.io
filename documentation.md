@@ -18,3 +18,7 @@ A set of documents you may find useful:
     * [P4 Tutorial 2 - Basics Part I](https://www.youtube.com/watch?v=cvDtVobw9wE)
     * [P4 Tutorial 3 - Basics Part II](https://www.youtube.com/watch?v=6LXtneLfAPI)
     * [P4 Tutorial 4 - Basic Tunneling Application](https://www.youtube.com/watch?v=KlEi87XYMBE)
+
+* p4c-sdnet
+
+    * [p4c-sdnet missing P4 features]({{ site.baseurl }}/documentation/p4c-sdnet-missing-features.pdf)
