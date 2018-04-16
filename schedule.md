@@ -44,18 +44,18 @@ April 10th:
 
 ---
 
-(Date TBD):
-* Lecture 4 Topics:
-    * Intro to FPGA development
-    * Basic hardware design
-    * Running simulations, reading waveforms
-    * Timing constraints
+April 16th:
+* Lecture 4:
+    * Guest Lecture - P4 Applications
 
 ---
 
-April 16th:
-* Lecture 5:
-    * Guest Lecture - P4 Applications
+April 18th:
+* Lecture 5 Topics:
+    * Intro to FPGA development
+    * Basic hardware design
+    * Running simulations
+    * Timing constraints
 
 ---
 
