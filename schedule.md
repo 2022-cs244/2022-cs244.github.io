@@ -75,7 +75,7 @@ May 1st:
 
 ---
 
-May 8th:
+May 9th:
 * Interoperability test
 
 ---
