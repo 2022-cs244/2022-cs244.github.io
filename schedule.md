@@ -60,8 +60,7 @@ April 18th:
 ---
 
 April 24th:
-* **Due by 11:59PM:** Complete Data-Plane Implementation
-* **Due by 11:59PM:** Complete Control-Plane Implementation
+* **Due by 11:59PM:** [Complete Data-Plane and Control-Plane Implementations]({{ site.baseurl }}/deliverables/baseline-tests)
 
 ---
 
