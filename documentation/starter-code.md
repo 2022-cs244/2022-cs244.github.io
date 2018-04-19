@@ -113,6 +113,19 @@ This file will contain your control plane implementation. You should update `han
 
 To start the control plane, run `python control_plane.py`. By default, PWOSPF is disabled. To enable PWOSPF, use the `--pwospf` argument. To use the topology visualization (described below), run with `--visualize`. To configure the router with a particular topology that is defined in a json file, use `--config [filename]`.
 
+An example config file might look like the following json file:
+```
+{
+"routing_table": [
+    {"subnet": "12.12.12.0",  "netmask": "255.255.255.0",   "gw": "0.0.0.0",     "dev": "nf1"},
+    {"subnet": "1.1.1.0",     "netmask": "255.255.255.0",   "gw": "0.0.0.0",     "dev": "nf0"} ],
+
+"interfaces": {
+    "nf1": {"ip": "12.12.12.13", "netmask":"255.255.255.0", "mac": "08:12:12:12:12:13"},
+    "nf0": {"ip": "1.1.1.1",     "netmask":"255.255.255.0", "mac": "08:11:11:11:11:11"} }
+}
+```
+
 To use the topology visualization you will need to implement the `topology` method, which should return your router's view of the current topology.
 
 To configure the router from a file, you will need to implement `load_tables`, which should populate the tables given the provided interfaces and routing table. You will also need to update `parse_config_file` to use the correct action name and action data.
