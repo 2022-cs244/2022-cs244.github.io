@@ -65,7 +65,7 @@ April 24th:
 ---
 
 April 27th:
-* **Due by 11:59PM:** Interoperability test proposal (one document from entire class)
+* **Due by 11:59PM:** [Interoperability test proposal (one document from entire class)]({{ site.baseurl }}/deliverables/interoperability-proposal)
 
 ---
 
