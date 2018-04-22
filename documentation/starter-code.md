@@ -72,7 +72,9 @@ testdata/
 
 This file generates the testdata used for both the SDNet and the full SUME simulation. See the [workflow overview](https://github.com/NetFPGA/P4-NetFPGA-public/wiki/Workflow-Overview#testing-p4-programs) for more details on what it should produce.
 
-We have provided a few helper functions in the `gen_testdata.py` script to help you get going. See the starter code for a description of their functionality. We have also provided you with a few baseline test cases at the bottom of the file. You will need to add more to thoroughly test your design. 
+We have provided a few helper functions in the `gen_testdata.py` script to help you get going. See the starter code for a description of their functionality. We have also provided you with a few baseline test cases at the bottom of the file. You will need to add more to thoroughly test your design.
+
+You will need to update your `commands.txt` file to reflect the topology described under "Data-Plane Baseline Tests" [here](https://cs344-stanford.github.io/deliverables/baseline-tests/).
 
 #### sss_sdnet_tuples.py
 
@@ -173,6 +175,8 @@ Scapy objects for the PWOSPF, LSU, LSU Advertisement, and HELLO headers. The PWO
 Provides a set of baseline tests for the functionality of your control plane, both with and without PWOSPF enabled. There is a `TIMEOUT_TESTS` property that can be set to `False` if you would like to disable the tests that cause delays, such as the arp cache timeout test. These tests are not comprehensive, and you are encouraged to add your own.
 
 In order for the tests to run, your control plane must have a `handle_packet` function and take in `config`, `routing_table`, and `pwospf_enabled` initialization parameters. At minimum, your `config` should allow the tables api, send function, and interfaces to be configured. (Our implemenation also allows timeouts to be configurable so that timeout tests can run faster.) You also must call your arp cache table `arp_cache_table` in order to run the tests. We will use these tests to check basic functionality of your control-plane at the first milestone. You may make edits to this file, but do not fundamentally alter the essence of the functionality they are intended to test.
+
+It is possible that, although a new control plane is instantiated for each test, your state will not be fully cleared before the start of each test. If you encounter this issue, simply clear state in `setUp`.
 
 #### sim_tables_api.py
 
