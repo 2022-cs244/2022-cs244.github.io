@@ -80,10 +80,10 @@ It is possible that, although a new control plane is instantiated for each test,
 
 # Submission
 
-When you are ready to submit, execute the following commands:
+When you are ready to submit, tag the appropriate commit. Please include a description of who did what in the commit message.
 
 ```
-$ git tag -a router-baseline -m "Submission of my simple_router basline functionality"
+$ git tag -a router-baseline -m "Submission of my simple_router basline functionality. <Description of who did what>"
 $ git push origin router-baseline
 ```
 
