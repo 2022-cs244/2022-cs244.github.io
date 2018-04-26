@@ -6,7 +6,7 @@ title: Design Challenge Project Proposal
 The design challenge is your opportunity to do something novel and interesting. You may propose to do a project of your own choosing, but we do encourage you to consider pursuing one of the potential projects listed below. We would like to avoid having too many groups working on the same project so the proposal will help us to gauge interest in the various topics. The proposal should be a 1-page document that includes the information listed below:
 
 * Project title
-* Motivation - why is this project interesting?
+* Problem Statement and Motivation
 * Initial thoughts for system design / verification
 
 # Potential Projects
@@ -47,7 +47,7 @@ The end goal is to demonstrate a P4 program written for the SimpleSumeSwitch arc
 
 The rise of P4 is bringing with it the need to verify the functionality of P4 programs and measure their performance. There is some prior work in P4 program verification, most recently:
 
-* [p4pktgen](https://conferences.sigcomm.org/sosr/2018/sosr18-finals/sosr18-final72.pdf) is a tool that can be used to generate packets that exercise all possible paths through a P4 program.
+* [p4pktgen](https://conferences.sigcomm.org/sosr/2018/sosr18-finals/sosr18-final72.pdf) is a tool that can be used to generate packets that exercise all possible paths through a P4 program (developed here at Stanford).
 * [ASSERT-P4](https://conferences.sigcomm.org/sosr/2018/sosr18-finals/sosr18-final78.pdf) provides the P4 programmer with the ability to annotate their P4 program with `assert` statements, which are then verified using symbolic execution.
 
 There has also been a little bit of prior work exploring how to measure the performance of P4 programs:
@@ -78,7 +78,7 @@ In this project you will explore data-plane techniques for detecting DDoS attack
 
 #### Improving Congestion Control
 
-
+[Timely](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p537.pdf) is a congestion control protocol that uses very accurate RTT measurements to estimate queueing within the network and then adjust transmission rates appropriately. Programmable data-planes enable new techniques such as [In-band Network Telemtry (INT)](https://p4.org/p4/inband-network-telemetry/) which can directly provide end hosts with exact queue size measurements. INT can compliment protocols like Timely. If the source of a flow is able to quickly learn the size of the largest queue along its path it can adjust its transmission rate more accurately. This project will consist of a combination of simulation and HW implementation. You will use a network simulator such as [NS2](http://nsnam.sourceforge.net/wiki/index.php/User_Information#The_Network_Simulator_-_ns-2) to evaluate the performance benefits of using queue size measurements over traditional approaches such as TCP-Reno, DCTCP, and Timely. You will also build a hardware prototype of the switch that is required for your new congestion control algorithm.
 
 ---
 
@@ -98,7 +98,7 @@ Heavy Hitter Detection is a well studied topic in the programmable data-plane li
 
 #### Data Streaming Aggregation
 
-
+The rise of programmable data-planes allows us to reconsider how computation is divided between end hosts and the network infrastructure. [DAIET](https://mcanini.github.io/papers/daiet.hotnets17.pdf) argues that by implementing aggregation functions in the network data-plane we can significantly reduce the amount of network traffic for MapReduce type applications. In this project you will explore the tradeoffs involved in offloading aggregation to network devices. You should build a hardware prototype on the NetFPGA and evaluate its performance. Are there other types of workloads that would benefit from in-network processing? Search? Sorting?
 
 
 # The Prize
