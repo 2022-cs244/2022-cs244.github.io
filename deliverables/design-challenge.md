@@ -29,7 +29,7 @@ In this project, you will explore how to practically implement the rank computat
 
 #### BMv2 Support for SimpleSumeSwitch
 
-As you saw at the beginning of the class, Mininet is a very convenient tool to use for testing out the functionality of your P4 programs. It allows you to quickly spin up an arbitrary topology of network devices running your programs without needing to compile to an FPGA or manually wire up the topology. The [behavioral model v2](https://github.com/p4lang/behavioral-model) (BMv2) is essentially a library of packet processing components that can be used to build software switches. BMv2 currently supports the simple_switch target. P4 programs that are written for the V1Model architecture can be compiled to run on the simple_switch target. The framework for integrating the BMv2 software switch into the Mininet environment already exists.
+As you saw at the beginning of the class, Mininet is a very convenient tool to use for testing out the functionality of your P4 programs. It allows you to quickly spin up an arbitrary topology of network devices running your programs without needing to compile to an FPGA or manually wire up the topology. The [behavioral model v2](https://github.com/p4lang/behavioral-model) (BMv2) is essentially a library of packet processing components that can be used to build software switches. BMv2 currently supports the simple_switch target. P4 programs that are written for the V1Model architecture can be compiled to run on the simple_switch target. The framework for integrating a BMv2 software switch into the Mininet environment already exists.
 
 This project will consist of two components:
 
@@ -39,15 +39,35 @@ This project will consist of two components:
 The end goal is to demonstrate a P4 program written for the SimpleSumeSwitch architecture running in Mininet.
 
 
-#### Performance Measurement System
+#### P4 Performance Measurement System
+
+The rise of P4 is bringing with it the need to verify the functionality of P4 programs and measure their performance. There is some prior work in P4 program verification, most recently:
+
+* [p4pktgen](https://conferences.sigcomm.org/sosr/2018/sosr18-finals/sosr18-final72.pdf) is a tool that can be used to generate packets that exercise all possible paths through a P4 program.
+* [ASSERT-P4](https://conferences.sigcomm.org/sosr/2018/sosr18-finals/sosr18-final78.pdf) provides the P4 programmer with the ability to annotate their P4 program with `assert` statements, which are then verified using symbolic execution.
+
+There has also been a little bit of prior work exploring how to measure the performance of P4 programs:
+
+* [Whippersnapper: A P4 Language Benchmark Suite](https://conferences.sigcomm.org/sosr/2017/papers/sosr17-whippersnapper.pdf)
+
+This project will consist of two components:
+
+1. Design and build a performance measurement system on top of P4->NetFPGA. This system should be capable of measuring the packet processing latency through of any packet processing device (e.g. HW switch, SW switch, NPU, etc.).
+2. Automate the test packet generation and DUT configuration in order to measure the latency through all possible paths of the P4 program that is used to describe the DUT's functionality. You may want to make use of the [p4pktgen](https://conferences.sigcomm.org/sosr/2018/sosr18-finals/sosr18-final72.pdf) tool to do this.
+
+The end goal is to build a system that can automatically measure the latency of all possible paths through your router design. You may also want to extend your system to measure additional performance metrics such as throughput.
 
 
+#### DDoS Detection Techniques
 
+One of the key benefits enabled by programable data-planes is the increased visibility into our networks. The reason for this is because it becomes possible to develop new algorithms that see every packet and make an intelligent decision. As a result, many systems are being developed to monitor network traffic and detect suspicious behavior:
 
-#### Heavy Hitter Detection
+* [Sonata](https://pdfs.semanticscholar.org/7c5a/c6fa8270ef609ae0996f9e7e1246277765d8.pdf)
+* [UnivMon](https://users.ece.cmu.edu/~vsekar/papers/sigcomm16_univmon.pdf)
+* [Marple](http://web.mit.edu/marple/marple-sigcomm17.pdf)
 
+In this project you will explore data-plane detection techniques for detecting DDoS attacks. The DDoS attack detection problem can roughly be summarized as follows: detect when more than *K* distinct sources are sending to the same destination, see the [OpenSketch](http://stanford.edu/~lavanyaj/papers/opensketch12.pdf) paper for more details. 
 
-#### DDos Detection Techniques
 
 
 #### Improving Congestion Control
@@ -57,7 +77,14 @@ The end goal is to demonstrate a P4 program written for the SimpleSumeSwitch arc
 
 
 
+#### Heavy Hitter Detection
+
+Heavy Hitter Detection is a well studied topic in the programmable data-plane literature [[1](https://dl.acm.org/citation.cfm?id=3063772), [2](https://arxiv.org/pdf/1611.04825), [3](https://dl.acm.org/citation.cfm?id=3060606), [4](https://dl.acm.org/citation.cfm?id=3185476), [5](https://dl.acm.org/citation.cfm?id=3098832), [6](https://dl.acm.org/citation.cfm?id=3131377)]. In this project you will implement a few different techniques for performing heavy hitter detection and provide a performance comparison. You may choose to implement existing methods or develop your own.
+
+
 #### Data Streaming Aggregation
+
+
 
 
 # The Prize
