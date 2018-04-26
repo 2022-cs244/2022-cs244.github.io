@@ -11,6 +11,8 @@ The design challenge is your opportunity to do something novel and interesting. 
 
 # Potential Projects
 
+---
+
 #### Scheduling Algorithms in P4
 
 The packet processing capabilities of the P4 language are second to none. That being said, there has been very little discussion around ways to program the traffic management capabilities of network devices. Modern programmable switches offer a small menu of common scheduling algorithms, but provide no mechanism for allowing network operators to define their own algorithms. The [PIFO (Push-In-First-Out) queue](http://web.mit.edu/pifo/pifo-sigcomm.pdf) was recently proposed as a convenient abstraction that can be used to implement many different scheduling algorithms, and hence provides a mechanism to make packet scheduling programmable. PIFOs differ from traditional scheduling mechanisms because they decide the packet’s scheduling order at the time of enqueue rather than as the packet leaves the queue. The PIFO queue consists of two components: a programmable rank computation and a fixed scheduler. The rank computation can be expressed in P4 and it produces the packet's rank, which is an indication of its priority. The scheduler then schedules the packet relative to the packets that are sitting in the queue according to it's assigned priority. By using the appropriate rank computation, we can implement many different scheduling algorithms such as:
@@ -26,6 +28,7 @@ The packet processing capabilities of the P4 language are second to none. That b
 
 In this project, you will explore how to practically implement the rank computation for various scheduling algorithms in P4. You may want to use the count-min sketch technique presented earlier in this class or some of the other building blocks described in the [flexswitch paper](https://homes.cs.washington.edu/~arvind/papers/flexswitch.pdf).
 
+---
 
 #### BMv2 Support for SimpleSumeSwitch
 
@@ -38,6 +41,7 @@ This project will consist of two components:
 
 The end goal is to demonstrate a P4 program written for the SimpleSumeSwitch architecture running in Mininet.
 
+---
 
 #### P4 Performance Measurement System
 
@@ -57,6 +61,7 @@ This project will consist of two components:
 
 The end goal is to build a system that can automatically measure the latency of all possible paths through your router design. You may also want to extend your system to measure additional performance metrics such as throughput.
 
+---
 
 #### DDoS Detection Techniques
 
@@ -69,9 +74,13 @@ One of the key benefits enabled by programable data-planes is the increased visi
 
 In this project you will explore data-plane techniques for detecting DDoS attacks. The DDoS attack detection problem can roughly be summarized as follows: detect when more than *K* distinct sources are sending to the same destination, see the [OpenSketch](http://stanford.edu/~lavanyaj/papers/opensketch12.pdf) paper for more details. You may want to develop some performance metrics for DDoS detection and then compare these metrics across various techniques.
 
+---
 
 #### Improving Congestion Control
 
+
+
+---
 
 #### Network Monitoring System
 
@@ -79,11 +88,13 @@ New telemetry techniques like [In-band Network Telemetry (INT)](https://p4.org/p
 
 The goal of this project is to develop a monitoring system that is able to efficiently present the relevant information to a network operator. The techniques that you use may be borrowed from the literature on machine learning techniques for anomaloy detection. This is primarily a software based project with little to no P4 programming.
 
+---
 
 #### Heavy Hitter Detection
 
 Heavy Hitter Detection is a well studied topic in the programmable data-plane literature [[1](https://dl.acm.org/citation.cfm?id=3063772), [2](https://arxiv.org/pdf/1611.04825), [3](https://dl.acm.org/citation.cfm?id=3060606), [4](https://dl.acm.org/citation.cfm?id=3185476), [5](https://dl.acm.org/citation.cfm?id=3098832), [6](https://dl.acm.org/citation.cfm?id=3131377)]. In this project you will implement a few different techniques for performing heavy hitter detection and provide a performance comparison. You may choose to implement existing methods or develop your own.
 
+---
 
 #### Data Streaming Aggregation
 
