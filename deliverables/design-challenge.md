@@ -65,9 +65,9 @@ One of the key benefits enabled by programable data-planes is the increased visi
 * [Sonata](https://pdfs.semanticscholar.org/7c5a/c6fa8270ef609ae0996f9e7e1246277765d8.pdf)
 * [UnivMon](https://users.ece.cmu.edu/~vsekar/papers/sigcomm16_univmon.pdf)
 * [Marple](http://web.mit.edu/marple/marple-sigcomm17.pdf)
+* [FlowRadar](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-li-yuliang.pdf)
 
-In this project you will explore data-plane detection techniques for detecting DDoS attacks. The DDoS attack detection problem can roughly be summarized as follows: detect when more than *K* distinct sources are sending to the same destination, see the [OpenSketch](http://stanford.edu/~lavanyaj/papers/opensketch12.pdf) paper for more details. 
-
+In this project you will explore data-plane techniques for detecting DDoS attacks. The DDoS attack detection problem can roughly be summarized as follows: detect when more than *K* distinct sources are sending to the same destination, see the [OpenSketch](http://stanford.edu/~lavanyaj/papers/opensketch12.pdf) paper for more details. You may want to develop some performance metrics for DDoS detection and then compare these metrics across various techniques.
 
 
 #### Improving Congestion Control
@@ -75,6 +75,9 @@ In this project you will explore data-plane detection techniques for detecting D
 
 #### Network Monitoring System
 
+New telemetry techniques like [In-band Network Telemetry (INT)](https://p4.org/p4/inband-network-telemetry/) and [Packet Postcards](http://www.openvswitch.org/support/ovscon2016/7/0900-mckeown.pdf) can provide detailed information about a packet's journey through the network. For example, INT can provide the packet's exact path, the queue sizes it encountered, the delay at each switch, and more. This detailed information is great, but once we try to start collecting and processing this metadata from every single packet in our network we realize that we have a big data problem. 
+
+The goal of this project is to develop a monitoring system that is able to efficiently present the relevant information to a network operator. The techniques that you use may be borrowed from the literature on machine learning techniques for anomaloy detection. This is primarily a software based project with little to no P4 programming.
 
 
 #### Heavy Hitter Detection
