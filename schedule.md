@@ -69,8 +69,8 @@ April 27th:
 
 ---
 
-May 1st:
-* **Due by 11:59PM:** Proposal for advanced features project
+May 2st:
+* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
 
 ---
 
