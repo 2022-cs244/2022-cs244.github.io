@@ -19,7 +19,7 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
     * IP - understand how a router makes a decision about forwarding an IP packet based on its routing table
     * ARP
     * ICMP
-    * [PWOSPF](https://cs344-stanford.github.io/documentation/pwospf/)
+    * [PWOSPF]({{ site.baseurl }}/documentation/pwospf/)
 * Learn how to use P4 and P4->NetFPGA:
 
     * [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet)
@@ -27,8 +27,8 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
 * Review the basic requirements for the data-plane and control-plane (see below).
 * Develop an interoperability plan early! As a class, you will want to decide on a concrete plan to make sure that everyone's router will end up interoperable. We strongly suggest that the teams work together to do incremental tests of their implementations against each other. For example, after implementing the PWOSPF HELLO protocol, ensure that inter-team routers can successfully perform neighbor discovery before going on to develop the link state updates. Testing components individually provides a much saner debugging environment than a fully built system.
 * Divide and conquer. One member from each team will be responsible for the P4 data-plane implementation and the other will be responsible the control-plane. We encourage close collaboration and communication, but team members will need to work in parallel in order to complete the deliverables on time. So make sure to clearly define the interface between the data-plane and control-plane to ensure that integration will proceed smoothly. Clearly document your design decisions in your project's README file. The deliverables listed below are meant to provide a set of initial baseline tests to make sure your data-plane and control-plane implementations are on the right track, but you will still need to define more tests and integrate the two together.
-    * [Data-Plane baseline tests]()
-    * [Control-Plane baseline tests]()
+    * [Data-Plane baseline tests]({{ site.baseurl }}/deliverables/baseline-tests)
+    * [Control-Plane baseline tests]({{ site.baseurl }}/deliverables/baseline-tests)
 * Integrate your data-plane and control-plane implementations. Make sure to run some tests on your own design before attempting to build a multi-router topology. See the hints below for some example tests.
 * Interoperate with other teams! As a class, you will need to prove to the instructors that all of your routers are in fact interoperable.
 * Celebrate!
