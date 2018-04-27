@@ -69,7 +69,7 @@ April 27th:
 
 ---
 
-May 2st:
+May 2nd:
 * **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
 
 ---
