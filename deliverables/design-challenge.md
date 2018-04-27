@@ -103,7 +103,7 @@ The rise of programmable data-planes allows us to reconsider how computation is 
 
 # The Prize
 
-We will invite some members from the networking community to the final presentations & demonstration day. These invited guests will serve as judges along with the instructors to decide upon the best final project. The winning group will have the opportunity to present their demo at the [P4 Workshop in Cambridge, UK](https://p4.org/events/2018-09-24-p4-eu-workshop/). 
+We will invite some members from the networking community to the final presentations & demonstration day. These invited guests will serve as judges along with the instructors to decide upon the best final project. The prize for the winning team will be announced at the end of the interoperability test on May 9th :) 
 
 
 # Submission
