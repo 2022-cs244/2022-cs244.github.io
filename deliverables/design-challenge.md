@@ -108,7 +108,7 @@ We will invite some members from the networking community to the final presentat
 
 # Submission
 
-Please email your proposal to the instructors using the subject line: CS344 Project Proposal - Team-X
+Each team should email your proposal to the instructors using the subject line: CS344 Project Proposal - Team-X
 
 
 
