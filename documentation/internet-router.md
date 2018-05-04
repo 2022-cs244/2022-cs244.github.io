@@ -100,6 +100,7 @@ The control-plane will be written in Python on top of the [Scapy](https://scapy.
 * Show arp table entries:
     * `# arp -i eth1`
 * If you try to program the FPGA and you see something like the following message: `Check programming FPGA or Reboot machine !`, that probably means that the machine has been shut off since the last time the FPGA was programmed. If the links of the SUME board do not come up when the BIOS enumerates the PCIe endpoints then the SUME board will not be detected. The easiest solution to this problem is simply to do a warm reboot after programming the FPGA: `$ sudo reboot now`. Then try programming the FPGA again after the machine comes back up.
+* If the `eth1` or `eth2` interfaces are down then you probably just need to configure them with an IP address using the `ifconfig` command as shown above.
 * You can safely ignore the following error that you get when programming the FPGA: `rmmod: ERROR: Module sume_riffa is not currently loaded` because the programming script simply always attempts to unload and reload the `sume_riffa` drivers (even if they are not currently loaded).
 * We recommend using VNC Viewer if you'd like a graphical desktop:
     * Install [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) if you don't already have it installed.
