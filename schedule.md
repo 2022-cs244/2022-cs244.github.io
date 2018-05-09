@@ -74,7 +74,7 @@ May 2nd:
 
 ---
 
-May 9th:
+May 9th (Gates 325):
 * Interoperability test
 
 ---
