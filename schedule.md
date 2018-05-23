@@ -80,7 +80,7 @@ May 9th (Gates 325):
 ---
 
 May 24th:
-* **Due by 11:59PM:** Advanced features progress report
+* **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
 
 ---
 
