@@ -85,7 +85,7 @@ May 24th:
 ---
 
 June 13th @ 3:30PM in Gates 358:
-* Final demonstrations and presentations
+* [Final demonstrations and presentations]({{ site.baseurl }}/deliverables/final-demo)
 
 
 
