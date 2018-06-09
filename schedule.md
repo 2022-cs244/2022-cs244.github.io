@@ -84,7 +84,7 @@ May 24th:
 
 ---
 
-June 13th @ 3:30PM:
+June 13th @ 3:30PM in Gates 358:
 * Final demonstrations and presentations
 
 
