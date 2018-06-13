@@ -12,4 +12,12 @@ Presentation Outline:
 * Challenges encountered along the way
 * Future work
 
+Presentation Order:
+1. Paul & Travis
+2. Petar & Hristo
+3. Mitchell & Vickram
+4. Christian & Alex
+5. Mark & Devon
+6. Jestin & Aamir
+
 The instructors will announce the winning team by the end of the day via email. Good luck!
