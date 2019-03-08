@@ -4,24 +4,23 @@ title: Schedule
 permalink: /schedule/
 ---
 
-April 2nd:
+April 1st (Andrew Moore and Sarah Tollman):
 * Lecture 1 Topics:
     * Intro to class
     * Logistics and administration
-* **Due by 11:59 PM:** [Course Application](https://goo.gl/forms/nJXtf9csQokQFvD23) 
+* **Due by 11:59 PM:** [Course Application](https://goo.gl/forms/MSyGx6qkddYQ3GN43) 
 
 ---
 
-April 3rd:
+April 2nd:
 * Instructors will send out application results by 5PM
 
 ---
 
-April 4th:
+April 3rd (Milad Sharif):
 * Lecture 2 Topics:
     * P4 Introduction and Motivation
     * P4 Langauge Basics
-    * Hands on learning with P4 - Please complete the Getting Started portion of the [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet) before class, and bring your laptops with you 
 
 ---
 
