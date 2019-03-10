@@ -20,18 +20,17 @@ April 2nd:
 April 3rd (Milad Sharif):
 * Lecture 2 Topics:
     * P4 Introduction and Motivation
-    * P4 Langauge Basics
+    * P4 Langauge Overview
 
 ---
 
-April 6th:
+April 5th:
 * **Due by 11:59 PM:** [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
 
 ---
 
-April 9th:
+April 8th:
 * Lecture 3 Topics:
-    * Finish P4 Language Overiew
     * Intro to NetFPGA
     * P4->NetFPGA Workflow Overview
 
