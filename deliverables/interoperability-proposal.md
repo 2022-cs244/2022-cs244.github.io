@@ -15,7 +15,7 @@ The proposal should answer questions such as:
 * What specific tests do you plan to perform to ensure correct functionality? Ping? Traceroute? Iperf? Netcat? Video Streaming? 
 * What specific failure conditions do you plan to test? Broken link? Disabled router? Malicious router? Malicious end-host?
 
-The class should discuss and develop a plan together using whatever discussion platform you prefer: Piazza, Slack, Google Docs, office hours, unused lecture slots, etc.
+The class should discuss and develop a plan together using whatever discussion platform you prefer: Slack, Google Docs, office hours, unused lecture slots, etc.
 
 # Submission
 
