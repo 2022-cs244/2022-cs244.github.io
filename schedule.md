@@ -36,20 +36,29 @@ April 8th:
 
 ---
 
-April 10th:
-* **Due by 11:59PM:** [P4 Mininet exercises]({{ site.baseurl }}/deliverables/p4-mininet)
-* **Due by 11:59PM:** [P4->NetFPGA exercises]({{ site.baseurl }}/deliverables/p4-netfpga-tutorials)
+April 11th:
+* **Due by 11:59PM:** [Tutorial exercises]({{ site.baseurl }}/deliverables/tutorial-exercises)
 
 ---
 
-April 16th:
+April 15th:
 * Lecture 4:
     * Guest Lecture - P4 Applications
 
 ---
 
+April 17th:
+* Class time reserved for interoperability planning
+
+---
+
 April 18th:
-* Lecture 5 Topics:
+* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
+
+---
+
+April 22nd:
+* Lecture 5:
     * Intro to FPGA development
     * Basic hardware design
     * Running simulations
@@ -57,32 +66,37 @@ April 18th:
 
 ---
 
-April 24th:
-* **Due by 11:59PM:** [Complete Data-Plane and Control-Plane Implementations]({{ site.baseurl }}/deliverables/baseline-tests)
-
----
-
-April 27th:
+April 23th:
 * **Due by 11:59PM:** [Interoperability test proposal (one document from entire class)]({{ site.baseurl }}/deliverables/interoperability-proposal)
 
 ---
 
-May 2nd:
-* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
+April 25th:
+* **Due by 11:59PM:** [Complete Static Router]({{ site.baseurl }}/deliverables/static-router)
 
 ---
 
-May 9th (Gates 325):
+May 2nd:
+* **Due by 11:59PM:** [Complete PWOSPF Router]({{ site.baseurl }}/deliverables/pwospf-router)
+
+---
+
+May 6th:
+* Class time reserved for interoperability pre-testing
+
+---
+
+May 8th (Gates 325):
 * Interoperability test
 
 ---
 
-May 24th:
+May 23rd:
 * **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
 
 ---
 
-June 13th @ 3:30PM in Gates 358:
+June 12th:
 * [Final demonstrations and presentations]({{ site.baseurl }}/deliverables/final-demo)
 
 
