@@ -29,6 +29,8 @@ title: Router Requirements
 
 # Control-Plane Basic Requirements
 
+### Static Router Requirements
+
 * Sending ARP requests
 * Updating entries in the hardware ARP cache
 * Timing out entries in the hardware ARP cache
@@ -36,13 +38,17 @@ title: Router Requirements
 * Responding to ICMP echo requests
 * Generating ICMP host unreachable packets
 * Handling corrupted or otherwise incorrect IP packets
-* Building the forwarding table via a dynamic routing protocol (PWOSPF)
-* Support static routing table entries in addition to the routes computed by PWOSPF
 * Handling all packets addressed directly to the router
+* Support static routing table entries
+
+### Dynamic Router Requirements
+
+* Building the forwarding table via a dynamic routing protocol [PWOSPF](({{ site.baseurl }}/documentation/pwospf))
+* Support static routing table entries in addition to the routes computed by PWOSPF
 
 # You Decide
 
-* Responding to ARP requests is actually fairly straight forward to express in P4. You can decide whether you want to implement ARP responding in the control-plane or the data-plane.
+* Responding to ARP requests is fairly straight forward to express in P4. You can decide whether you want to implement ARP responding in the control-plane or the data-plane.
 
 
 # Hints and Tips
