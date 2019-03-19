@@ -28,7 +28,7 @@ Each machine has three accounts:
 * `cs344` and `cs344-2` - one account for each team member assigned to this development machine.
 * `cs344-dev-test` - one additional account for teams that would like to "borrow" another team's development machine for testing purposes.
 
-Make sure that you can sucessfully log onto your machine. Ask on the Slack channel if you run into issues.
+Make sure that you can sucessfully log onto your machine. Ask on the Slack channel if you run into issues. If you are off campus and need to access your machine you will first need to connect to the Stanford network using the [VPN client](https://uit.stanford.edu/service/vpn).
 
 Step 3 - Setting up your fork
 ------
