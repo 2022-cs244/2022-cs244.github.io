@@ -34,3 +34,5 @@ $ git push origin pwospf-router
 ```
 
 The instructors will clone your repository and checkout the commit to which this tag points. We will then run your code and ensure that the provided baseline tests are passing.
+
+Please email the instructors the bitfile for the router that you used for the PWOSPF interoperability test.
