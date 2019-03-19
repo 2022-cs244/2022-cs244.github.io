@@ -23,7 +23,7 @@ The [course schedule]({{ site.baseurl }}/schedule) provides a detailed set of de
     * IP - understand how a router makes a decision about forwarding an IP packet based on its routing table
     * ARP - understand when ARP requests and replies sent / received
     * ICMP - understand the conditions under which ICMP messages are sent / received
-    * [PWOSPF]({{ site.baseurl }}/documentation/pwospf/)
+    * [PWOSPF]({{ site.baseurl }}/documentation/pwospf)
 * Read and understand the provided starter code, [here]({{ site.baseurl }}/documentation/starter-code) is a brief overview.
 * Develop a static router first, make sure it is interoperable with the other teams, then develop your implementation of the PWOSPF protocol.
 * Develop an interoperability plan early! As a class, you will want to decide on a concrete plan to make sure that everyone's router will end up interoperable. We strongly suggest that the teams work together to do incremental tests of their implementations against each other. For example, after implementing the PWOSPF HELLO protocol, ensure that inter-team routers can successfully perform neighbor discovery before going on to develop the link state updates. Testing components individually provides a much saner debugging environment than a fully built system.
