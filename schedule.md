@@ -43,7 +43,7 @@ April 11th:
 
 April 15th:
 * Lecture 4:
-    * Guest Lecture - P4 Applications
+    * Guest Lecture (TBD) - P4 Applications
 
 ---
 
@@ -53,7 +53,7 @@ April 17th:
 ---
 
 April 18th:
-* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
+* **Due by 11:59PM:** [Interoperability test proposal (one document from entire class)]({{ site.baseurl }}/deliverables/interoperability-proposal)
 
 ---
 
@@ -66,28 +66,35 @@ April 22nd:
 
 ---
 
-April 23th:
-* **Due by 11:59PM:** [Interoperability test proposal (one document from entire class)]({{ site.baseurl }}/deliverables/interoperability-proposal)
+April 24th:
+* Static router interoperability pre-testing (Gates 325)
 
 ---
 
 April 25th:
-* **Due by 11:59PM:** [Complete Static Router]({{ site.baseurl }}/deliverables/static-router)
+* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
 
 ---
 
-May 2nd:
-* **Due by 11:59PM:** [Complete PWOSPF Router]({{ site.baseurl }}/deliverables/pwospf-router)
+April 29th:
+* Static router interoperability test (Gates 325)
+* **Due by 11:59PM:** [Static Router Baseline Tests]({{ site.baseurl }}/deliverables/static-router)
+
+---
+
+May 1st:
+* PWOSPF Interoperability pre-testing (Gates 325)
 
 ---
 
 May 6th:
-* Class time reserved for interoperability pre-testing
+* PWOSPF Interoperability pre-testing (Gates 325)
 
 ---
 
 May 8th (Gates 325):
-* Interoperability test
+* Interoperability test (Gates 325)
+* **Due by 11:59PM:** [PWOSPF Router Baseline Tests]({{ site.baseurl }}/deliverables/pwospf-router)
 
 ---
 
