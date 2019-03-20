@@ -9,19 +9,19 @@ title: Router Requirements
 * Use the routing table to perform a longest prefix match on destination IP addresses and return the appropriate egress port and next-hop address (or 0.0.0.0 for a directly attached destination). 
     * NOTE: We will use a ternary match table for the routing table because LPM tables are not fully supported by SDNet yet.
 * Provide an ARP table that can store at least 64 entries. This will accept an IP address as a search key and will return the associated MAC address (if found). This table is modified by the software, which runs its own ARP protocol.
-* Provide a “local IP address table”. This will accept an IP address as a search key and will return a signal that indicates whether the correspond address was found. This table is used to identify IP addresses that should be forwarded to the CPU.
+* Provide a “local IP address table”. This will accept an IP address as a search key and will return a signal that indicates whether the corresponding address was found. This table is used to identify IP addresses that should be forwarded to the local control-plane.
 * Decode incoming IP packets and perform the operations required by a router. These include (but are not limited to):
     * verify that the existing checksum and TTL are valid
-    * look up the next-hop port and IP address in the route table
+    * look up the next-hop port and IP address in the routing table
     * look up the MAC address of the next-hop in the ARP table
     * set the src MAC address based on the port the packet is departing from
     * decrement TTL
     * calculate a new IP checksum
     * transmit the new packet via the appropriate egress port
-    * local IP packets (destined for the router) should be sent to the software
-    * PWOSPF packets should be sent to the software
+    * local IP packets (destined for the router) should be sent to the local control-plane
+    * PWOSPF packets should be sent to the local control-plane
     * packets for which no matching entry is found in the routing table should be sent to the software
-    * any packets that the hardware cannot deal with should be forwarded to the CPU. (e.g. not Version 4 IP)
+    * any packets that the hardware cannot deal with should be forwarded to the local control-plane. (e.g. not Version 4 IP)
 * Provide counters for the following:
     * IP packets
     * ARP packets
@@ -43,10 +43,15 @@ title: Router Requirements
 
 ### Dynamic Router Requirements
 
-* Building the forwarding table via a dynamic routing protocol [PWOSPF](({{ site.baseurl }}/documentation/pwospf))
+* Building the routing table via a dynamic routing protocol [PWOSPF](({{ site.baseurl }}/documentation/pwospf))
 * Support static routing table entries in addition to the routes computed by PWOSPF
 
 # You Decide
 
 * Responding to ARP requests is fairly straight forward to express in P4. You can decide whether you want to implement ARP responding in the control-plane or the data-plane.
+
+# Additional Resources
+
+You may find it useful to refer to [RFC 1812](https://tools.ietf.org/html/rfc1812) for a detailed description of IPv4 router requirements. Note that we only require you to implement a subset of the requirements for this class.
+
 
