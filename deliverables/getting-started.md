@@ -89,7 +89,7 @@ $ git remote add upstream https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-
 $ git remote -v
 ```
 
-You should see that you now have two remotes, `origin` and `upstream`. When working on your projects throughout the quarter, you will push changes to `origin`. If the instructors need to make a change to the starter code we will push changes to `https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19`, post an instructor note on piazza, and ask you to pull the changes from `upstream`: `$ git pull upstream master`. Please this in mind as you modify the starter code.
+You should see that you now have two remotes, `origin` and `upstream`. When working on your projects throughout the quarter, you will push changes to `origin`. If the instructors need to make a change to the starter code we will push changes to `https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19`, post an announcement on Slack, and ask you to pull the changes from `upstream`: `$ git pull upstream master`. Please keep this in mind as you modify the starter code.
 
 Step 4 - Decision Time and First Commits
 ------
@@ -119,7 +119,7 @@ $ git clone -b si/skt/SimpleSumeSwitch https://github.com/CS344-Stanford/tutoria
 
 ```
 #### P4-NetFPGA #####
-source ~/path/to/my-repo/tools/settings.sh
+source ~/P4-NetFPGA-CS344-19/tools/settings.sh
 ```
 
 6. Source the `~/.bashrc` file and make sure that running the command `$ cd $SUME_FOLDER` puts you into your cloned repo. You may need to update the `SUME_FOLDER` environment variable in the `tools/settings.sh` file.
@@ -135,6 +135,11 @@ Step 7 - Sign up for Team Meeting Slots
 Teams will be required to meet with instructors and discuss their current progress and next steps. These meetings are mainly used to ensure that teams are making progress and are on the right track. Instructors will be available to meeting with teams during the scheduled lecture slots since not all lectures will be held. Each team must sign up for two meeting slots before the interoperability test and two meeting slots after for a total of 4 meetings. Please sign up for your first two meeting slots before this deliverable is due.
 
 [Team Meeting Slots](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19/wiki/Team-Meeting-Slots)
+
+Step 9 - Review Documentation and Schedule
+------
+
+Read over the [documentation page]({{ site.baseurl }}/documentation) and [course schedule]({{ site.baseurl }}/schedule) on the  website to familiarize yourself with the information that is available to you.
 
 Step 8 - Submission
 ------
