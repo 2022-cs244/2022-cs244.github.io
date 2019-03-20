@@ -25,4 +25,4 @@ A set of documents you may find useful:
 ### Xilinx SDNet
 
 * [P4-SDNet User Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_2/ug1252-p4-sdnet.pdf)
-* [p4c-sdnet missing P4 features]({{ site.baseurl }}/documentation/p4c-sdnet-missing-features.pdf)
+* [p4c-sdnet missing P4 features](https://github.com/NetFPGA/P4-NetFPGA-public/wiki/Workflow-Overview#missing-p4-features-in-p4c-sdnet-v20182)
