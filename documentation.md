@@ -13,6 +13,7 @@ A set of documents you may find useful:
 * [Starter Code Overview]({{ site.baseurl }}/documentation/starter-code)
 * [PWOSPF Specification]({{ site.baseurl }}/documentation/pwospf)
 * [Hints and Tips]({{ site.baseurl }}/documentation/hints-and-tips)
+* [SimpleSumeSwitch in Mininet]({{ site.baseurl }}/documentation/sss-bmv2)
 
 ### Learning P4
 
