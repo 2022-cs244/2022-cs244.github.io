@@ -23,6 +23,8 @@ You can then open up xterm windows on each host and try tests such as:
 * ping router interfaces
 * traceroute to and through routers
 * iperf through routers
+* breaking a link and ensuring that the routers recover the correct forwarding state
+    * `mininet> link s1 s2 down`
 
 # Submission
 
