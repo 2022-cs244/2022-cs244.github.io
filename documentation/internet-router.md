@@ -11,7 +11,7 @@ We will primarily use the [P4->NetFPGA Workflow](https://github.com/NetFPGA/P4-N
 
 The control-plane will be written in Python on top of the [Scapy](https://scapy.readthedocs.io/en/latest/) packet processing library. Scapy is a very flexible packet generator, sniffer, parser, and editor; and it is quite easy to use, making developers more productive.
 
-P4.org has developed a software switch called behavioral model v2 (bmv2) and it can be used to implement a switch data-plane in a [Mininet](http://mininet.org/) topology. New this year, we've added support for the SimpleSumeSwitch P4 architecture to bmv2 and as a result can run our P4 programs in Mininet as well as on the NetFPGA. We suspect that you will find this tool very useful as you develop your router. See [this page]({{ site.baseurl }}/ddocumentation/sss-bmv2) for a description of SimpleSumeSwitch support in bmv2 and how to use the environment.
+P4.org has developed a software switch called behavioral model v2 (bmv2) and it can be used to implement a switch data-plane in a [Mininet](http://mininet.org/) topology. New this year, we've added support for the SimpleSumeSwitch P4 architecture to bmv2 and as a result can run our P4 programs in Mininet as well as on the NetFPGA. We suspect that you will find this tool very useful as you develop your router. See [this page]({{ site.baseurl }}/documentation/sss-bmv2) for a description of SimpleSumeSwitch support in bmv2 and how to use the environment.
 
 # Approach
 
