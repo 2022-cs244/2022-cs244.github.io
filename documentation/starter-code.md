@@ -41,17 +41,27 @@ The first file you will want to familiarize yourself with is called `simple_rout
 
 We will use a ternary match table for the routing table for this project rather than a longest prefix match table (LPM) because SDNet does not fully support LPM tables at the moment. We have provided some wrapper functions in the control-plane starter code for you to try and expose LPM-like functionality on top of the ternary table. Other than higher resource utilization on the FPGA, the main difference between the ternary match and LPM tables is that the control-plane must explicitly manage the priority of each entry. The priority is indicated by the entry's address, smaller addresses indicate higher priority.
 
-The `digest_data` struct is a metadata bus that will be prepended to the packet whenever it is forwarded to the control-plane. The exact format of this struct can be defined by the P4 programmer. The starter code defines the `digest_data` struct as follows:
+The `digest_header` is a header that the router should prepend to all packets being forwarded to the local control-plane. Upon receiving a packet from the data-plane, the control-plane will first extract the digest information from the front of the packet. The starter code defines the `digest_header` as follows:
 
 ```
-struct digest_data_t {
-    bit<240>  unused;
-    bit<8>   digest_code;
+header digest_header_h {
     bit<8>   src_port;
+    bit<8>   digest_code;
 }
 ```
 
-We recommend that you use this format, but you do not have to if you prefer to use something different. Keep in mind that this struct must be 256 bits wide and if you change the format then you will need to update the `sss_sdnet_tuples.py` file in the `testdata` directory, as well as the `sss_digest_header.py` file in the `sw/simple_router_sw/headers` directory.
+You could also use the SimpleSumeSwitch's `digest_data` bus instead of defining a `digest_header`. However, the `digest_data` is currently unused in bmv2 so if you want your design to be portable across both NetFPGA and Mininet then you should use the `digest_header`.
+
+The starter code also defines the following digest codes so that the data-plane can tell the control-plane why it sent each packet to the control-plane:
+
+```
+typedef bit<8> digCode_t;
+const digCode_t DIG_LOCAL_IP = 1;
+const digCode_t DIG_ARP_MISS = 2;
+const digCode_t DIG_ARP_REPLY = 3;
+const digCode_t DIG_TTL_EXCEEDED = 4;
+const digCode_t DIG_NO_ROUTE = 5;
+```
 
 #### commands.txt
 
@@ -74,11 +84,7 @@ This file generates the testdata used for both the SDNet and the full SUME simul
 
 We have provided a few helper functions in the `gen_testdata.py` script to help you get going. See the starter code for a description of their functionality. We have also provided you with a few baseline test cases at the bottom of the file. You will need to add more to thoroughly test your design.
 
-You will need to update your `commands.txt` file to reflect the topology described under "Data-Plane Baseline Tests" [here](https://cs344-stanford.github.io/deliverables/baseline-tests/).
-
-#### sss_sdnet_tuples.py
-
-This file defines the format of the `digest_data`, which should have an equivalent definition in the P4 program. It also imports the standard `sume_metadata`. These metadata buses are stored as python `OrderedDict()` objects. This file contains helper functions to write these metadata buses into the `Tuple_*.txt` files in the format expected by the SDNet simulation. If you choose not to modify the format of the `digest_data` bus then you shouldn't need to make any modifications to this file.
+You will need to update your `commands.txt` file to reflect the topology described under "Data-Plane Baseline Tests" [here]({{ site.baseurl }}/deliverables/static-router).
 
 ---
 
