@@ -3,7 +3,7 @@ layout: page
 title: Tutorial Exercises
 ---
 
-The goal of these exercises is to make you familiar with the following two development tools that you will be using to build your router:
+The goal of these exercises is to allow you to become familiar with the following two development tools that you will be using to build your router:
 * P4->NetFPGA
 * BMv2 in Mininet
 
