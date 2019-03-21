@@ -43,7 +43,7 @@ April 11th:
 
 April 15th:
 * Lecture 4:
-    * Guest Lecture (TBD) - P4 Applications
+    * Guest Lecture (Changhoon Kim) - Network Monitoring
 
 ---
 
