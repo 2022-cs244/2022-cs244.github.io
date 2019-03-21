@@ -95,11 +95,11 @@ You can then open up xterm windows on each host and try tests such as:
 
 **Single Switch Topology**
 
-![single-router-topo]({{ site.baseurl }}/images/single-router-topo)
+![single-router-topo]({{ site.baseurl }}/images/single-router-topo.png)
 
 **Triangle Topology**
 
-![triangle-topo]({{ site.baseurl }}/images/triangle-topo)
+![triangle-topo]({{ site.baseurl }}/images/triangle-topo.png)
 
 # Submission
 
