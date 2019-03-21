@@ -80,7 +80,7 @@ It is possible that, although a new control plane is instantiated for each test,
 
 # Mininet Testing (optional, but strongly recommended)
 
-After the above baseline tests are passing you should make sure that your router works as expected in Mininet. The `~/tutorials/exercises/simple_router` directory on the VM has a couple topology files that you can use to test your router. Update the Makefile in that directory to point to the P4 router program in your P4-NetFPGA repo and run `$ make` to compile the P4 program and launch the Mininet topology. Once the topology is up and running, you can start your router's control plane on each switch in the topology. For example,
+After the above baseline tests are passing you should make sure that your router works as expected in Mininet. The `~/tutorials/exercises/simple_router` directory on the VM has a couple topology files that you can use to test your router (see below). Update the Makefile in that directory to point to the P4 router program in your P4-NetFPGA repo and run `$ make` to compile the P4 program and launch the Mininet topology. Once the topology is up and running, you can start your router's control plane on each switch in the topology. For example,
 
 ```
 # cd $P4_PROJECT_DIR/sw/simple_router_sw
@@ -92,6 +92,14 @@ You can then open up xterm windows on each host and try tests such as:
 * ping router interfaces
 * traceroute to and through routers
 * iperf through routers
+
+**Single Switch Topology**
+
+![single-router-topo]({{ site.baseurl }}/images/single-router-topo)
+
+**Triangle Topology**
+
+![triangle-topo]({{ site.baseurl }}/images/triangle-topo)
 
 # Submission
 
