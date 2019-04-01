@@ -58,16 +58,3 @@ Below is an example topology file that simply connects two hosts to a single swi
 ```
 
 To build the Mininet topology and deploy your P4 program on each switch run `$ make` in the project directory. When the topology is built, a controller host (`cX`) will be connected to each switch on the `sX-eth1` interface. This is the equivalent of the `nf0` DMA interface when using P4->NetFPGA.
-
-#### Running a Control Plane
-
-After the topology is up and running you may want to run a control plane on each switch in the topology. After running `make` note the thrift port that each switch is running on. Then you can start a separate instance of your control plane for each switch. For example:
-
-```
-# cd $P4_PROJECT_DIR/sw/simple_router_sw/
-# ./control_plane.py --mode bmv2 --thrift_port 9090 --iface s1-eth1 --config topos/line-topo/router1.json
-
-# In a new tab ...
-# ./control_plane.py --mode bmv2 --thrift_port 9091 --iface s2-eth1 --config topos/line-topo/router2.json
-```
-
