@@ -18,13 +18,13 @@ P4.org has developed a software switch called behavioral model v2 (bmv2) and it 
 The [course schedule]({{ site.baseurl }}/schedule) provides a detailed set of deliverables. Here is an overview of the suggested design process:
 
 * Complete [Getting Started]({{ site.baseurl }}/deliverables/getting-started) deliverable to get everything that you will need set up.
-* Review the [router requirements]({{ site.baseurl }}/documentation/router-requirements) that you must implement for this class.
+* Review the [router requirements](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19/blob/master/contrib-projects/sume-sdnet-switch/projects/simple_router/router_requirements.md) that you must implement for this class.
 * Review the protocols. Consider rewatching some of the CS144 lectures if you need a refresher on the protocols listed below.
     * IP - understand how a router makes a decision about forwarding an IP packet based on its routing table
     * ARP - understand when ARP requests and replies sent / received
     * ICMP - understand the conditions under which ICMP messages are sent / received
-    * [PWOSPF]({{ site.baseurl }}/documentation/pwospf)
-* Read and understand the provided starter code, [here]({{ site.baseurl }}/documentation/starter-code) is a brief overview.
+    * [PWOSPF](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19/blob/master/contrib-projects/sume-sdnet-switch/projects/simple_router/pwospf.md)
+* Read and understand the provided starter code, [here](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19/blob/master/contrib-projects/sume-sdnet-switch/projects/simple_router/overview.md) is a brief overview.
 * Develop a static router first, make sure it is interoperable with the other teams, then develop your implementation of the PWOSPF protocol.
 * Develop an interoperability plan early! As a class, you will want to decide on a concrete plan to make sure that everyone's router will end up interoperable. We strongly suggest that the teams work together to do incremental tests of their implementations against each other. For example, after implementing the PWOSPF HELLO protocol, ensure that inter-team routers can successfully perform neighbor discovery before going on to develop the link state updates. Testing components individually provides a much saner debugging environment than a fully built system.
 * You will very likely want to test your router in Mininet first before testing it on hardware. Debugging in the Mininet environment is significantly easier than debugging the hardware implementation.
