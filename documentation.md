@@ -9,10 +9,6 @@ A set of documents you may find useful:
 ### Building an Internet Router
 
 * [Design Process Overview]({{ site.baseurl }}/documentation/internet-router)
-* [Router Requirements]({{ site.baseurl }}/documentation/router-requirements)
-* [Starter Code Overview]({{ site.baseurl }}/documentation/starter-code)
-* [PWOSPF Specification]({{ site.baseurl }}/documentation/pwospf)
-* [Hints and Tips]({{ site.baseurl }}/documentation/hints-and-tips)
 * [SimpleSumeSwitch in Mininet]({{ site.baseurl }}/documentation/sss-bmv2)
 
 ### Learning P4
