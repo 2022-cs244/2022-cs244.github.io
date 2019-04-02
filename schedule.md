@@ -20,7 +20,7 @@ April 2nd:
 April 3rd (Milad Sharif):
 * Lecture 2 Topics:
     * P4 Introduction and Motivation
-    * P4 Langauge Overview
+    * P4 Language Overview
 
 ---
 
