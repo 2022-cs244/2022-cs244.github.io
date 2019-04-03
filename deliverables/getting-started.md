@@ -113,7 +113,7 @@ $ git clone -b si/skt/SimpleSumeSwitch https://github.com/CS344-Stanford/tutoria
 
 3. `cd` into the [vm directory](https://github.com/CS344-Stanford/tutorials/tree/si/skt/SimpleSumeSwitch/vm) directory and run `$ vagrant up`. It will take about 45 minutes for the virtual machine to provision so be patient, go grab a cup of coffee :)
 
-4. Once the previous command completes you should have a virtual machine up and running. Restart the virtual machine then you should be able to login with username `p4` and password `p4`. You can also run the command `$ vagrant ssh` from within the `vm` directory on your laptop to ssh into the VM so you don't have to use the graphical interface.
+4. Once the previous command completes you should have a virtual machine up and running. Restart the virtual machine then you should be able to login with username `p4` and password `p4`. You can also run the command `$ ssh -p 2222 p4@127.0.0.1` from laptop to ssh into the VM so you don't have to use the graphical interface.
 
 5. Clone your fork of the P4-NetFPGA repo onto the VM as the p4 user in the p4 user's home directory. Then update the p4 user's `~/.bashrc` file with the following two lines:
 
