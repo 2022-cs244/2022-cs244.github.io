@@ -136,12 +136,12 @@ Teams will be required to meet with instructors and discuss their current progre
 
 [Team Meeting Slots](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19/wiki/Team-Meeting-Slots)
 
-Step 9 - Review Documentation and Schedule
+Step 8 - Review Documentation and Schedule
 ------
 
 Read over the [documentation page]({{ site.baseurl }}/documentation) and [course schedule]({{ site.baseurl }}/schedule) on the  website to familiarize yourself with the information that is available to you.
 
-Step 8 - Submission
+Step 9 - Submission
 ------
 
 Please send an email to sibanez@stanford.edu and stollman@stanford.edu with a link to your team's fork of the P4-NetFPGA repository.
