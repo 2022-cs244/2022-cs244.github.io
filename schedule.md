@@ -30,9 +30,9 @@ April 5th:
 ---
 
 April 8th:
-* Lecture 3 Topics:
-    * Intro to NetFPGA
-    * P4->NetFPGA Workflow Overview
+* Lecture 3 - Development Tools:
+    * P4->NetFPGA Workflow
+    * Bmv2 in Mininet
 
 ---
 
@@ -42,8 +42,8 @@ April 11th:
 ---
 
 April 15th:
-* Lecture 4:
-    * Guest Lecture (Changhoon Kim) - Network Monitoring
+* Lecture 4 - Network Monitoring:
+    * Guest Lecture (Changhoon Kim)
 
 ---
 
