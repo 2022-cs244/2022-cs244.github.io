@@ -8,7 +8,7 @@ P4.org has developed an open source software switch called BMv2 (behavioral mode
 I say "virtually" because there are a number of ways in which the SimpleSumeSwitch in BMv2 differs from the SimpleSumeSwitch on NetFPGA. Here is a list of the major differences:
 * The extern functions in the [NetFPGA Extern Function Library](https://github.com/NetFPGA/P4-NetFPGA-public/wiki/Workflow-Overview#p4-netfpga-extern-library) are currently unsupported in BMv2. So do not try to use them in your P4 programs that you run in BMv2.
 * The `digest_data` metadata bus is currently unused. In order to send digest information to the control-plane, you should create a separate `digest_header` and prepend that header to packets that are sent to the control-plane. The control-plane should then extract the `digest_header` from the packet before processing.
-* Broadcasting packets is currently unsupported. So only try to set one bit of the `sume_metadata.dst_port` field.
+* Broadcasting packets in the data-plane is currently unsupported. So only try to set one bit of the `sume_metadata.dst_port` field.
 * P4 support in BMv2 is generally more comprehensive than P4 support in SDNet. As a result, some P4 programs that work fine in BMv2 may not compile with SDNet. See [here]({{ site.baseurl }}/documentation/p4c-sdnet-missing-features.pdf) for a description of the P4 features that are currently unavailable in SDNet. As a result, we recommend that you first develop your P4 programs using P4->NetFPGA and once your HDL simulations are working, run the same program on bmv2 in Mininet.
 
 ## Using BMv2 Mininet
