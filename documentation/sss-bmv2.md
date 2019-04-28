@@ -10,6 +10,7 @@ I say "virtually" because there are a number of ways in which the SimpleSumeSwit
 * The `digest_data` metadata bus is currently unused. In order to send digest information to the control-plane, you should create a separate `digest_header` and prepend that header to packets that are sent to the control-plane. The control-plane should then extract the `digest_header` from the packet before processing.
 * Broadcasting packets in the data-plane is currently unsupported. So only try to set one bit of the `sume_metadata.dst_port` field.
 * P4 support in BMv2 is generally more comprehensive than P4 support in SDNet. As a result, some P4 programs that work fine in BMv2 may not compile with SDNet. See [here]({{ site.baseurl }}/documentation/p4c-sdnet-missing-features.pdf) for a description of the P4 features that are currently unavailable in SDNet. As a result, we recommend that you first develop your P4 programs using P4->NetFPGA and once your HDL simulations are working, run the same program on bmv2 in Mininet.
+* When using bmv2, to add a new header to a packet you need to first set the header to valid then fill out the header's fields. Whereas when using SDNet, the order in which you fill out header fields and mark headers as valid does not matter.
 
 ## Using BMv2 Mininet
 
