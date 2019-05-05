@@ -22,3 +22,7 @@ A set of documents you may find useful:
 
 * [P4-SDNet User Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_2/ug1252-p4-sdnet.pdf)
 * [p4c-sdnet missing P4 features](https://github.com/NetFPGA/P4-NetFPGA-public/wiki/Workflow-Overview#missing-p4-features-in-p4c-sdnet-v20182)
+
+### SUME Event Switch
+
+* [SUME Event Switch]({{ site.baseurl }}/documentation/sume-event-switch)
