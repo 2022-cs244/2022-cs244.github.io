@@ -98,7 +98,7 @@ May 8th (Gates 325):
 
 ---
 
-May 23rd:
+May 28th:
 * **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
 
 ---
