@@ -3,7 +3,7 @@ layout: page
 title: Final Presentation and Demonstration
 ---
 
-Each team will be given 15 minutes in total for both their presentation and demonstration. The presentation may follow the outline listed below. Teams should try to give a live demonstration if possible.
+Each team will be given 15 minutes for both their presentation and demonstration and an additional 5 min for questions. The presentation may follow the outline listed below. Teams should try to give a live demonstration if possible.
 
 Presentation Outline:
 * Motivation
