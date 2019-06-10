@@ -103,7 +103,7 @@ May 28th:
 
 ---
 
-June 12th - 4-7pm (Gates 463A):
+June 12th - 4:30 - 7pm (Gates 463A):
 * [Final demonstrations and presentations]({{ site.baseurl }}/deliverables/final-demo)
 
 
