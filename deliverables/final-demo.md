@@ -21,3 +21,7 @@ Presentation Order:
 6. 
 
 The instructors will announce the winning team by the end of the day via email. Good luck!
+
+### Final Submission
+
+Please email your final presentation to the instructors.
