@@ -13,12 +13,11 @@ Presentation Outline:
 * Future work
 
 Presentation Order:
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Colin and Tucker
+2. Ahmed and Sina
+3. Kate and Nick
+4. Sierra and Benoit
+5. Talbot
 
 The instructors will announce the winning team by the end of the day via email. Good luck!
 
