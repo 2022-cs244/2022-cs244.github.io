@@ -4,17 +4,17 @@ layout: default
 
 # Time and Location
 
-**Term:** Spring 2019
+**Term:** Spring 2020
 
 **Lectures:** 
    * Monday/Wednesday 4:30PM - 5:50PM
-   * Thornt207
+   * 110-101
 
 **Lab:** Gates 325
 
 # Announcements
 
-Due to a limited amount of hardware and development machines, we will be limiting enrollment to 12 students. As such, we ask that you fill out a short application so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://goo.gl/forms/XatmuX2MkP6jQoLN2) **before April 1nd at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on April 2rd by 5PM.
+Due to a limited amount of hardware and development machines, we will be limiting enrollment to 12 students. As such, we ask that you fill out a short application so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://forms.gle/dubyHbhCo1trX8FGA) **before March 30th at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on March 31st by 5PM.
 
 # Overview
 
