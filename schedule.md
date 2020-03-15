@@ -4,60 +4,60 @@ title: Schedule
 permalink: /schedule/
 ---
 
-April 1st (Andrew Moore and Sarah Tollman):
+March 30th:
 * Lecture 1 Topics:
     * Intro to class
     * Logistics and administration
-* **Due by 11:59 PM:** [Course Application](https://goo.gl/forms/MSyGx6qkddYQ3GN43) 
+* **Due by 11:59 PM:** [Course Application](https://forms.gle/taSWGQRufLA8iy969) 
 
 ---
 
-April 2nd:
+March 31st:
 * Instructors will send out application results by 5PM
 
 ---
 
-April 3rd (Milad Sharif):
+April 1st:
 * Lecture 2 Topics:
     * P4 Introduction and Motivation
     * P4 Language Overview
 
 ---
 
-April 5th:
+April 3rd:
 * **Due by 11:59 PM:** [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
 
 ---
 
-April 8th:
+April 6th:
 * Lecture 3 - Development Tools:
     * P4->NetFPGA Workflow
     * Bmv2 in Mininet
 
 ---
 
-April 11th:
+April 9th:
 * **Due by 11:59PM:** [Tutorial exercises]({{ site.baseurl }}/deliverables/tutorial-exercises)
 
 ---
 
-April 15th:
+April 13th:
 * Lecture 4 - Network Monitoring:
     * Guest Lecture (Changhoon Kim)
 
 ---
 
-April 17th:
+April 15th:
 * Class time reserved for interoperability planning
 
 ---
 
-April 18th:
+April 16th:
 * **Due by 11:59PM:** [Interoperability test proposal (one document from entire class)]({{ site.baseurl }}/deliverables/interoperability-proposal)
 
 ---
 
-April 22nd:
+April 20th:
 * Lecture 5:
     * Intro to FPGA development
     * Basic hardware design
@@ -66,44 +66,44 @@ April 22nd:
 
 ---
 
-April 24th:
+April 22nd:
 * Static router interoperability pre-testing (Gates 325)
 
 ---
 
-April 25th:
+April 23rd:
 * **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
 
 ---
 
-April 29th:
+April 27th:
 * Static router interoperability test (Gates 325)
 * **Due by 11:59PM:** [Static Router Baseline Tests]({{ site.baseurl }}/deliverables/static-router)
 
 ---
 
-May 1st:
+April 29th:
 * PWOSPF Interoperability pre-testing (Gates 325)
 
 ---
 
-May 6th:
+May 4th:
 * PWOSPF Interoperability pre-testing (Gates 325)
 
 ---
 
-May 8th (Gates 325):
+May 6th (Gates 325):
 * Interoperability test (Gates 325)
 * **Due by 11:59PM:** [PWOSPF Router Baseline Tests]({{ site.baseurl }}/deliverables/pwospf-router)
 
 ---
 
-May 28th:
+May 26th:
 * **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
 
 ---
 
-June 12th - 4:30 - 7pm (Gates 463A):
+June 10th:
 * [Final demonstrations and presentations]({{ site.baseurl }}/deliverables/final-demo)
 
 
