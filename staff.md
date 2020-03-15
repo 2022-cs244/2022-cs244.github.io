@@ -11,8 +11,8 @@ To reach us quickly, please use the [Slack channel](https://cs344-stanford-19.sl
 * Stephen Ibanez (TF)
   * Email: [sibanez@stanford.edu](mailto:sibanez@stanford.edu)
   * Office: Gates 314
-  * Office hours: Tuesday & Thursday, 3:00 - 5:00PM, Gates 200
+  * Office hours: 
 
-* Sarah Tollman (CA)
-  * Email: [stollman@stanford.edu](mailto:stollman@stanford.edu)
-  * Office hours: Tuesday & Thursday, 3:00 - 5:00PM, Gates 200
+* Changhoon Kim (TF)
+  * Email: [chang.kim@intel.com](mailto:chang.kim@intel.com)
+  * Office hours: 
