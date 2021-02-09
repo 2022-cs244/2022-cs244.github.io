@@ -4,17 +4,17 @@ layout: default
 
 # Time and Location
 
-**Term:** Spring 2020
+**Term:** Spring 2021
 
 **Lectures:** 
-   * Monday/Wednesday 4:30PM - 5:50PM
-   * 110-101
+   * Monday/Wednesday 8:30PM - 9:50PM
+   * Online
 
-**Lab:** Gates 325
+**Lab:** Online
 
 # Announcements
 
-Due to a limited amount of hardware and development machines, we will be limiting enrollment to 12 students. As such, we ask that you fill out a short application so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://forms.gle/dubyHbhCo1trX8FGA) **before March 30th at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on March 31st by 5PM.
+Due to a limited amount of hardware and development machines, we will be limiting enrollment to 12 students. As such, we ask that you fill out a short application so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://docs.google.com/forms/d/e/1FAIpQLSf5QfGm0Wca641Z183L6I5AHDcOFyhWXzRs0GPpNZedXFgSLg/viewform) **before March 30th at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on March 31st by 5PM.
 
 # Overview
 
