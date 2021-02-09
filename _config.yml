@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: CS344 Stanford
+name: CS344 Stanford Spring 2021
 
 # Short bio or description (displayed in the header)
 description: Build an Internet Router
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: CS344-Stanford-18
+  github: 2021-cs344
   instagram:
   linkedin:
   pinterest:
