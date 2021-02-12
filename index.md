@@ -7,18 +7,18 @@ layout: default
 **Term:** Spring 2021
 
 **Lectures:** 
-   * Monday/Wednesday 8:30PM - 9:50PM
+   * Monday/Wednesday 8:30AM - 9:50AM
    * Online
 
 **Lab:** Online
 
 # Announcements
 
-Due to a limited amount of hardware and development machines, we will be limiting enrollment to 12 students. As such, we ask that you fill out a short application so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://docs.google.com/forms/d/e/1FAIpQLSf5QfGm0Wca641Z183L6I5AHDcOFyhWXzRs0GPpNZedXFgSLg/viewform) **before March 30th at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on March 31st by 5PM.
+Due to limited resources to help students carry out their design-challenge projects, we will be limiting enrollment to 18 students. As such, we ask that you fill out a short application so that we can select an appropriate mixture of student backgrounds and skill sets. Please fill out [this application](https://docs.google.com/forms/d/e/1FAIpQLSf5QfGm0Wca641Z183L6I5AHDcOFyhWXzRs0GPpNZedXFgSLg/viewform) **before March 30th at 11:59PM** (end of first day of class). We will review the submissions and notify everyone of the selection results on March 31st by 5PM.
 
 # Overview
 
-High-performance network system design. Students will work in teams of two to build  a fully functioning Internet router. Students will design the control plane in Python on a linux host and will design the data plane in the new P4 language on the NetFPGA 4 x 10GE switch. For the midterm milestone, teams must demonstrate that their routers can interoperate with the other teams by building a small topology utilizing everyone's router. In the final 4 weeks of the class, teams will participate in an open-ended design challenge. Prerequisites: At least one student in each team must have taken CS144 at Stanford and completed Lab 3 (static router).
+High-performance network system design. Students will work in teams of two to build  a fully functioning Internet router. Students will design the control plane in Python on a linux host and will design the data plane in the new P4 language on a high-speed programmable switching ASIC (Intel Tofino). For the midterm milestone, teams must demonstrate that their routers can interoperate with the other teams by building a small topology utilizing everyone's router. In the final 4 weeks of the class, teams will participate in an open-ended design challenge. Prerequisites: At least one student in each team must have taken CS144 at Stanford and completed Lab 3 (static router).
 
 # Teams
 
