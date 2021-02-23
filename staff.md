@@ -4,15 +4,18 @@ title: Staff
 permalink: /staff/
 ---
 
-To reach us quickly, please use the [Slack channel](https://cs344-stanford-19.slack.com/messages/CGV81PB99/).
+To reach us quickly, please use the [Slack channel](https://cs344-stanford-2021.slack.com).
 
 # Contact Info
 
-* Stephen Ibanez (TF)
-  * Email: [sibanez@stanford.edu](mailto:sibanez@stanford.edu)
-  * Office: Gates 314
+* Changhoon Kim (TF)
+  * Email: [changhoon.kim@stanford.edu](mailto:changhoon.kim@stanford.edu)
   * Office hours: 
 
-* Changhoon Kim (TF)
-  * Email: [chang.kim@intel.com](mailto:chang.kim@intel.com)
+* Theo Jepsen (TF)
+  * Email: [jepsen@stanford.edu](mailto:jepsen@stanford.edu)
   * Office hours: 
+
+* Alex Mallery (CA)
+  * Email: [amallery@stanford.edu](mailto:amallery@stanford.edu)
+  * Office hours:
