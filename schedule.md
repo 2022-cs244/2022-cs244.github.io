@@ -4,26 +4,26 @@ title: Schedule
 permalink: /schedule/
 ---
 
-**[Week 1 - Introduction]**
+## **[Week 1 - Introduction]**
 
-   3/29:
-   * Lecture 1 Topics:
-       * Intro to class
-       * Logistics and administration
+3/29:
+* Lecture 1 Topics:
+    * Intro to class
+    * Logistics and administration
 
-   * **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
-
----
-
-   3/30:
-   * Instructors will send out application results by 5PM
+* **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
 
 ---
 
-   3/31:
-   * Lecture 2 Topics:
-       * P4 introduction and motivation
-       * P4 language overview and coding exercises
+3/30:
+* Instructors will send out application results by 5PM
+
+---
+
+3/31:
+* Lecture 2 Topics:
+    * P4 introduction and motivation
+    * P4 language overview and coding exercises
 
 ---
 
@@ -32,7 +32,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 2 - Software and Hardware Switches]**
+## **[Week 2 - Software and Hardware Switches]**
 
 4/5:
 * Lecture 3 Topics:
@@ -52,7 +52,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 3 - Integrating with Control Plane]**
+## **[Week 3 - Integrating with Control Plane]**
 
 4/12:
 * Lecture 5 Topics:
@@ -69,7 +69,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 4 - Advanced Use Cases]**
+## **[Week 4 - Advanced Use Cases]**
 
 4/19:
 * Lecture 6 Topics:
@@ -88,7 +88,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 5 - Using High-speed Hardware]**
+## **[Week 5 - Using High-speed Hardware]**
 
 4/26:
 * Iteroperability pre-testing in class
@@ -107,7 +107,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 6]**
+## **[Week 6]**
 
 5/3:
 * Working sessions in class
@@ -124,7 +124,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 7]**
+## **[Week 7]**
 
 5/10:
 * Working sessions in class
@@ -136,7 +136,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 8]**
+## **[Week 8]**
 
 5/17:
 * Lecture 9 Topics:
@@ -152,7 +152,7 @@ permalink: /schedule/
 5/21:
 * **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
 
-**[Week 9]**
+## **[Week 9]**
 
 
 5/24:
@@ -165,7 +165,7 @@ permalink: /schedule/
 
 ---
 
-**[Week 10]**
+## **[Week 10]**
 
 6/2:
 * [Final demonstrations and presentations]({{ site.baseurl }}/deliverables/final-demo)
