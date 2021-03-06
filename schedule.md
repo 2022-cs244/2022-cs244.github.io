@@ -4,7 +4,7 @@ title: Schedule
 permalink: /schedule/
 ---
 
-[Week 1] Introduction
+**[Week 1 - Introduction]**
 
 ---
 
@@ -32,7 +32,7 @@ permalink: /schedule/
 
 ---
 
-[Week 2] Software and Hardware Switches
+**[Week 2 - Software and Hardware Switches]**
 
 ---
 
