@@ -4,42 +4,57 @@ title: Schedule
 permalink: /schedule/
 ---
 
-March 30th:
-* Lecture 1 Topics:
-    * Intro to class
-    * Logistics and administration
-* **Due by 11:59 PM:** [Course Application](https://forms.gle/taSWGQRufLA8iy969) 
+[Week 1] Introduction
 
 ---
 
-March 31st:
+3/29:
+* Lecture 1 Topics:
+    * Intro to class
+    * Logistics and administration
+* **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
+
+---
+
+3/30:
 * Instructors will send out application results by 5PM
 
 ---
 
-April 1st:
+3/31:
 * Lecture 2 Topics:
-    * P4 Introduction and Motivation
-    * P4 Language Overview
-
+    * P4 Introduction and motivation
+    * P4 Language Overview and Sample Coding Exercises
 ---
 
-April 3rd:
+4/2:
 * **Due by 11:59 PM:** [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
 
 ---
 
-April 6th:
-* Lecture 3 - Development Tools:
-    * P4->NetFPGA Workflow
-    * Bmv2 in Mininet
+[Week 2] Software and Hardware Switches
 
 ---
 
-April 9th:
+4/5:
+* Lecture 3 Topics:
+    * BMv2 in Mininet
+    * p4c and p4app
+
+---
+
+4/7:
+* Lecture 4 Topics:
+    * PISA and Tofino
+
+---
+
+4/9:
 * **Due by 11:59PM:** [Tutorial exercises]({{ site.baseurl }}/deliverables/tutorial-exercises)
 
 ---
+
+TBD
 
 April 13th:
 * Lecture 4 - Network Monitoring:
