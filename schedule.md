@@ -6,24 +6,24 @@ permalink: /schedule/
 
 **[Week 1 - Introduction]**
 
-3/29:
-* Lecture 1 Topics:
-    * Intro to class
-    * Logistics and administration
+   3/29:
+   * Lecture 1 Topics:
+       * Intro to class
+       * Logistics and administration
 
-* **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
-
----
-
-3/30:
-* Instructors will send out application results by 5PM
+   * **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
 
 ---
 
-3/31:
-* Lecture 2 Topics:
-    * P4 introduction and motivation
-    * P4 language overview and coding exercises
+   3/30:
+   * Instructors will send out application results by 5PM
+
+---
+
+   3/31:
+   * Lecture 2 Topics:
+       * P4 introduction and motivation
+       * P4 language overview and coding exercises
 
 ---
 
