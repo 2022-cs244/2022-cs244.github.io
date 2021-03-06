@@ -72,14 +72,14 @@ permalink: /schedule/
 **[Week 4 - Advanced Use Cases]**
 
 4/19:
-* Lecture 5 Topics:
+* Lecture 6 Topics:
     * Network Monitoring (Guest lecture by JK Lee)
 
 ---
 
 4/21:
-* Lecture 6 Topics:
-    * Compute Acceleration Use Cases
+* Lecture 7 Topics:
+    * Compute Acceleration
 
 ---
 
@@ -96,8 +96,8 @@ permalink: /schedule/
 ---
 
 4/28:
-* Lecture 7 Topics:
-    * Compiling for Tofino and testing (Guest lecture by Georgios Nikolaik)
+* Lecture 8 Topics:
+    * Developing and testing P4 programs with Tofino (Guest lecture by Georgios Nikolaidis)
 
 ---
 
@@ -110,12 +110,17 @@ permalink: /schedule/
 **[Week 6]**
 
 5/3:
-* PWOSPF Interoperability pre-testing in class
+* Working sessions in class
 
 ---
 
 5/5:
-* PWOSPF Interoperability testing in class
+* Working sessions in class
+
+---
+
+5/7:
+* **Due by 11:59PM:** [Test with Tofino ASIC Model]({{ site.baseurl }}/deliverables/tofino-model)
 
 ---
 
@@ -134,7 +139,7 @@ permalink: /schedule/
 **[Week 8]**
 
 5/17:
-* Lecture 8 Topics:
+* Lecture 9 Topics:
     * NanoPU (Guest Lecture by Steve Ibanez)   
 
 ---
