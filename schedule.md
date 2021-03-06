@@ -11,6 +11,7 @@ permalink: /schedule/
     * Intro to class
     * Logistics and administration
 
+
 * **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
 
 ---
@@ -57,6 +58,7 @@ permalink: /schedule/
 4/12:
 * Lecture 5 Topics:
     * P4RT and PWOSPF
+
 ---
 
 4/14:
