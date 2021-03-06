@@ -10,6 +10,7 @@ permalink: /schedule/
 * Lecture 1 Topics:
     * Intro to class
     * Logistics and administration
+
 * **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
 
 ---
@@ -51,15 +52,15 @@ permalink: /schedule/
 
 ---
 
-**[Week 3 - Integrating the Control Plane]**
+**[Week 3 - Integrating with Control Plane]**
 
 4/12:
-* Lecture 5:
+* Lecture 5 Topics:
     * P4RT and PWOSPF
 ---
 
 4/14:
-* Class time reserved for interoperability test planning
+* Interoperability test planning in class
 
 ---
 
@@ -71,13 +72,13 @@ permalink: /schedule/
 **[Week 4 - Advanced Use Cases]**
 
 4/19:
-* Lecture 5:
+* Lecture 5 Topics:
     * Network Monitoring (Guest lecture by JK Lee)
 
 ---
 
 4/21:
-* Lecture 6:
+* Lecture 6 Topics:
     * Compute Acceleration Use Cases
 
 ---
@@ -90,14 +91,13 @@ permalink: /schedule/
 **[Week 5 - Using High-speed Hardware]**
 
 4/26:
-* Iterop pre-testing in class
-
+* Iteroperability pre-testing in class
 
 ---
 
 4/28:
-* Lecture 7:
-    * Compiling for Tofino and testing
+* Lecture 7 Topics:
+    * Compiling for Tofino and testing (Guest lecture by Georgios Nikolaik)
 
 ---
 
@@ -110,36 +110,37 @@ permalink: /schedule/
 **[Week 6]**
 
 5/3:
-* PWOSPF Interoperability pre-testing (Gates 325)
+* PWOSPF Interoperability pre-testing in class
 
 ---
 
 5/5:
-* Interoperability test (Gates 325)
+* PWOSPF Interoperability testing in class
 
 ---
 
 **[Week 7]**
 
 5/10:
-* 
+* Working sessions in class
 
 ---
 
 5/12:
-*
+* Working sessions in class
 
 ---
 
 **[Week 8]**
 
 5/17:
-* NanoPU
+* Lecture 8 Topics:
+    * NanoPU (Guest Lecture by Steve Ibanez)   
 
 ---
 
 5/19:
-*
+* Working sessions in class
 
 ---
 
@@ -150,12 +151,12 @@ permalink: /schedule/
 
 
 5/24:
-* 
+* Working sessions in class
 
 ---
 
 5/26:
-*
+* Working sessions in class
 
 ---
 
