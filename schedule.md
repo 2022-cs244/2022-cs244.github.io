@@ -21,8 +21,9 @@ permalink: /schedule/
 
 3/31:
 * Lecture 2 Topics:
-    * P4 Introduction and motivation
-    * P4 Language Overview and Sample Coding Exercises
+    * P4 introduction and motivation
+    * P4 language overview and coding exercises
+
 ---
 
 4/2:
@@ -45,7 +46,7 @@ permalink: /schedule/
 
 ---
 
-4/9:
+4/8:
 * **Due by 11:59PM:** [Tutorial exercises]({{ site.baseurl }}/deliverables/tutorial-exercises)
 
 ---
@@ -77,43 +78,90 @@ permalink: /schedule/
 
 4/21:
 * Lecture 6:
-    * Compute Acceleration 
+    * Compute Acceleration Use Cases
 
 ---
 
-April 23rd:
-* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
-
----
-
-April 27th:
-* Static router interoperability test (Gates 325)
+4/22:
 * **Due by 11:59PM:** [Static Router Baseline Tests]({{ site.baseurl }}/deliverables/static-router)
 
 ---
 
-April 29th:
-* PWOSPF Interoperability pre-testing (Gates 325)
+**[Week 5 - Using High-speed Hardware]**
+
+4/26:
+* Iterop pre-testing in class
+
 
 ---
 
-May 4th:
-* PWOSPF Interoperability pre-testing (Gates 325)
+4/28:
+* Lecture 7:
+    * Compiling for Tofino and testing
 
 ---
 
-May 6th (Gates 325):
-* Interoperability test (Gates 325)
+4/30:
 * **Due by 11:59PM:** [PWOSPF Router Baseline Tests]({{ site.baseurl }}/deliverables/pwospf-router)
+* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
 
 ---
 
-May 26th:
+**[Week 6]**
+
+5/3:
+* PWOSPF Interoperability pre-testing (Gates 325)
+
+---
+
+5/5:
+* Interoperability test (Gates 325)
+
+---
+
+**[Week 7]**
+
+5/10:
+* 
+
+---
+
+5/12:
+*
+
+---
+
+**[Week 8]**
+
+5/17:
+* NanoPU
+
+---
+
+5/19:
+*
+
+---
+
+5/21:
 * **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
 
+**[Week 9]**
+
+
+5/24:
+* 
+
 ---
 
-June 10th:
+5/26:
+*
+
+---
+
+**[Week 10]**
+
+6/2:
 * [Final demonstrations and presentations]({{ site.baseurl }}/deliverables/final-demo)
 
 
