@@ -6,8 +6,6 @@ permalink: /schedule/
 
 **[Week 1 - Introduction]**
 
----
-
 3/29:
 * Lecture 1 Topics:
     * Intro to class
@@ -34,8 +32,6 @@ permalink: /schedule/
 
 **[Week 2 - Software and Hardware Switches]**
 
----
-
 4/5:
 * Lecture 3 Topics:
     * BMv2 in Mininet
@@ -54,35 +50,34 @@ permalink: /schedule/
 
 ---
 
-TBD
+**[Week 3 - Integrating the Control Plane]**
 
-April 13th:
-* Lecture 4 - Network Monitoring:
-    * Guest Lecture (Changhoon Kim)
+4/12:
+* Lecture 5:
+    * P4RT and PWOSPF
+---
+
+4/14:
+* Class time reserved for interoperability test planning
 
 ---
 
-April 15th:
-* Class time reserved for interoperability planning
-
----
-
-April 16th:
+4/15:
 * **Due by 11:59PM:** [Interoperability test proposal (one document from entire class)]({{ site.baseurl }}/deliverables/interoperability-proposal)
 
 ---
 
-April 20th:
+**[Week 4 - Advanced Use Cases]**
+
+4/19:
 * Lecture 5:
-    * Intro to FPGA development
-    * Basic hardware design
-    * Running simulations
-    * Timing constraints
+    * Network Monitoring (Guest lecture by JK Lee)
 
 ---
 
-April 22nd:
-* Static router interoperability pre-testing (Gates 325)
+4/21:
+* Lecture 6:
+    * Compute Acceleration 
 
 ---
 
