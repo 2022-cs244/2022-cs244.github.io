@@ -29,19 +29,23 @@ You should implement the control plane with Python, and use
 
 ## How to run p4app on Mac OSX:
 
-* **Install homebrew & cask:**
+* **Install [Vagrant](https://www.vagrantup.com) and [VirtualBox](https://www.virtualbox.org/):**
+
+
+* **Install homebrew:**
 
 ```
 xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install caskroom/cask/brew-cask
 ```
 
 
-* **Install docker-toolbox:**
+* **Install docker, docker-toolbox, and docker-machine:**
 
 ```
-brew cask install docker-toolbox
+brew install --cask docker
+brew install docker-toolbox
+brew install docker-machine docker
 ```
 
 * **Install git:**
