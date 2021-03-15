@@ -4,31 +4,18 @@ title: Getting Started
 ---
 
 This is your first deliverable of the course. The goals are as follows: 
-* Set up your P4-NetFPGA repository (each team should have one P4-NetFPGA repo)
-* Set up your hardware development machine and your virtual machine
+<!-- * Set up your P4-NetFPGA repository (each team should have one P4-NetFPGA repo) -->
+<!-- * Set up your hardware development machine and your virtual machine -->
 * Make sure that you have access to everything that you will need
 
 Step 1 - Repo Access
 ------
 
-Each team should send an email to sibanez@stanford.edu and stollman@stanford.edu with the github username of each teammate. Please create a github account if you do not already have one. Github will be used extensively throughout this course. Working with git is an exceptionally useful skill to have, especially if you plan to do any open source code development.
+Each team should send an email to changhoon.kim@stanford.edu, jepsen@stanford.edu, and amallery@stanford.edu with the github username of each teammate. Please create a github account if you do not already have one. We will use Github extensively throughout this course. Working with git is a very useful skill to learn, especially if you plan to do any open source code development.
 
-After the instructor receives your email you will be added to the [cs344-stanford-19](https://github.com/cs344-stanford-19) github organization and you should have access to the [P4-NetFPGA-CS344-19](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19) repository. Please email the instructor if you are having trouble accessing the repository.
+After the instructor receives your email you will be added to the [2021-cs344](https://github.com/2021-cs344) github organization and you should have access to the repositories in the org. Please email the instructor if you are having trouble accessing the repository.
 
-The instructors will send you an email after adding you to the repository, this email will contain the password that you can use to access the development machine to which your team has been assigned.
-
-Step 2 - Development Machine Access
-------
-
-Each team will be given access to a development machine. See the [Team Assignments]({{ site.baseurl }}/teams) page to check which development machine your team has been assigned to. Each machine is running Ubuntu 14.04 and contains the following two hardware components installed on PCIe slots:
-* NetFPGA SUME board
-* Dual port 10G NIC
-
-Each machine has three accounts:
-* `cs344` and `cs344-2` - one account for each team member assigned to this development machine.
-* `cs344-dev-test` - one additional account for teams that would like to "borrow" another team's development machine for testing purposes.
-
-Make sure that you can sucessfully log onto your machine. Ask on the Slack channel if you run into issues. If you are off campus and need to access your machine you will first need to connect to the Stanford network using the [VPN client](https://uit.stanford.edu/service/vpn).
+<!-- The instructors will send you an email after adding you to the repository, this email will contain the password that you can use to access the development machine to which your team has been assigned. -->
 
 Step 3 - Setting up your fork
 ------
@@ -124,11 +111,6 @@ source ~/P4-NetFPGA-CS344-19/tools/settings.sh
 
 6. Source the `~/.bashrc` file and make sure that running the command `$ cd $SUME_FOLDER` puts you into your cloned repo. You may need to update the `SUME_FOLDER` environment variable in the `tools/settings.sh` file.
 
-Step 6 - Access to the Lab
-------
-
-You will be working with real hardware this quarter! This means that you will get hands on experience in the lab. The lab is room 325 in the Gates computer science building. In order to access the lab you will need a key. You should be cc'ed on an email from Andi Villanueva to the Gates Key Office asking them to give you access to Gates 325. If you already have a key to the Gates building they will add room 325 to your key. If you do not already have a key then you will need to provide a $20 security deposit when you pick up your key, please bring cash. The security deposit will be refunded when you return the key so do NOT lose the key! After you have a key with access to Gates 325, be sure to initialize the key as soon as you can. Do so by inserting the key into the handle and waiting for the beep. You are encouraged to check out the development machines when you go to initialize your key, they are on the side of the lab closest to the professors' offices. The machines are labeled so you should be able to easily find your assigned machine.
-
 Step 7 - Sign up for Team Meeting Slots
 ------
 
@@ -144,7 +126,7 @@ Read over the [documentation page]({{ site.baseurl }}/documentation) and [course
 Step 9 - Submission
 ------
 
-Please send an email to sibanez@stanford.edu and stollman@stanford.edu with a link to your team's fork of the P4-NetFPGA repository.
+Please send an email to changhoon.kim@stanford.edu, jepsen@stanford.edu, and amallery@stanford.edu with a link to your team's fork of the <TBD> repository.
 
 That's all for now!
 
