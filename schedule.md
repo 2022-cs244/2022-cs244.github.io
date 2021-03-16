@@ -29,7 +29,7 @@ permalink: /schedule/
 ---
 
 4/2:
-* **Due by 11:59 PM:** [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
+* **Due by 11:59 PM:** [Getting Started]({{ site.baseurl }}/documentation/getting-started)
 
 ---
 
