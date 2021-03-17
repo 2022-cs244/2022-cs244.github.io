@@ -3,29 +3,33 @@ layout: page
 title: Tutorial Exercises
 ---
 
-The goal of these exercises is to allow you to become familiar with the following two development tools that you will be using to build your router:
-* P4->NetFPGA
+The goal of these exercises is to allow you to become familiar with the following development tools that you will be using to build your router:
+* The P4 compiler
 * BMv2 in Mininet
+* p4app
 
 Here is a bit of information about each of these tools.
 
-P4->NetFPGA
+P4 Compiler
 -----------
 
-[Here](https://github.com/NetFPGA/P4-NetFPGA-public/wiki) is the P4->NetFPGA wiki home page. Your first task is to quickly skim the [Workflow Overview](https://github.com/NetFPGA/P4-NetFPGA-public/wiki/Workflow-Overview) page. This page contains most of the documentation that you will need when working with the P4->NetFPGA tools. [Here](https://www.repository.cam.ac.uk/handle/1810/288563) is a paper that describes the tools in more detail if you are interested.
-
-The P4->NetFPGA workflow is built on top of the Xilinx P4-SDNet compiler. This compiler extends the open source [p4c](https://github.com/p4lang/p4c) front end compiler to generate HDL modules for Xilinx FPGAs. Eventually, all P4 features will be supported, but for now there are some that are not. Please refer to the [SDNet P4 Support]({{ site.baseurl }}/documentation/p4c-sdnet-missing-features.pdf) page for a breakdown of the features that are supported/unsupported. These tools should be considered alpha quality research code. Throughout the quarter you may run into bugs. If you believe you have found a bug, first post a question on the slack channel. If the instructor confirms that it is indeed a bug, they may ask you to submit a GitHub issue to the [starter code repo](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19) so that others are aware of its existence.
+To run P4 code, it has to be compiled for the target (e.g. hardware switch, NIC, software switch). Each target has a different P4 compiler backend. In the first part of this course we will be using the [P4 reference compiler](https://github.com/p4lang/p4c) for BMv2.
 
 
 BMv2 in Mininet
 ---------------
 
-P4.org has developed an open source software switch called BMv2 (behavioral model version 2) designed to be a target for P4 programs. That is, P4 programs can be compiled onto it to configure how it processes packets. Every P4 target supports one or more P4 target architectures. BMv2 was initially designed with support for the so called V1Model architecture. The CS344 instructors have added initial support for the [SimpleSumeSwitch architecture](https://github.com/NetFPGA/P4-NetFPGA-public/wiki/Workflow-Overview#simplesumeswitch-architecture) so that we can run (virtually) the same P4 programs in both Mininet and the NetFPGA platform. Please review [this page]({{ site.baseurl }}/documentation/sss-bmv2) to learn more about the current SimpleSumeSwitch support in bmv2 and Mininet.
+P4.org has developed an open source software switch called BMv2 (behavioral model version 2) designed to be a target for P4 programs. That is, P4 programs can be compiled onto it to configure how it processes packets. Every P4 target supports one or more P4 target architectures. BMv2 was initially designed with support for the so called V1Model architecture.
+
+p4app
+-----
+
+This tool provides a portable way of packaging and running P4 code and control planes with BMv2 and Mininet. Inside a p4app package (simply referred to as a "p4app"), there is a `main.py` entry point. This defines the topology, the P4 code to run, and runs a workload on the network by executing commands on hosts. The p4app runs inside a Docker container that has all the dependencies and tools (P4 compiler, BMv2, Mininet, scapy), so they don't have to be installed on the host computer.
 
 Prerequisites
 -------------
 
-Make sure that you have completed the [Getting Started]({{ site.baseurl }}/deliverables/getting-started) deliverable where you set up your virtual machine and P4-NetFPGA repository. The virtual machine has all of the necessary dependencies installed on it to work with bmv2 in Mininet.
+Make sure that you have completed the [Getting Started]({{ site.baseurl }}/deliverables/getting-started) deliverable where you set up your environment. If you have problems installing the dependencies directly on your computer, you can use the virtual machine, which has all of the necessary dependencies installed on it to work with p4app (i.e. Docker).
 
 The Exercises
 -------------
