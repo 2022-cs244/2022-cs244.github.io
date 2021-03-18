@@ -179,7 +179,6 @@ Handling Incoming HELLO Packets
    incoming packet, a new neighbor is added. Finally, if the HELLO packet matches
    a current neighbor, the neighbor's "last hello packet received" timer is
    updated.
-TJ: in the para above, what is the difference betweer "creating" and "adding" a neighbor?
 
 Handling Incoming LSU Packets
 
@@ -188,7 +187,7 @@ Handling Incoming LSU Packets
   dropped.  If the sequence number matches that of the last packet received
   from the sending host, the packet is dropped.  If the packet contents are
   equivalent to the contents of the packet last received from the sending host,
-  the host's database entry is not updated and the packet is ignored.  If the LSU
+  the host's database entry is not updated and the packet is ignored. If the LSU
   is from a host not currently in the database, the packet contents are used
   to update the database and Djikstra's algorithm is used to recompute the
   forwarding table.  Finally, if the LSU data is for a host currently in the
