@@ -49,7 +49,7 @@ permalink: /schedule/
 ---
 
 4/8:
-* **Due by 11:59PM:** [Tutorial exercises]({{ site.baseurl }}/deliverables/tutorial-exercises)
+* **Due by 11:59PM:** [P4 Tutorial and MAC Learning Exercise]({{ site.baseurl }}/deliverables/tutorial-exercises)
 
 ---
 
