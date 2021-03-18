@@ -10,16 +10,16 @@ The goal of the P4 tutorial and the MAC learning exercise is to allow you to bec
 
 Here is a bit of information about each of these tools.
 
-## P4 Compiler
+### P4 Compiler
 
 To run P4 code, it has to be compiled for the target (e.g. hardware switch, NIC, software switch). Each target has a different P4 compiler backend. In the first part of this course we will be using the [P4 reference compiler](https://github.com/p4lang/p4c) for BMv2.
 
 
-## BMv2 in Mininet
+### BMv2 in Mininet
 
 P4.org has developed an open source software switch called BMv2 (behavioral model version 2) designed to be a target for P4 programs. That is, P4 programs can be compiled onto it to configure how it processes packets. Every P4 target supports one or more P4 target architectures. BMv2 was initially designed with support for the so called V1Model architecture.
 
-## p4app
+### p4app
 
 This tool provides a portable way of packaging and running P4 code and control planes with BMv2 and Mininet. Inside a p4app package (simply referred to as a "p4app"), there is a `main.py` entry point. This defines the topology and the P4 program for each switch, and runs a workload on the network by executing commands on the hosts. The p4app runs inside a Docker container that has all the dependencies and tools (P4 compiler, BMv2, Mininet, scapy), so they don't have to be installed directly on the host machine (or VM).
 
@@ -31,7 +31,7 @@ Make sure that you have completed the [Getting Started]({{ site.baseurl }}/deliv
 P4 Tutorial
 -------------
 
-There are two main [P4 tutorial](https://github.com/2021-cs344/tutorials/) exercises for you to complete: basic forwarding and basic tunneling. In the first exercise, you will implement a very basic IPv4 router. In the second exercise you will extend the basic forwarding with support for a basic tunneling protocol.
+There are two [P4 tutorial](https://github.com/2021-cs344/tutorials/) exercises for you to complete: [basic forwarding](https://github.com/2021-cs344/tutorials/tree/cs344/p4app-exercises/basic.p4app) and [basic tunneling](https://github.com/2021-cs344/tutorials/tree/cs344/p4app-exercises/basic_tunnel.p4app). In the first exercise, you will implement a very basic IPv4 router. In the second exercise you will extend the basic forwarding with support for a basic tunneling protocol.
 
 ### How to run the P4 tutorial exercises
 
@@ -55,3 +55,9 @@ In this exercise you will implement the data plane and control plane components 
 ### Submission
 
 You should create a _private_ fork of the [exercise repository](https://github.com/2021-cs344/maclearning-exercise). When you finish the exercise, tag the commit with your solution. You should then send an e-mail to all the [course instructors]({{ site.baseurl }}/staff) with a link to your private fork, along with the tag of your solution.
+
+
+Extra: Switch Cache Exercise
+----------------------------
+
+If you want to learn about some other advanced features of P4, you should try the [switch cache exercise](https://github.com/2021-cs344/switch-cache-exercise). In this exercise, you will implement an in-network cache for a key-value store, using P4 registers on the switch.
