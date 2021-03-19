@@ -9,6 +9,7 @@ permalink: /documentation/
     * [Getting Started Guide]({{ site.baseurl }}/documentation/getting-started)
     * [VM Setup Guide]({{ site.baseurl }}/documentation/vm-setup)
     * [PWOSPF Specification]({{ site.baseurl }}/documentation/pwospf)
+    * [Debugging with p4app]({{ site.baseurl }}/documentation/debugging-p4app)
 
 [//]: # (* [Building an Internet Router]({{ site.baseurl }}/documentation/internet-router))
 [//]: # (* [Starter Code Overview]({{ site.baseurl }}/documentation/starter-code))

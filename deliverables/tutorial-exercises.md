@@ -23,6 +23,9 @@ P4.org has developed an open source software switch called BMv2 (behavioral mode
 
 This tool provides a portable way of packaging and running P4 code and control planes with BMv2 and Mininet. Inside a p4app package (simply referred to as a "p4app"), there is a `main.py` entry point. This defines the topology and the P4 program for each switch, and runs a workload on the network by executing commands on the hosts. The p4app runs inside a Docker container that has all the dependencies and tools (P4 compiler, BMv2, Mininet, scapy), so they don't have to be installed directly on the host machine (or VM).
 
+You should take a look at some of the [examples in the p4app repository](https://github.com/2021-cs344/p4app/tree/rc-2.0.0/examples). These are useful for understading how to setup the network (e.g., [ring.p4app](https://github.com/2021-cs344/p4app/blob/rc-2.0.0/examples/ring.p4app/main.py)), and also a good source of sample P4 programs (e.g., [basic.p4app](https://github.com/2021-cs344/p4app/blob/rc-2.0.0/examples/basic.p4app/basic.p4)).
+
+
 Prerequisites
 -------------
 
@@ -50,7 +53,7 @@ When a host wants to send a packet to an IP address, it first has to resolve the
 
 With MAC learning, the switch learns about hosts by monitoring ARP packets. It uses this information for two purposes: 1) associating MAC addresses with switch ports, in order to perform L2 forwarding; and 2) to populate an ARP cache table, which can be used to respond to ARP requests directly, without broadcasting the request to all ports.
 
-In this exercise you will implement the data plane and control plane components of a MAC learning switch. You can find more detailed instructions in README of the [exercise repository](https://github.com/2021-cs344/maclearning-exercise) and `TODO`s in the starter code.
+In this exercise you will implement the data plane and control plane components of a MAC learning switch. You can find more detailed instructions in README of the [exercise repository](https://github.com/2021-cs344/maclearning-exercise) and `TODO`s in the starter code. If you get stuck, you should try some of these [p4app debugging tips]({{ site.baseurl }}/documentation/debugging-p4app).
 
 ### Submission
 
