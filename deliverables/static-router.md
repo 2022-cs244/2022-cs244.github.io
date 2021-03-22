@@ -5,11 +5,11 @@ title: Static Router Functionality
 
 The goal of this deliverable is to ensure that you have implemented all of the required functionality of a static IPv4 router. To help get you started, we have provided some baseline data-plane and control-plane tests. These tests test *some* of the required functionality of your router so you will want to add more of your own. Although you are encouraged to add more tests of your own, please do not modify the existing baseline tests (aside from any `TODO`s) without permission of the instructors.
 
-The baseline tests are described in `overview.md` in the starter code repo.
+The baseline tests are described in `overview.md` in the project repository.
 
 # Mininet Testing (optional, but strongly recommended)
 
-After the above baseline tests are passing you should make sure that your router works as expected in Mininet. The `topos/` directory in the repo has a couple of topology files that you can use to test your router (see below). Update the p4app entry point (`main.py`) to point to `main/single.py` or `main/triangle.py` and run the p4app. Once the topology is up and running, you can start your router's control plane on each switch in the topology, as described in `overview.md`, and run commands in the Mininet console to test your router.
+After the above baseline tests are passing you should make sure that your router works as expected in Mininet. The `topos/` directory in the repo has a couple of topology files that you can use to test your router (see below). Update the p4app entry point (`main.py`) to point to `main/single.py` or `main/triangle.py` and then run p4app. Once the topology is up and running, you can start your router's control plane on each switch in the topology, as described in `overview.md`, and run commands in the Mininet console to test your router.
 
 **Single Switch Topology**
 
