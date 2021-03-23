@@ -6,8 +6,9 @@ permalink: /documentation/
 
 * **A set of documents you may find useful:**
 
-    * [Getting Started Guide]({{ site.baseurl }}/documentation/getting-started)
-    * [VM Setup Guide]({{ site.baseurl }}/documentation/vm-setup)
+    * [Getting Started Guide]({{ site.baseurl }}/deliverables/getting-started)
+    * [VM Setup Tips]({{ site.baseurl }}/documentation/vm-setup)
+    * [Running p4app on Mac OS X]({{ site.baseurl }}/documentation/p4app-macosx)
     * [PWOSPF Specification]({{ site.baseurl }}/documentation/pwospf)
     * [Debugging with p4app]({{ site.baseurl }}/documentation/debugging-p4app)
 
