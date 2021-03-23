@@ -9,7 +9,9 @@ The design challenge is your opportunity to do something novel and interesting. 
 * Problem Statement and Motivation
 * Initial thoughts for system design and final demonstration
 
-The project suggestions listed below are inspired by an on-going research effort to change the data-plane programming model from one that is purely packet driven to one that is more generally event-driven. The key insight is that many data-plane algorithms need to maintain state that must be accessed and updated potentially multiple times and sometimes independently of packets arriving or departing. In order to prototype and evaluate event-driven programs, we've developed a new P4 programmable architecture for the NetFPGA SUME board: the [SUME Event Switch]({{ site.baseurl }}/documentation/sume-event-switch). We believe that event-driven architectures will enable lots of interesting new data-plane applications that are challenging (if not impossible) to implement on existing architectures.
+The project suggestions listed below are inspired by an on-going research effort to change the data-plane programming model from one that is purely packet driven to one that is more generally event-driven. The key insight is that many data-plane algorithms need to maintain state that must be accessed and updated potentially multiple times and sometimes independently of packets arriving or departing. 
+
+You're required to implement and test your ideas using BMv2 and Mininet. If needed, you may have to extend BMv2, Mininet, p4app, or even p4c to realize your ideas. Although it's not mandatory, if you implement and test your ideas using the Tofino ASIC model as well, you may be able to receive extra credits. In such a case, please set the right expectation for yourselves because, although Tofino and the associated tools are much more powerful than BMv2, etc., the ASIC model is not suitable for testing use cases that require handling packets at high speed or running multiple ASIC models in parallel.
 
 # Potential Projects
 
