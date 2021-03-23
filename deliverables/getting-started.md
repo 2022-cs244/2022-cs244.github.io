@@ -6,9 +6,9 @@ title: Getting Started
 Step 1 - Repo Access
 ------
 
-Each student should send an email to the all the [course instructors]({{ site.baseurl }}/staff) with his/her GitHub username. Please create a GitHub account if you do not already have one. GitHub will be used extensively throughout this course. Working with git is an exceptionally useful skill to have, especially if you plan to do any open source code development.
+Each student should send an email to the all the [course instructors]({{ site.baseurl }}/staff) with his/her GitHub username. Please create a GitHub account if you do not already have one. GitHub will be used extensively throughout this course. Working with git is an exceptionally useful skill to have, especially if you plan to do any open-source code development.
 
-After the instructor receives your email you will be added to the [2021-cs344](https://github.com/2021-cs344) GitHub organization and you should have access to the [2021-cs344/2021-cs344-project](https://github.com/2021-cs344/2021-cs344-project) repository. Please email the instructor if you are having trouble accessing the repository.
+After the instructor receives your email, you will be added to the [2021-cs344](https://github.com/2021-cs344) GitHub organization and you should have access to the [2021-cs344/2021-cs344-project](https://github.com/2021-cs344/2021-cs344-project) repository. Please email the instructor if you are having trouble accessing the repository.
 
 Step 2 - Development Environment Familiarization
 ------
@@ -75,9 +75,9 @@ Step 4 - Setting Up Your Fork (First Assignment)
 
 * Create a *private* fork of the [2021-cs344/maclearning-exercise](https://github.com/2021-cs344/maclearning-exercise) repo.
 
-If you don't know how to create a *private* fork, [here is brief guide](https://guides.github.com/activities/forking/).
+You should setup your *private* fork by creating a new private repository, and [duplicating/mirroring](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) the original repository. 
 
-* The instructors will need access to your repositories so please add them (using [their GitHub usernames]({{ site.baseurl }}/staff)) as a collaborators on your fork.
+* The instructors will need access to your repositories so please add them (using [their GitHub usernames]({{ site.baseurl }}/staff)) as collaborators on your fork.
 
 * Once you have created your fork, clone the repository onto your development machine/VM:
 
@@ -90,13 +90,13 @@ You should now be ready to start working on the [first assignment]({{ site.baseu
 Step 5 - Setting Up Your Fork (Team Project)
 ------
 
-Before you follow the remaining steps, you should form a team. Each team should create a single fork.
+Before continuing with the following steps, you should have completed the first assignment and formed a team. The following steps should be done together with your team.
 
 * Create a *private* fork of the [2021-cs344/2021-cs344-project](https://github.com/2021-cs344/2021-cs344-project) repo.
 
 You may fork the repo into a personal GitHub account or you may create a new GitHub organization for the team and fork the repo there.
 
-* The instructors will need access to your repositories so please add them (using [their GitHub usernames]({{ site.baseurl }}/staff)) as a collaborators on your fork.
+* The instructors will need access to your repositories so please add them (using [their GitHub usernames]({{ site.baseurl }}/staff)) as collaborators on your fork.
 
 * Once you have created your fork, clone the repository onto your development machine:
 
