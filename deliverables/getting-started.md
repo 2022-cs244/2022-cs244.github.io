@@ -57,7 +57,7 @@ Here are the steps to set up the virtual machine on your laptop:
 
 4. After the the VM boots, login with username `p4dev`.
 
-5. Install Docker following [these instructions](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04). After installing Docker, reboot the VM.
+5. Install Docker following [these instructions](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04) through "Step 2 — Executing the Docker Command Without Sudo". After installing Docker, reboot the VM.
 
 6. Clone the p4app repository. Open a terminal in the VM and run:
 ```
