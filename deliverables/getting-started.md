@@ -117,7 +117,7 @@ Step 7 - Sign up for Team Meeting Slots
 
 Teams will be required to meet with instructors and discuss their current progress and next steps. These meetings are mainly used to ensure that teams are making progress and are on the right track. Instructors will be available to meeting with teams during the scheduled lecture slots since not all lectures will be held. Each team must sign up for two meeting slots before the interoperability test and two meeting slots after for a total of 4 meetings. Please sign up for your first two meeting slots before this deliverable is due.
 
-[XXX TODO Team Meeting Slots](https://github.com/cs344-stanford-19/P4-NetFPGA-CS344-19/wiki/Team-Meeting-Slots)
+[Team Meeting Slots](https://github.com/2021-cs344/2021-cs344.github.io/wiki/Team-Meeting-Slots)
 
 Step 8 - Review Documentation and Schedule
 ------
