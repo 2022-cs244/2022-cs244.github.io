@@ -53,7 +53,8 @@ You're required to implement and test your ideas using BMv2 and Mininet. If need
 
 * [p4pi (link to come)](https://github.com/p4lang/p4pi)
 * Software router running on the [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-4gb).
-* Develop the tools and infrastructure for prototyping P4 programs on the RPI
+* Develop the tools and infrastructure for prototyping P4 programs on the RPI.
+* What functionality would be useful for a home router? E.g., parental controls, firewall, monitoring network usage (time spent on different applications).
 
 # Submission
 
