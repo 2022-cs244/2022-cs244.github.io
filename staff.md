@@ -23,4 +23,4 @@ To reach us quickly, please use the [Slack channel](https://cs344-stanford-2021.
   * GitHub: [amallery](https://github.com/amallery)
   * Office hours: Tuesdays, 5 - 6pm
 
-During office hourse, we'll make ourselves available on the "office-hours" on the course Slack workspace. If needed, we'll also use Zoom (and break-out rooms) for easier communication.
+During office hourse, we'll make ourselves available on the "office-hours" channel in the course Slack workspace. If needed, we'll also use Zoom (and break-out rooms) for easier communication.
