@@ -16,6 +16,8 @@ Programming is something you learn by doing. If you copy someone else’s work, 
 
 (This was blatantly plagiarised from the CS193N web page!)
 
+An additional note: You are also expected to make a reasonable effort to maintain the privacy of your own solutions. You should not, for example, leave copies of your code on a shared computer or a public website, and you should ensure that all of your GitHub repositories for the course are private.
+
 # Grading
 
 The emphasis is on developing the required functionality and achieving interoperability with other’s solutions. We will pay careful attention to your design document of who contributed what in each team!
