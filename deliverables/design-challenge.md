@@ -56,6 +56,12 @@ You're required to implement and test your ideas using BMv2 and Mininet. If need
 * Develop the tools and infrastructure for prototyping P4 programs on the RPI.
 * What functionality would be useful for a home router? E.g., parental controls, firewall, monitoring network usage (time spent on different applications).
 
+### P4 Externs
+
+* [P4 extern objects and functions](https://p4.org/p4-spec/docs/P4-16-v1.2.1.html#sec-external-units)
+* What functionality is missing from the BMv2 SimpleSwitch pipeline?
+* What useful features could be implemented as externs? E.g., packet encryption, persistent storage.
+
 # Submission
 
 Each team should email your proposal to the instructors using the subject line: CS344 Project Proposal - Team-X
