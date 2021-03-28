@@ -93,7 +93,7 @@ permalink: /schedule/
 ## **[Week 5 - Using High-speed Hardware]**
 
 4/26:
-* Iteroperability pre-testing in class
+* Interoperability pre-testing in class
 
 ---
 
