@@ -30,6 +30,6 @@ Points | Item               | Description
 -------|--------------------|------------
 10 (I) | Participation      | This will be a subjective judgement by us based on aspects such as our interaction with you in regular meetings, your team’s documentation on who did what, and by watching the online discussions.
 5  (T) | Interoperability   | Your router should interoperate correctly with the routers from all other teams. We will conduct an interoperability test session to verify interoperability.
-50 (T) | Functionality      | The code deliverables
+50 (T) | Functionality      | The code deliverables and demos, including assignments and design-challenge projects.
 25 (T) | Documentation      | The weekly documentation checks + advanced features status report
 10 (T) | Presentation       | Final presentation
