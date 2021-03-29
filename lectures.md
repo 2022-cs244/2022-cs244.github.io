@@ -4,7 +4,6 @@ title: Lectures
 permalink: /lectures/
 ---
 
-We will post lecture slides on this page. 
 
 * [Lecture-1-Intro and Logistics](https://drive.google.com/file/d/13IP6xB9J9NyIOwdysxjl7CVtg9rACQKs/view?usp=sharing)
 <!-- * [Lecture-2-P4-Tutorial]({{ site.baseurl }}/lectures/Lecture-2-P4-tutorial.pdf) -->
