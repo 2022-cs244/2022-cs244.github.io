@@ -70,7 +70,7 @@ git clone https://github.com/2021-cs344/p4app.git
 ~/p4app/p4app run ~/p4app/examples/basic.p4app
 ```
 
-Step 4 - Setting Up Your Fork (First Assignment)
+Step 4 - Setting Up Your Fork (First Assignment, Individual)
 ------
 
 * Create a *private* fork of the [2021-cs344/maclearning-exercise](https://github.com/2021-cs344/maclearning-exercise) repo.
