@@ -11,7 +11,7 @@ To reach us quickly, please use the [Slack channel](https://cs344-stanford-2021.
 * Changhoon Kim (TF)
   * Email: [changhoon.kim@stanford.edu](mailto:changhoon.kim@stanford.edu)
   * GitHub: [chkim4142](https://github.com/chkim4142)
-  * Office hours: Thursdays, 8:30am - 9:30am
+  * Office hours: Wednesdays, 3 - 4pm
 
 * Theo Jepsen (TF)
   * Email: [jepsen@stanford.edu](mailto:jepsen@stanford.edu)
