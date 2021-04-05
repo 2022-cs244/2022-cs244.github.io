@@ -16,7 +16,7 @@ To reach us quickly, please use the [Slack channel](https://cs344-stanford-2021.
 * Theo Jepsen (TF)
   * Email: [jepsen@stanford.edu](mailto:jepsen@stanford.edu)
   * GitHub: [theojepsen](https://github.com/theojepsen)
-  * Office hours: Tuesdays, 8:30am - 9:30am
+  * Office hours: Wednesdays, 8:45 - 9:45pm
 
 * Alex Mallery (CA)
   * Email: [amallery@stanford.edu](mailto:amallery@stanford.edu)
