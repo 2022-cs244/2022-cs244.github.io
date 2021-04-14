@@ -93,7 +93,7 @@ permalink: /schedule/
 ## **[Week 5 - Using High-speed Hardware]**
 
 4/26:
-* Interoperability pre-testing in class
+* Interoperability testing with static routers in class
 
 ---
 
@@ -112,7 +112,7 @@ permalink: /schedule/
 ## **[Week 6]**
 
 5/3:
-* Working sessions in class
+* Interoperability testing with PWOSPF routers in class
 
 ---
 
