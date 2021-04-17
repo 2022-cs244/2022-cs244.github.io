@@ -25,11 +25,11 @@ The installation process creates the following three directories in your home di
 
 Before you try to port your router P4 program for Tofino, make sure you try compiling `demo1_tna.p4`, a sample TNA program in the `demos/demo1_tna` directory. Please take a look at `README.md` in that directory, which explains how you can set up the right environment, compile the program, produce a P4 binary file, investigate the compilation results (a.k.a., resource consumption status) using a visualization tool called `p4i`, and finally test the program using the Tofino ASIC model and the control-plane scripts written with the PTF framework.
 
-To know more about Tofino and Intel P4 Studio (including the public API, TNA, terms of license, sample applications, etc.), it may be useful to take a look at Intel's official [github repo](https://github.com/barefootnetworks/Open-Tofino). **__Do NOT share Intel P4 Studio Lite with anyone outside the class or redistribute it.__**. Intel P4 Studio Lite is Intel's product, and hence Intel reserves the sole right to distribute it. CS344 has received a special permission to use it only for the class in 2021.
+To know more about Tofino and Intel P4 Studio (including the public API, TNA, terms of license, sample applications, etc.), it may be useful to take a look at [Intel's official github repo](https://github.com/barefootnetworks/Open-Tofino). _**Do NOT share Intel P4 Studio Lite with anyone outside the class or redistribute it.**_. Intel P4 Studio Lite is Intel's product, and hence Intel reserves the sole right to distribute it. CS344 has received a special permission to use it only for the class in 2021.
 
 # The Assignment
 
-Once you succedeed in following all the steps above, you need to do the followings and submit the results.
+Once you complete the steps above, you need to do the followings and submit the results.
 
 1. Port the P4 program. Modify your existing P4 program for TNA. You'll have to replace BMv2-specific intrinsic metadata with TNA-specific intrinsic metadata. ... Use the new architecture model (find an example TNA program in ...)
 
