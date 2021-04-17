@@ -15,13 +15,15 @@ The main goal of this assignment is 1) porting your existing router P4 program f
 
 # Preparations
 
-You'll use Intel P4 Studio Lite for this assignment. You can find the original P4 Studio Lite package in /home/p4dev/shared_folder/install-bf-sde-9.4.0-lite of the VM you're using for the class. The directory contains README.md, which explains how to install the package on a vanilla Ubuntu machine. Note, however, that we have already installed the package in the VM for you; you won't have to repeat the installation process. The installation process creates the following three directories in your home directory:
+You'll use Intel P4 Studio Lite for this assignment. You can find the original P4 Studio Lite package at `/home/p4dev/shared_folder/install-bf-sde-9.4.0-lite` in the VM you're using for the class. The directory contains `README.md`, which explains how to install the package on a vanilla Ubuntu machine. Note, however, that we have already installed the package in the VM for you; you won't have to repeat the installation process. The installation process creates the following three directories in your home directory:
 
-- bf-sde-9.4.0 - The Intel/Barefoot SDE 9.4.0, lite version.
-- tools - A few scripts that will be useful.
-- demos - Some demo P4 programs written for 
+- `bf-sde-9.4.0` - The Intel/Barefoot SDE 9.4.0, lite version.
+- `tools` - A few scripts that will be useful.
+- `demos` - Some demo P4 programs written for 
 
-Before you try to port your router P4 program, make sure you try compiling demo1_tna.p4, a sample TNA program in the demos/demo1_tna directory. Please take a look at README.md in that directory, which explains how you can set up the right environment, compile the program, produce a P4 binary file, investigate the compilation results (a.k.a., resource consumption status) using a visualization tool called p4i, and test the program using the Tofino ASIC model and PTF framework.
+Before you try to port your router P4 program, make sure you try compiling `demo1_tna.p4`, a sample TNA program in the `demos/demo1_tna` directory. Please take a look at `README.md` in that directory, which explains how you can set up the right environment, compile the program, produce a P4 binary file, investigate the compilation results (a.k.a., resource consumption status) using a visualization tool called p4i, and test the program using the Tofino ASIC model and PTF framework.
+
+You can find .. (https://github.com/barefootnetworks/Open-Tofino).
 
 # What you'll have to complete
 
@@ -43,6 +45,6 @@ Once you have succedeed in following all the steps above, you need to
 - Increase table sizes
 - Implement additional protocols in the data plane. ICMP, ARP, 
 - ECMP
-- Implement programs based on data-plane state (round-robin
+- Implement programs based on data-plane state (round-robin)
 
 
