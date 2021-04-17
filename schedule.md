@@ -122,7 +122,7 @@ permalink: /schedule/
 ---
 
 5/7:
-* **Due by 11:59PM:** [Test with Tofino ASIC Model]({{ site.baseurl }}/deliverables/tofino-model)
+* **Due by 11:59PM:** [Developing and Testing P4 Programs with Tofino]({{ site.baseurl }}/deliverables/tofino-model)
 
 ---
 
