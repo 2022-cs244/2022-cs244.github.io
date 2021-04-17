@@ -23,11 +23,9 @@ The installation process creates the following three directories in your home di
 - `tools` - A few scripts that will be useful.
 - `demos` - Some demo P4 programs written for 
 
-Before you try to port your router P4 program for Tofino, make sure you try compiling `demo1_tna.p4`, a sample TNA program in the `demos/demo1_tna` directory. Please take a look at `README.md` in that directory, which explains how you can set up the right environment, compile the program, produce a P4 binary file, investigate the compilation results (a.k.a., resource consumption status) using a visualization tool called `p4i`, and test the program using the Tofino ASIC model and the PTF framework.
+Before you try to port your router P4 program for Tofino, make sure you try compiling `demo1_tna.p4`, a sample TNA program in the `demos/demo1_tna` directory. Please take a look at `README.md` in that directory, which explains how you can set up the right environment, compile the program, produce a P4 binary file, investigate the compilation results (a.k.a., resource consumption status) using a visualization tool called `p4i`, and finally test the program using the Tofino ASIC model and the control-plane scripts written with the PTF framework.
 
-To know more about Tofino, it may be useful to take a look at Intel's official [github repo](https://github.com/barefootnetworks/Open-Tofino) where they share more info about it .
-
-**__Do NOT share Intel P4 Studio Lite with anyone outside the class by mistake or redistribute it on purpose__**. Intel P4 Studio Lite is Intel's product, and hence Intel reserves the sole right to distribute it. CS344 has received a special permission to use it only for the class.
+To know more about Tofino and Intel P4 Studio (including the public API, TNA, terms of license, sample applications, etc.), it may be useful to take a look at Intel's official [github repo](https://github.com/barefootnetworks/Open-Tofino). **__Do NOT share Intel P4 Studio Lite with anyone outside the class or redistribute it.__**. Intel P4 Studio Lite is Intel's product, and hence Intel reserves the sole right to distribute it. CS344 has received a special permission to use it only for the class in 2021.
 
 # The Assignment
 
@@ -35,13 +33,13 @@ Once you succedeed in following all the steps above, you need to do the followin
 
 1. Port the P4 program. Modify your existing P4 program for TNA. You'll have to replace BMv2-specific intrinsic metadata with TNA-specific intrinsic metadata. ... Use the new architecture model (find an example TNA program in ...)
 
-2. Write a PTF test script to test the P4 program. Use 
+2. Write a PTF test script to test the P4 program. Use ...
 
 3. Enhance your P4 program and test it. You'll need to try at least three out of these four recommendations.
 
 - (Basic) Increase the size of the IP routing table(s) in your router program to as much as possible. 
-- (Advanced) Implement additional protocols in the data plane. ICMP, ARP, 
-- (Advanced) ECMP
-- (Advanced) Implement programs based on data-plane state (round-robin)
+- (Advanced) Implement and test additional protocols in the data plane. ICMP, ARP, 
+- (Advanced) Implement and test ECMP (Equal-Cost Multi-Path) forwarding.
+- (Advanced) Implement and test programs based on data-plane state (round-robin)
 
 Create a directory in the project github, copy your P4 program and test script in that directory, and submit it via git.
