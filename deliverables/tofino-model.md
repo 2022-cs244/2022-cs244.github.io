@@ -23,7 +23,9 @@ The installation process creates the following three directories in your home di
 - `tools` - A few scripts that will be useful.
 - `demos` - Some demo P4 programs written for 
 
-Before you try to port your router P4 program for Tofino, make sure you try compiling `demo1_tna.p4`, a sample TNA program in the `demos/demo1_tna` directory. Please take a look at `README.md` in that directory, which explains how you can set up the right environment, compile the program, produce a P4 binary file, investigate the compilation results (a.k.a., resource consumption status) using a visualization tool called `p4i`, and finally test the program using the Tofino ASIC model and the control-plane scripts written with the PTF framework.
+Before you try to port your router P4 program for Tofino, make sure you try compiling `demo1_tna.p4`, a sample TNA-based P4 program in the `demos/demo1_tna` directory. Please take a look at `README.md` in that directory, which explains how you can set up the right environment, compile the program, produce a P4 binary file, investigate the compilation results (a.k.a., resource consumption status) using a visualization tool called `p4i`, test the program using the Tofino ASIC model and the control-plane scripts written with the PTF framework, and finally debug the program using `bfshell`, a shell-like interface for the Tofino ASIC.
+
+The real implementation of TNA for Tofino1 is available at `bf-sde-9.4.0/install/share/p4c/p4include/tofino1arch.p4`. It'll be useful to take a look at that file and `tofino.p4`, which `tofino1arch.p4` includes.
 
 To know more about Tofino and Intel P4 Studio (including the public API, TNA, terms of license, sample applications, etc.), it may be useful to take a look at [Intel's official github repo](https://github.com/barefootnetworks/Open-Tofino). _**Do NOT share Intel P4 Studio Lite with anyone outside the class or redistribute it.**_. Intel P4 Studio Lite is Intel's product, and hence Intel reserves the sole right to distribute it. CS344 has received a special permission to use it only for the class in 2021.
 
@@ -31,15 +33,15 @@ To know more about Tofino and Intel P4 Studio (including the public API, TNA, te
 
 Once you complete the steps above, you need to do the followings and submit the results.
 
-1. Port the P4 program. Modify your existing P4 program for TNA. You'll have to replace BMv2-specific intrinsic metadata with TNA-specific intrinsic metadata. ... Use the new architecture model (find an example TNA program in ...)
+1. Port your router P4 program by using `demo1_tna.p4` as a baseline. Create a copy of the whole `demos/demo1_tna` directory under `demos`, and modify the files in the replica directory appropriately. More specifically, port the code in your old V1model-based router P4 program into the replica P4 file. When doing so, it'll be helpful if you move your logic from your old P4 program to the new P4 program in a piecemeal fashion because, by doing so, you'll be able to figure out more easily if, when, and why compilation fails with your new P4 program. You'll have to replace all references to V1model-specific intrinsic metadata with TNA-specific intrinsic metadata. You'll also have to use the new module definitions (i.e., the new signatures of all programmable blocks) for all programmable blocks in TNA.
 
-2. Write a PTF test script to test the P4 program. Use ...
+2. Write PTF test scripts to test the P4 program. Again, use the test cases in `demos/demo1_tna/ptf-tests` as a starting point and modify them appropriately for your P4 program.
 
-3. Enhance your P4 program and test it. You'll need to try at least three out of these four recommendations.
+3. Enhance your P4 program and test it. You'll need to try the basic option below and two out of the advanced options.
 
-- (Basic) Increase the size of the IP routing table(s) in your router program to as much as possible. 
-- (Advanced) Implement and test additional protocols in the data plane. ICMP, ARP, 
-- (Advanced) Implement and test ECMP (Equal-Cost Multi-Path) forwarding.
-- (Advanced) Implement and test programs based on data-plane state (round-robin)
+- (Basic) Increase the size of the IP routing table in your router program as much as possible. Report the maximum table size you were able to achieve.
+- (Basic) Implement ICMP echo request and reply (type 8 and 0) in the data plane in P4 and test it by augmenting the test scripts.
+- (Advanced) Implement and test ECMP (Equal-Cost Multi-Path) forwarding. You'll have to use special TNA externs called `ActionProfile` and `ActionSelector`.
+- (Advanced) Implement and test a variant of ECMP that uses data-plane state to make a next-hop decision (e.g., round-robin).
 
-Create a directory in the project github, copy your P4 program and test script in that directory, and submit it via git.
+Create a new directory in the project github, name it `tofino_router`, copy your P4 program and test script in that directory, and submit it via git.
