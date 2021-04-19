@@ -37,11 +37,13 @@ Once you complete the steps above, you need to do the followings and submit the 
 
 2. Write PTF test scripts to test the P4 program. Again, use the test cases in `demos/demo1_tna/ptf-tests` as a starting point and modify them appropriately for your P4 program.
 
-3. Enhance your P4 program and test it. You'll need to try the basic option below and two out of the advanced options.
+3. Enhance your P4 program and test it. You'll need to try both the basic tasks below. The advanced tasks are optional; you'll get extra credits for completing any or both of these.
 
 - (Basic) Increase the size of the IP routing table in your router program as much as possible. Report the maximum table size you were able to achieve.
 - (Basic) Implement ICMP echo request and reply (type 8 and 0) in the data plane in P4 and test it by augmenting the test scripts.
 - (Advanced) Implement and test ECMP (Equal-Cost Multi-Path) forwarding. You'll have to use special TNA externs called `ActionProfile` and `ActionSelector`.
 - (Advanced) Implement and test a variant of ECMP that uses data-plane state to make a next-hop decision (e.g., round-robin).
+
+# How To Submit
 
 Create a new directory in the project github, name it `tofino_router`, copy your P4 program and test script in that directory, and submit it via git.
