@@ -11,5 +11,7 @@ permalink: /lectures/
 * [Lecture-4-Chang-Kim-BFN](https://drive.google.com/file/d/1yPPpW2_Mpz_TEUZ6837QynP9Kv8wmqI0/view?usp=sharing)
 * [Lecture-5-P4Runtime-PWOSPF](https://docs.google.com/presentation/d/1AEEkEoJsFDIosmqMO8vrIygjTqiskTnJAVTxWaSZxwI/edit?usp=sharing)
 * [Lecture-6-Network-Monitoring-and-INT](https://drive.google.com/file/d/13UrCqIuIxaXO22AfBHOPY-pbb3itk5Ev/view?usp=sharing)
+* [Lecture-7-Compute-Acceleration1-NetCache-and-SwitchML](https://drive.google.com/file/d/15aMwVQXpklFa2fbrevVWVD0nhJCqXCIM/view?usp=sharing)
+* [Lecture-7-Compute-Acceleration2-NetGrep](https://docs.google.com/presentation/d/1XGSBrLqaCY4mqJKOHPUOmYdL3Id1_cjJUJ8gudLdLdc/edit?usp=sharing)
 
 
