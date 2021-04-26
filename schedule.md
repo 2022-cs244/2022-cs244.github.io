@@ -103,9 +103,8 @@ permalink: /schedule/
 
 ---
 
-4/30:
+4/29:
 * **Due by 11:59PM:** [PWOSPF Router Baseline Tests]({{ site.baseurl }}/deliverables/pwospf-router)
-* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
 
 ---
 
@@ -121,9 +120,11 @@ permalink: /schedule/
 
 ---
 
-5/7:
+5/6:
 * **Due by 11:59PM:** [Developing and Testing P4 Programs with Tofino]({{ site.baseurl }}/deliverables/tofino-model)
 
+5/8:
+* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
 ---
 
 ## **[Week 7]**
@@ -151,7 +152,7 @@ permalink: /schedule/
 
 ---
 
-5/21:
+5/20:
 * **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
 
 ## **[Week 9]**
