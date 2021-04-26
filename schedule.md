@@ -125,6 +125,7 @@ permalink: /schedule/
 
 5/8:
 * **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
+
 ---
 
 ## **[Week 7]**
