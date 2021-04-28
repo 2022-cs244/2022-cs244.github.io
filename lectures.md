@@ -13,5 +13,4 @@ permalink: /lectures/
 * [Lecture 6: Network Monitoring and INT](https://drive.google.com/file/d/13UrCqIuIxaXO22AfBHOPY-pbb3itk5Ev/view?usp=sharing)
 * [Lecture 7-1: Compute Acceleration - NetCache and SwitchML](https://drive.google.com/file/d/15aMwVQXpklFa2fbrevVWVD0nhJCqXCIM/view?usp=sharing)
 * [Lecture 7-2: Compute Acceleration - NetGrep](https://docs.google.com/presentation/d/1XGSBrLqaCY4mqJKOHPUOmYdL3Id1_cjJUJ8gudLdLdc/edit?usp=sharing)
-
-
+* [Lecture 8: Developing Programs for Tofino](https://drive.google.com/file/d/1LvtflQNHGE1lZq7UXV30iEjww4S8Kjqy/view?usp=sharing)
