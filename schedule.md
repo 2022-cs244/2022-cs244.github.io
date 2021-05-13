@@ -143,8 +143,7 @@ permalink: /schedule/
 ## **[Week 8]**
 
 5/17:
-* Lecture 9 Topics:
-    * NanoPU (Guest Lecture by Steve Ibanez)   
+* Working serssions in class
 
 ---
 
@@ -160,7 +159,8 @@ permalink: /schedule/
 
 
 5/24:
-* Working sessions in class
+* Lecture 9 Topics:
+    * NanoPU (Guest Lecture by Steve Ibanez)   
 
 ---
 
