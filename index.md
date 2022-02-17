@@ -4,7 +4,7 @@ layout: default
 
 # Time and Location
 
-**Term:** Spring 2021
+**Term:** Spring 2022
 
 **Lectures:** 
    * Monday/Wednesday 8:30AM - 9:50AM
