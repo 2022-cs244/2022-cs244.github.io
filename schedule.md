@@ -22,28 +22,28 @@ permalink: /schedule/
     * Architecture and Principles
 * Papers:
     * The Design Philosophy of the DARPA Internet Protocols, D. D. Clark
-    * A Brief History of the Internet (Optional), B. Leiner, V. Cerf, D. Clark, R. Kahn, L. Kleinrock, D. Lynch, J. Postel, L. Roberts, S. Wolff
+    * A Brief History of the Internet (Optional), B. Leiner, et al.
     * On Distributed Communications Networks (Optional), P. Baran
  
 ---
 
-4/2:
-* **Due by 11:59 PM:** [Getting Started]({{ site.baseurl }}/deliverables/getting-started)
+## **[Week 2]**
 
----
-
-## **[Week 2 - Software and Hardware Switches]**
-
-4/5:
+4/4:
+* Speaker: Chang [slides]
 * Lecture 3 Topics:
-    * BMv2 in Mininet
-    * p4c and p4app
+    * Architecture and Principles II
+* Papers:
+    * End-to-End Arguments in System Design, J. H. Saltzer, D. P. Reed, D. D. Clark
 
 ---
 
-4/7:
+4/6:
+* Speaker: Nick Mckeown [slides]
 * Lecture 4 Topics:
-    * PISA and Tofino
+    * Switching Theory
+* Papers:
+    * High-speed Switch Scheduling for Local-area Networks, T. Anderson et al.  
 
 ---
 
@@ -52,16 +52,21 @@ permalink: /schedule/
 
 ---
 
-## **[Week 3 - Integrating with Control Plane]**
+## **[Week 3]**
 
-4/12:
+4/11:
+* Speaker: Nandita Dukkipati [slides]
 * Lecture 5 Topics:
-    * P4RT and PWOSPF
+    * Congestion Control
+* Papers:
 
 ---
 
-4/14:
-* Interoperability test planning in class
+4/13:
+* Speaker: Chang [slides]
+* Lecture 6 Topics:
+    * Datacenter Networking
+* Papers:
 
 ---
 
@@ -70,7 +75,7 @@ permalink: /schedule/
 
 ---
 
-## **[Week 4 - Advanced Use Cases]**
+## **[Week 4]**
 
 4/19:
 * Lecture 6 Topics:
