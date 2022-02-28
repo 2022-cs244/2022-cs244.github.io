@@ -33,7 +33,7 @@ The goals for this class are:
 
 # Schedule and Papers
 
-[Weekly schedule](schedule)
+[Weekly schedule]({{ site.baseurl }}/schedule)
 
 # Organization
 
