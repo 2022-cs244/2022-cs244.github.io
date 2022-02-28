@@ -2,7 +2,7 @@
 layout: default
 ---
 
-CS244 is a graduate course in computer networks. In this class we'll explore the principles and design decisions which underly the Internet. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.
+CS244 is a graduate course in computer networks. In this class we'll explore the principles and design decisions which underly some of the most critical networking infrastructure of our age, including the Internet and the datacenter networks. We'll explore the pros and cons of the current design, and give some thought to how we can make these networks better in future.
 
 The goals for this class are:
 
@@ -14,7 +14,7 @@ The goals for this class are:
 
 # Course Information
 
-**Professor**: Chang Kim
+**Professor**: Changhoon Kim
 
 **TA**: Sundararajan Renganathan
 
@@ -29,7 +29,7 @@ The goals for this class are:
 
 **Assignments**: All course assignments will be published on Canvas and follow instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
 
-**Prerequisites**: This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We suggest taking [CS 144](https://cs144.github.io/){:target="_blank"}, EE 284, or equivalent. For a refresher, you could look at the textbook “Computer Networking: A Top-Down Approach” by J. Kurose and K. Ross or “Computer Networks: A Systems Approach” by L. Peterson and B. Davie.
+**Prerequisites**: This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We strongly suggest taking [CS 144](https://cs144.github.io/){:target="_blank"}, EE 284, or equivalent. For a refresher, you could look at the textbook “Computer Networking: A Top-Down Approach” by J. Kurose and K. Ross or “Computer Networks: A Systems Approach” by L. Peterson and B. Davie.
 
 # Schedule and Papers
 
@@ -55,7 +55,7 @@ There are prompts on Canvas to help frame your critique. As you read the paper, 
 
 Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class.
 
-You may be sick, have to take some time to deal with family or personal matters, may have internet problems, and so on. We will excuse absences, but please let us know about them in advance or as soon possible afterwards. If there's anything we can do to help you or accomodate your learning, please let us know!
+You may be sick, have to take some time to deal with family or personal matters, may have problems with other classes, and so on. We will excuse absences, but please let us know about them in advance or as soon possible afterwards. If there's anything we can do to help you or accomodate your learning, please let us know!
 
 # Programming Assignments
 
