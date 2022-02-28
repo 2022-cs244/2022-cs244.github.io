@@ -19,12 +19,16 @@ permalink: /schedule/
 3/30:
 * Speaker: Chang [slides]
 * Lecture 2 Topics:
-    * Architecture and Principles
+    * Architecture and Principles I
 * Papers:
     * The Design Philosophy of the DARPA Internet Protocols, D. D. Clark
     * A Brief History of the Internet (Optional), B. Leiner, et al.
     * On Distributed Communications Networks (Optional), P. Baran
- 
+
+---
+
+* [Assignment 1.1 released]({{ site.baseurl }}/deliverables/tutorial-exercises) ** Due Apr/20, Monday, 11:59pm. **
+
 ---
 
 ## **[Week 2]**
@@ -47,11 +51,6 @@ permalink: /schedule/
 
 ---
 
-4/8:
-* **Due by 11:59PM:** [P4 Tutorial and MAC Learning Exercise]({{ site.baseurl }}/deliverables/tutorial-exercises)
-
----
-
 ## **[Week 3]**
 
 4/11:
@@ -70,113 +69,37 @@ permalink: /schedule/
 
 ---
 
-4/15:
-* **Due by 11:59PM:** [Interoperability test proposal (one document from entire class)]({{ site.baseurl }}/deliverables/interoperability-proposal)
-
----
-
 ## **[Week 4]**
 
-4/19:
-* Lecture 6 Topics:
-    * Network Monitoring (Guest lecture by JK Lee)
-
----
-
-4/21:
+4/18:
+* Speaker: Chang [slides]
 * Lecture 7 Topics:
-    * Compute Acceleration
+    * SDN
+* Papers:
 
 ---
 
-4/22:
-* **Due by 11:59PM:** [Static Router Baseline Tests]({{ site.baseurl }}/deliverables/static-router)
-
----
-
-## **[Week 5 - Using High-speed Hardware]**
-
-4/26:
-* Interoperability testing with static routers in class
-
----
-
-4/28:
+4/20:
+* Speaker: Sundararajan [slides]
 * Lecture 8 Topics:
-    * Developing and testing P4 programs with Tofino (Guest lecture by Georgios Nikolaidis)
+    * Programmable Forwarding
+* Papers:
 
 ---
 
-4/29:
-* **Due by 11:59PM:** [PWOSPF Router Baseline Tests]({{ site.baseurl }}/deliverables/pwospf-router)
+## **[Week 5]**
+
+4/25:
+* Speaker: Parveen Patel [slides]
+* Lecture 9 Topics: 
+    * Host Networking    
+* Papers:
 
 ---
 
-## **[Week 6]**
-
-5/3:
-* Interoperability testing with PWOSPF routers in class
-
----
-
-5/5:
-* Working sessions in class
-
----
-
-5/6:
-* **Due by 11:59PM:** [Developing and Testing P4 Programs with Tofino]({{ site.baseurl }}/deliverables/tofino-model)
-
-5/8:
-* **Due by 11:59PM:** [Proposal for design challenge project]({{ site.baseurl }}/deliverables/design-challenge)
-
----
-
-## **[Week 7]**
-
-5/10:
-* Working sessions in class
-
----
-
-5/12:
-* Working sessions in class
-
----
-
-## **[Week 8]**
-
-5/17:
-* Working serssions in class
-
----
-
-5/19:
-* Working sessions in class
-
----
-
-5/20:
-* **Due by 11:59PM:** [Design challenge progress report]({{ site.baseurl }}/deliverables/progress-report)
-
-## **[Week 9]**
-
-
-5/24:
-* Lecture 9 Topics:
-    * NanoPU (Guest Lecture by Steve Ibanez)   
-
----
-
-5/26:
-* Working sessions in class
-
----
-
-## **[Week 10]**
-
-6/2:
-* [Final demonstrations and presentations]({{ site.baseurl }}/deliverables/final-demo)
-
-
+4/27:
+* Speaker: Bruce Spang [slides]
+* Lecture 10 Topics:
+    * Switch Buffer Sizing
+* Papers:
 
