@@ -4,28 +4,27 @@ title: Schedule
 permalink: /schedule/
 ---
 
-## **[Week 1 - Introduction]**
+## **[Week 1]**
 
-3/29:
-* Lecture 1 Topics:
+3/28:
+* Speaker: Chang [slides]
+* Lecture 1 Topics:    
     * Intro to class
     * Logistics and administration
-
-
-* **Due by 11:59 PM:** [Course Application](https://docs.google.com/forms/d/1evWweqRZRIBPiKKT9XZBgMipggjUjXx2QsqYZxBKcQg) 
+* Papers: 
+    * How To Read A Paper (optional), S. Keshav.
 
 ---
 
 3/30:
-* Instructors will send out application results by 5PM
-
----
-
-3/31:
+* Speaker: Chang [slides]
 * Lecture 2 Topics:
-    * P4 introduction and motivation
-    * P4 language overview and coding exercises
-
+    * Architecture and Principles
+* Papers:
+    * The Design Philosophy of the DARPA Internet Protocols, D. D. Clark
+    * A Brief History of the Internet (Optional), B. Leiner, V. Cerf, D. Clark, R. Kahn, L. Kleinrock, D. Lynch, J. Postel, L. Roberts, S. Wolff
+    * On Distributed Communications Networks (Optional), P. Baran
+ 
 ---
 
 4/2:
