@@ -14,7 +14,7 @@ The goals for this class are:
 
 # Course Information
 
-**Professor**: Changhoon Kim
+**Professor**: Changhoon Kim, changhoon.kim@stanford.edu 
 
 **TA**: Sundararajan Renganathan
 
