@@ -33,7 +33,7 @@ The goals for this class are:
 
 # Schedule and Papers
 
-TBD.
+[Weekly schedule](schedule)
 
 # Organization
 
