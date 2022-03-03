@@ -103,3 +103,86 @@ permalink: /schedule/
     * Switch Buffer Sizing
 * Papers:
 
+---
+
+## **[Week 6]**
+
+5/2:
+* Speaker: JK Lee [slides]
+* Lecture 11 Topics: 
+    * Measurement and Monitoring
+* Papers:
+
+---
+
+5/4:
+* Speaker: Nate Foster [slides]
+* Lecture 12 Topics:
+    * Programming Languages for Networking
+* Papers:
+
+---
+
+## **[Week 7]**
+
+5/9:
+* Speaker: Chang [slides]
+* Lecture 13 Topics: 
+    * Edge Networking
+* Papers:
+
+---
+
+5/11:
+* Speaker: Stephen Ibanez and Theo Jepsen [slides]
+* Lecture 14 Topics:
+    * Super-low Latency Networking
+* Papers:
+
+---
+
+## **[Week 8]**
+
+5/16:
+* Speaker: Keith Winstein [slides]
+* Lecture 15 Topics: 
+    * ML for Networking I
+* Papers:
+
+---
+
+5/18:
+* Speaker: Keith Winstein [slides]
+* Lecture 16 Topics:
+    * ML for Networking II
+* Papers:
+
+---
+
+## **[Week 9]**
+
+5/23:
+* Speaker: Sachin Katti [slides]
+* Lecture 17 Topics: 
+    * Wirelss Networking I
+* Papers:
+
+---
+
+5/25:
+* Speaker: Sachin Katti [slides]
+* Lecture 18 Topics:
+    * Wireless Networking II
+* Papers:
+
+---
+
+## **[Week 10]**
+
+5/30:
+* Final Project Presentations by students
+
+---
+
+6/1:
+* Finale Reports Due (no class)
