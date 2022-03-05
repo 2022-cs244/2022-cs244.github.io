@@ -67,7 +67,7 @@ permalink: /schedule/
     * Datacenter Networking
 * Papers:
     * VL2: A Scalable and Flexible Data Center Network, A. Greenberg, et al.
-    * TBD
+    * EyeQ: Practical Network Performance Isolation at the Edge, V. Jeyakumar, et al.
 
 ---
 
