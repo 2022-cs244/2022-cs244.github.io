@@ -38,7 +38,7 @@ permalink: /schedule/
 * Lecture 3 Topics:
     * Architecture and Principles II
 * Papers:
-    * End-to-End Arguments in System Design, J. H. Saltzer, D. P. Reed, D. D. Clark
+    * End-to-End Arguments in System Design, J. H. Saltzer, et al.
 
 ---
 
@@ -57,7 +57,7 @@ permalink: /schedule/
 * Speaker: Nandita Dukkipati [slides]
 * Lecture 5 Topics:
     * Congestion Control
-* Papers:
+* Papers: TBD
 
 ---
 
@@ -66,6 +66,8 @@ permalink: /schedule/
 * Lecture 6 Topics:
     * Datacenter Networking
 * Papers:
+    * VL2: A Scalable and Flexible Data Center Network, A. Greenberg, et al.
+    * TBD
 
 ---
 
@@ -76,6 +78,9 @@ permalink: /schedule/
 * Lecture 7 Topics:
     * SDN
 * Papers:
+    * OpenFlow: Enabling Innovation in Campus Networks, N. McKeown, et al.
+    * Network Virtualization in Multi-tenant Datacenters, T. Koponen et al.
+    * From Ethane to SDN and Beyond (Optional), M. Casado, et al.
 
 ---
 
@@ -83,7 +88,7 @@ permalink: /schedule/
 * Speaker: Sundararajan [slides]
 * Lecture 8 Topics:
     * Programmable Forwarding
-* Papers:
+* Papers: TBD
 
 ---
 
@@ -102,6 +107,8 @@ permalink: /schedule/
 * Lecture 10 Topics:
     * Switch Buffer Sizing
 * Papers:
+    * Sizing Router Buffers, G. Appenzeller et al.
+    * Sizing Router Buffers -- Redux, McKeown et al. 
 
 ---
 
@@ -112,6 +119,9 @@ permalink: /schedule/
 * Lecture 11 Topics: 
     * Measurement and Monitoring
 * Papers:
+    * LightGuardian: A Full-Visibility, Lightweight, In-band Telemetry System Using Sketchlets, Y. Zhao, et al.
+    * Flow Event Telemetry on Programmable Data Plane, Y. Zhou, et al.  
+    * HPCC: High Precision Congestion Control (Optional), Y. Li, et al.
 
 ---
 
@@ -120,6 +130,8 @@ permalink: /schedule/
 * Lecture 12 Topics:
     * Programming Languages for Networking
 * Papers:
+    * Header Space Analysis: Static Checking for Networks, P. Kazemian, et al.
+    * NetKAT: Semantic Foundations for Networks, C. Anderson, et al.
 
 ---
 
@@ -148,6 +160,9 @@ permalink: /schedule/
 * Lecture 15 Topics: 
     * ML for Networking I
 * Papers:
+    * TCP ex machina: Computer-generated Congestion Control, K. Winstein, et al.
+    * Neural Adaptive Video Streaming with Pensieve, H. Mao, et al. 
+    * An Experimental Study of the Learnability of Congestion Control (Optional), A. Sivaraman, et al.
 
 ---
 
@@ -156,6 +171,8 @@ permalink: /schedule/
 * Lecture 16 Topics:
     * ML for Networking II
 * Papers:
+    * Pantheon: The Training Ground for Internet Congestion-control Research, F. Yan, et al.
+    * Learning in situ: A Randomized Experiment in Video Streaming, F. Yan, et al.
 
 ---
 
@@ -165,7 +182,7 @@ permalink: /schedule/
 * Speaker: Sachin Katti [slides]
 * Lecture 17 Topics: 
     * Wirelss Networking I
-* Papers:
+* Papers: TBD
 
 ---
 
@@ -173,7 +190,7 @@ permalink: /schedule/
 * Speaker: Sachin Katti [slides]
 * Lecture 18 Topics:
     * Wireless Networking II
-* Papers:
+* Papers: TBD
 
 ---
 
