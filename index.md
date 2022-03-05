@@ -14,7 +14,7 @@ The goals for this class are:
 
 # Course Information
 
-**Professor**: Changhoon Kim, changhoon.kim@stanford.edu 
+**Professor**: Changhoon Kim, changhoon.kim@stanford.edu, Gates 433
 
 **TA**: Sundararajan Renganathan, rsundar@stanford.edu
 
@@ -22,7 +22,7 @@ The goals for this class are:
 
 **Office Hours**: 
 
-* Chang: TBD
+* Chang: Wed, 1:30pm - 2:30pm
 * Sundararajan: TBD
 
 **Communication**: We use Slack for discussion. We will share the link later.
