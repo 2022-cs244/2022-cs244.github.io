@@ -99,7 +99,9 @@ permalink: /schedule/
 * Lecture 9 Topics: 
     * Host Networking    
 * Papers:
-
+    * Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization, M. Dalton, et al.
+    * Azure Accelerated Networking: SmartNICs in the Public Cloud, D. Firestone, et al.
+    * VFP: A Virtual Switch Platform for Host SDN in The Public Cloud (Optional), D. Firestone, et al.
 ---
 
 4/27:
@@ -142,7 +144,8 @@ permalink: /schedule/
 * Lecture 13 Topics: 
     * Edge Networking
 * Papers:
-
+    * Taking the Edge off with Espresso: Scale, Reliability and Programmability for Global Internet Peering, K.K. Yap, et al.
+ 
 ---
 
 5/11:
@@ -150,6 +153,8 @@ permalink: /schedule/
 * Lecture 14 Topics:
     * Super-low Latency Networking
 * Papers:
+    * The nanoPU: A Nanosecond Network Stack for Datacenters, S. Ibanez, et al.
+    * NanoSort, T. Jepsen, et al.
 
 ---
 
