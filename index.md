@@ -71,7 +71,7 @@ If you have extenuating circumstances that result in an assignment being late, p
 
 # Exam (Optional)
 
-As part of final projects, we might ask all or some students to take a short oral examination, and that will be in addition to their final presentation. If we think we'll have to do oral exams, we'll announce it by end of Week 8. The oral examination will cover the subject matter related to each student's final project.
+We might ask all or some students to take a short oral examination as part of their final projects, and that will be in addition to their final presentation. If we think we'll have to do oral exams, we'll announce it by end of Week 8. The oral examination will cover the subject matter related to each student's final project.
 
 # Grading Policy
 
