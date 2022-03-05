@@ -16,7 +16,7 @@ The goals for this class are:
 
 **Professor**: Changhoon Kim, changhoon.kim@stanford.edu 
 
-**TA**: Sundararajan Renganathan
+**TA**: Sundararajan Renganathan, rsundar@stanford.edu
 
 **Lectures**: Monday/Wednesday 11:30AM - 1PM in person
 
@@ -25,9 +25,9 @@ The goals for this class are:
 * Chang: TBD
 * Sundararajan: TBD
 
-**Communication**: We use Piazza for discussion. We will share the link later.
+**Communication**: We use Slack for discussion. We will share the link later.
 
-**Assignments**: All course assignments will be published on Canvas and follow instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
+**Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
 
 **Prerequisites**: This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We strongly suggest taking [CS 144](https://cs144.github.io/){:target="_blank"}, EE 284, or equivalent. For a refresher, you could look at the textbook “Computer Networking: A Top-Down Approach” by J. Kurose and K. Ross or “Computer Networks: A Systems Approach” by L. Peterson and B. Davie.
 
@@ -69,15 +69,14 @@ You have one free 24 hour extension for either the programming assignment or fin
 
 If you have extenuating circumstances that result in an assignment being late, please let us know about them as soon as possible.
 
-# Exam
+# Exam (Optional)
 
-There will be one midterm exam. We will release a practice exam later in the quarter. The exam will test your understanding of papers and topics covered so far in the class.
+As part of final projects, we might ask all or some students to take a short oral examination, and that will be in addition to their final presentation. If we think we'll have to do oral exams, we'll announce it by end of Week 8. The oral examination will cover the subject matter related to each student's final project.
 
 # Grading Policy
 
 * 15% Paper Critiques
-* 15% In-class Participation
-* 10% Programming Assignment 1
-* 10% Programming Assignment 2
-* 20% Midterm
-* 30% Final Project
+* 20% In-class Participation
+* 15% Programming Assignment 1
+* 15% Programming Assignment 2
+* 35% Final Project
