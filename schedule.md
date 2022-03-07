@@ -58,6 +58,8 @@ permalink: /schedule/
 * Lecture 5 Topics:
     * Congestion Control
 * Papers: TBD
+    * Congestion Avoidance and Control (https://ee.lbl.gov/papers/congavoid.pdf)
+    * Swift: Delay is Simple and Effective for Congestion Control in the Datacenter (https://research.google/pubs/pub49448/)
 
 ---
 
@@ -179,7 +181,7 @@ permalink: /schedule/
     * ML for Networking II
 * Papers:
     * Pantheon: The Training Ground for Internet Congestion-control Research, F. Yan, et al.
-    * Learning in situ: A Randomized Experiment in Video Streaming, F. Yan, et al.
+    * Learning In Situ: A Randomized Experiment in Video Streaming, F. Yan, et al.
 
 ---
 
