@@ -12,7 +12,7 @@ permalink: /schedule/
     * Intro to class
     * Logistics and administration
 * Papers: 
-    * How To Read A Paper (optional), S. Keshav.
+    * [How To Read A Paper (optional)]({{ site.baseurl }}/papers/L1-how-to-read.pdf), S. Keshav.
 
 ---
 
@@ -21,9 +21,9 @@ permalink: /schedule/
 * Lecture 2 Topics:
     * Architecture and Principles I
 * Papers:
-    * The Design Philosophy of the DARPA Internet Protocols, D. D. Clark
-    * A Brief History of the Internet (Optional), B. Leiner, et al.
-    * On Distributed Communications Networks (Optional), P. Baran
+    * [The Design Philosophy of the DARPA Internet Protocols]({{ site.baseurl }}/papers/L2-ccr-9501-clark.pdf), D. D. Clark
+    * [A Brief History of the Internet (Optional)]({{ site.baseurl }}/papers/L2-brief-history.pdf), B. Leiner, et al.
+    * [On Distributed Communications Networks (Optional)]({{ site.baseurl }}/papers/L2-distributed-communications-networks.pdf), P. Baran
 
 ---
 
@@ -38,7 +38,7 @@ permalink: /schedule/
 * Lecture 3 Topics:
     * Architecture and Principles II
 * Papers:
-    * End-to-End Arguments in System Design, J. H. Saltzer, et al.
+    * [End-to-End Arguments in System Design]({{ site.baseurl }}/papers/L3-end2end.pdf), J. H. Saltzer, et al.
 
 ---
 
@@ -47,7 +47,7 @@ permalink: /schedule/
 * Lecture 4 Topics:
     * Switching Theory
 * Papers:
-    * High-speed Switch Scheduling for Local-area Networks, T. Anderson et al.  
+    * [High-speed Switch Scheduling for Local-area Networks]({{ site.baseurl }}/papers/L4-high-speed-switch-scheduling.pdf), T. Anderson et al.  
 
 ---
 
@@ -58,8 +58,8 @@ permalink: /schedule/
 * Lecture 5 Topics:
     * Congestion Control
 * Papers: TBD
-    * Congestion Avoidance and Control (https://ee.lbl.gov/papers/congavoid.pdf)
-    * Swift: Delay is Simple and Effective for Congestion Control in the Datacenter (https://research.google/pubs/pub49448/)
+    * [Congestion Avoidance and Control]({{ site.baseurl }}/papers/L5-congavoid.pdf), V. Jacobson, et al.
+    * [Swift: Delay is Simple and Effective for Congestion Control in the Datacenter]({{ site.baseurl }}/papers/L5-swift.pdf), G. Kumar, et al.
 
 ---
 
@@ -68,8 +68,8 @@ permalink: /schedule/
 * Lecture 6 Topics:
     * Datacenter Networking
 * Papers:
-    * VL2: A Scalable and Flexible Data Center Network, A. Greenberg, et al.
-    * EyeQ: Practical Network Performance Isolation at the Edge, V. Jeyakumar, et al.
+    * [VL2: A Scalable and Flexible Data Center Network]({{ site.baseurl }}/papers/L6-vl2.pdf), A. Greenberg, et al.
+    * [EyeQ: Practical Network Performance Isolation at the Edge]({{ site.baseurl }}/papers/L6-eyeq.pdf), V. Jeyakumar, et al.
 
 ---
 
@@ -80,9 +80,9 @@ permalink: /schedule/
 * Lecture 7 Topics:
     * SDN
 * Papers:
-    * OpenFlow: Enabling Innovation in Campus Networks, N. McKeown, et al.
-    * Network Virtualization in Multi-tenant Datacenters, T. Koponen et al.
-    * From Ethane to SDN and Beyond (Optional), M. Casado, et al.
+    * [OpenFlow: Enabling Innovation in Campus Networks]({{ site.baseurl }}/papers/L7-openflow.pdf), N. McKeown, et al.
+    * [Network Virtualization in Multi-tenant Datacenters]({{ site.baseurl }}/papers/L7-net-virt.pdf), T. Koponen et al.
+    * [From Ethane to SDN and Beyond (Optional)]({{ site.baseurl }}/papers/L7-ethane_to_sdn_and_beyond.pdf), M. Casado, et al.
 
 ---
 
@@ -90,7 +90,10 @@ permalink: /schedule/
 * Speaker: Sundararajan [slides]
 * Lecture 8 Topics:
     * Programmable Forwarding
-* Papers: TBD
+* Papers:
+    * [Forwarding Metamorphosis: Fast Programmable Match-Action Processing in Hardware for SDN]({{ site.baseurl }}/papers/L8-sdn-chip-sigcomm-2013.pdf), P. Bosshart, et al.
+    * [NetCache: Balancing Key-Value Stores with Fast In-Network Caching]({{ site.baseurl }}/papers/L8-netcache.pdf), X. Jin, et al.
+    * [P4: Programming Protocol-Independent Packet Processors (Optional)]({{ site.baseurl }}/papers/L8-P4.pdf), P. Bosshart, et al.
 
 ---
 
@@ -101,9 +104,9 @@ permalink: /schedule/
 * Lecture 9 Topics: 
     * Host Networking    
 * Papers:
-    * Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization, M. Dalton, et al.
-    * Azure Accelerated Networking: SmartNICs in the Public Cloud, D. Firestone, et al.
-    * VFP: A Virtual Switch Platform for Host SDN in The Public Cloud (Optional), D. Firestone, et al.
+    * [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization]({{ site.baseurl }}/papers/L9-andromeda.pdf), M. Dalton, et al.
+    * [Azure Accelerated Networking: SmartNICs in the Public Cloud]({{ site.baseurl }}/papers/L9-accelnet.pdf), D. Firestone, et al.
+    * [VFP: A Virtual Switch Platform for Host SDN in The Public Cloud (Optional)]({{ site.baseurl }}/papers/L9-vfp.pdf), D. Firestone, et al.
 
 
 ---
@@ -113,8 +116,8 @@ permalink: /schedule/
 * Lecture 10 Topics:
     * Switch Buffer Sizing
 * Papers:
-    * Sizing Router Buffers, G. Appenzeller et al.
-    * Sizing Router Buffers -- Redux, McKeown et al. 
+    * [Sizing Router Buffers]({{ site.baseurl }}/papers/L10-buffer-sizing.pdf), G. Appenzeller et al.
+    * [Sizing Router Buffers -- Redux]({{ site.baseurl }}/papers/L10-buffer-sizing-redux.pdf), McKeown et al. 
 
 ---
 
@@ -125,9 +128,9 @@ permalink: /schedule/
 * Lecture 11 Topics: 
     * Measurement and Monitoring
 * Papers:
-    * LightGuardian: A Full-Visibility, Lightweight, In-band Telemetry System Using Sketchlets, Y. Zhao, et al.
-    * Flow Event Telemetry on Programmable Data Plane, Y. Zhou, et al.  
-    * HPCC: High Precision Congestion Control (Optional), Y. Li, et al.
+    * [LightGuardian: A Full-Visibility, Lightweight, In-band Telemetry System Using Sketchlets]({{ site.baseurl }}/papers/L11-lightguardian.pdf), Y. Zhao, et al.
+    * [Flow Event Telemetry on Programmable Data Plane]({{ site.baseurl }}/papers/L11-fet.pdf), Y. Zhou, et al.  
+    * [HPCC: High Precision Congestion Control (Optional)]({{ site.baseurl }}/papers/L11-hpcc.pdf), Y. Li, et al.
 
 ---
 
@@ -136,8 +139,8 @@ permalink: /schedule/
 * Lecture 12 Topics:
     * Programming Languages for Networking
 * Papers:
-    * Header Space Analysis: Static Checking for Networks, P. Kazemian, et al.
-    * NetKAT: Semantic Foundations for Networks, C. Anderson, et al.
+    * [Header Space Analysis: Static Checking for Networks]({{ site.baseurl }}/papers/L12-hsa.pdf), P. Kazemian, et al.
+    * [NetKAT: Semantic Foundations for Networks]({{ site.baseurl }}/papers/L12-frenetic-netkat.pdf), C. Anderson, et al.
 
 ---
 
@@ -148,7 +151,7 @@ permalink: /schedule/
 * Lecture 13 Topics: 
     * Edge Networking
 * Papers:
-    * Taking the Edge off with Espresso: Scale, Reliability and Programmability for Global Internet Peering, K.K. Yap, et al.
+    * [Taking the Edge off with Espresso: Scale, Reliability and Programmability for Global Internet Peering]({{ site.baseurl }}/papers/L13-espresso.pdf), K.K. Yap, et al.
  
 ---
 
@@ -157,7 +160,7 @@ permalink: /schedule/
 * Lecture 14 Topics:
     * Super-low Latency Networking
 * Papers:
-    * The nanoPU: A Nanosecond Network Stack for Datacenters, S. Ibanez, et al.
+    * [The nanoPU: A Nanosecond Network Stack for Datacenters]({{ site.baseurl }}/papers/L14-nanopu.pdf), S. Ibanez, et al.
     * NanoSort, T. Jepsen, et al.
 
 ---
@@ -169,9 +172,9 @@ permalink: /schedule/
 * Lecture 15 Topics: 
     * ML for Networking I
 * Papers:
-    * TCP ex machina: Computer-generated Congestion Control, K. Winstein, et al.
-    * Neural Adaptive Video Streaming with Pensieve, H. Mao, et al. 
-    * An Experimental Study of the Learnability of Congestion Control (Optional), A. Sivaraman, et al.
+    * [TCP ex machina: Computer-generated Congestion Control]({{ site.baseurl }}/papers/L15-TCP-ex-machina.pdf), K. Winstein, et al.
+    * [Neural Adaptive Video Streaming with Pensieve]({{ site.baseurl }}/papers/L15-pensieve.pdf), H. Mao, et al. 
+    * [An Experimental Study of the Learnability of Congestion Control (Optional)]({{ site.baseurl }}/papers/L15-learnability.pdf), A. Sivaraman, et al.
 
 ---
 
@@ -180,8 +183,8 @@ permalink: /schedule/
 * Lecture 16 Topics:
     * ML for Networking II
 * Papers:
-    * Pantheon: The Training Ground for Internet Congestion-control Research, F. Yan, et al.
-    * Learning In Situ: A Randomized Experiment in Video Streaming, F. Yan, et al.
+    * [Pantheon: The Training Ground for Internet Congestion-control Research]({{ site.baseurl }}/papers/L16-pantheon.pdf), F. Yan, et al.
+    * [Learning In Situ: A Randomized Experiment in Video Streaming]({{ site.baseurl }}/papers/L16-learning-in-situ.pdf), F. Yan, et al.
 
 ---
 
