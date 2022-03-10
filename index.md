@@ -25,7 +25,7 @@ The goals for this class are:
 * Chang: Wed, 1:30pm - 2:30pm
 * Sundararajan: TBD
 
-**Communication**: We use Slack for discussion. We will share the link later.
+**Communication**: We will use Piazza for Q&As, and we will use Slack for quick and immediate conversations. We will share the link later.
 
 **Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
 
