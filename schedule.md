@@ -16,6 +16,10 @@ permalink: /schedule/
 
 ---
 
+* **Critique for 3/30** ** Due 3/29, Tuesday, 11:59pm on Canvas. **
+
+---
+
 3/30:
 * Speaker: Chang [slides]
 * Lecture 2 Topics:
@@ -27,7 +31,7 @@ permalink: /schedule/
 
 ---
 
-* [Assignment 1.1 released]({{ site.baseurl }}/deliverables/tutorial-exercises) ** Due Apr/20, Monday, 11:59pm. **
+* **Critique for 4/4** ** Due 4/3, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -42,12 +46,24 @@ permalink: /schedule/
 
 ---
 
+* **Critique for 4/6** ** Due 4/5, Tuesday, 11:59pm on Canvas. **
+
+---
+
 4/6:
 * Speaker: Nick Mckeown [slides]
 * Lecture 4 Topics:
     * Switching Theory
 * Papers:
     * [High-speed Switch Scheduling for Local-area Networks]({{ site.baseurl }}/papers/L4-high-speed-switch-scheduling.pdf), T. Anderson et al.  
+
+---
+
+* **Bufferbloat on Mininet assignment** ** Due 4/8, Friday, 11:59pm on Canvas. **
+
+---
+
+* **Critique for 4/11** ** Due 4/10, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -63,6 +79,10 @@ permalink: /schedule/
 
 ---
 
+* **Critique for 4/13** ** Due 4/12, Tuesday, 11:59pm on Canvas. **
+
+---
+
 4/13:
 * Speaker: Chang [slides]
 * Lecture 6 Topics:
@@ -70,6 +90,10 @@ permalink: /schedule/
 * Papers:
     * [VL2: A Scalable and Flexible Data Center Network]({{ site.baseurl }}/papers/L6-vl2.pdf), A. Greenberg, et al.
     * [EyeQ: Practical Network Performance Isolation at the Edge]({{ site.baseurl }}/papers/L6-eyeq.pdf), V. Jeyakumar, et al.
+
+---
+
+* **Critique for 4/18** ** Due 4/17, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -86,6 +110,10 @@ permalink: /schedule/
 
 ---
 
+* **Critique for 4/20** ** Due 4/19, Tuesday, 11:59pm on Canvas. **
+
+---
+
 4/20:
 * Speaker: Sundararajan [slides]
 * Lecture 8 Topics:
@@ -94,6 +122,14 @@ permalink: /schedule/
     * [Forwarding Metamorphosis: Fast Programmable Match-Action Processing in Hardware for SDN]({{ site.baseurl }}/papers/L8-sdn-chip-sigcomm-2013.pdf), P. Bosshart, et al.
     * [NetCache: Balancing Key-Value Stores with Fast In-Network Caching]({{ site.baseurl }}/papers/L8-netcache.pdf), X. Jin, et al.
     * [P4: Programming Protocol-Independent Packet Processors (Optional)]({{ site.baseurl }}/papers/L8-P4.pdf), P. Bosshart, et al.
+
+---
+
+* **Bufferbloat on NS-3 assignment** ** Due 4/22, Friday, 11:59pm on Canvas. **
+
+---
+
+* **Critique for 4/25** ** Due 4/24, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -108,6 +144,9 @@ permalink: /schedule/
     * [Azure Accelerated Networking: SmartNICs in the Public Cloud]({{ site.baseurl }}/papers/L9-accelnet.pdf), D. Firestone, et al.
     * [VFP: A Virtual Switch Platform for Host SDN in The Public Cloud (Optional)]({{ site.baseurl }}/papers/L9-vfp.pdf), D. Firestone, et al.
 
+---
+
+* **Critique for 4/27** ** Due 4/26, Tuesday, 11:59pm on Canvas. **
 
 ---
 
@@ -118,6 +157,14 @@ permalink: /schedule/
 * Papers:
     * [Sizing Router Buffers]({{ site.baseurl }}/papers/L10-buffer-sizing.pdf), G. Appenzeller et al.
     * [Sizing Router Buffers -- Redux]({{ site.baseurl }}/papers/L10-buffer-sizing-redux.pdf), McKeown et al. 
+
+---
+
+* **Project proposal** ** Due 4/29, Friday, 11:59pm on Canvas. **
+
+---
+
+* **Critique for 5/2** ** Due 5/1, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -134,6 +181,10 @@ permalink: /schedule/
 
 ---
 
+* **Critique for 5/4** ** Due 5/3, Tuesday, 11:59pm on Canvas. **
+
+---
+
 5/4:
 * Speaker: Nate Foster [slides]
 * Lecture 12 Topics:
@@ -141,6 +192,10 @@ permalink: /schedule/
 * Papers:
     * [Header Space Analysis: Static Checking for Networks]({{ site.baseurl }}/papers/L12-hsa.pdf), P. Kazemian, et al.
     * [NetKAT: Semantic Foundations for Networks]({{ site.baseurl }}/papers/L12-frenetic-netkat.pdf), C. Anderson, et al.
+
+---
+
+* **Critique for 5/9** ** Due 5/8, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -155,6 +210,10 @@ permalink: /schedule/
  
 ---
 
+* **Critique for 5/11** ** Due 5/10, Tuesday, 11:59pm on Canvas. **
+
+---
+
 5/11:
 * Speaker: Stephen Ibanez and Theo Jepsen [slides]
 * Lecture 14 Topics:
@@ -162,6 +221,14 @@ permalink: /schedule/
 * Papers:
     * [The nanoPU: A Nanosecond Network Stack for Datacenters]({{ site.baseurl }}/papers/L14-nanopu.pdf), S. Ibanez, et al.
     * NanoSort, T. Jepsen, et al.
+
+---
+
+* **Project milestone** ** Due 5/13, Friday, 11:59pm on Canvas. **
+
+---
+
+* **Critique for 5/16** ** Due 5/15, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -178,6 +245,10 @@ permalink: /schedule/
 
 ---
 
+* **Critique for 5/18** ** Due 5/17, Tuesday, 11:59pm on Canvas. **
+
+---
+
 5/18:
 * Speaker: Keith Winstein [slides]
 * Lecture 16 Topics:
@@ -185,6 +256,10 @@ permalink: /schedule/
 * Papers:
     * [Pantheon: The Training Ground for Internet Congestion-control Research]({{ site.baseurl }}/papers/L16-pantheon.pdf), F. Yan, et al.
     * [Learning In Situ: A Randomized Experiment in Video Streaming]({{ site.baseurl }}/papers/L16-learning-in-situ.pdf), F. Yan, et al.
+
+---
+
+* **Critique for 5/23** ** Due 5/22, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -196,6 +271,10 @@ permalink: /schedule/
     * Wirelss Networking I
 * Papers:
     * [Architecture and Evaluation of an Unplanned 802.11b Mesh Network]({{ site.baseurl }}/papers/L17-roofnet.pdf), J. Bicket, et al.
+
+---
+
+* **Critique for 5/25** ** Due 5/24, Tuesday, 11:59pm on Canvas. **
 
 ---
 

@@ -16,16 +16,16 @@ The goals for this class are:
 
 **Professor**: Changhoon Kim, changhoon.kim@stanford.edu, Gates 433
 
-**TA**: Sundararajan Renganathan, rsundar@stanford.edu
+**TA**: Sundararajan Renganathan, rsundar@stanford.edu, Gates 418
 
 **Lectures**: Monday/Wednesday 11:30AM - 1PM in person
 
 **Office Hours**: 
 
 * Chang: Wed, 1:30pm - 2:30pm
-* Sundararajan: TBD
+* Sundararajan: Thu, 2:30pm - 3:30pm
 
-**Communication**: We will use Piazza for Q&As, and we will use Slack for quick and immediate conversations. We will share the link later.
+**Communication**: We will use [Piazza](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for Q&As, and we will use Slack for quick and immediate conversations. Please [sign up](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for the course on Piazza. We will share the Slack link later.
 
 **Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
 
