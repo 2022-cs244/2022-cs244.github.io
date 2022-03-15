@@ -194,7 +194,8 @@ permalink: /schedule/
 * Speaker: Sachin Katti [slides]
 * Lecture 17 Topics: 
     * Wirelss Networking I
-* Papers: TBD
+* Papers:
+    * [Architecture and Evaluation of an Unplanned 802.11b Mesh Network]({{ site.baseurl }}/papers/L17-roofnet.pdf), J. Bicket, et al.
 
 ---
 
