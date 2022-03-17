@@ -17,6 +17,7 @@ The goals for this class are:
 **Professor**: Changhoon Kim, changhoon.kim@stanford.edu, Gates 433
 
 **TA**: Sundararajan Renganathan, rsundar@stanford.edu, Gates 418
+        Preey Shah, preey@stanford.edu
 
 **Lectures**: Monday/Wednesday 11:30AM - 1PM in person
 
@@ -24,6 +25,7 @@ The goals for this class are:
 
 * Chang: Wed, 1:30pm - 2:30pm
 * Sundararajan: Thu, 2:30pm - 3:30pm
+* Preey: Fri, 10:30am - 11:30am
 
 **Communication**: We will use [Piazza](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for Q&As, and we will use Slack for quick and immediate conversations. Please [sign up](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for the course on Piazza. We will share the Slack link later.
 
