@@ -16,8 +16,10 @@ The goals for this class are:
 
 **Professor**: Changhoon Kim, changhoon.kim@stanford.edu, Gates 433
 
-**TA**: Sundararajan Renganathan, rsundar@stanford.edu, Gates 418
-        Preey Shah, preey@stanford.edu
+**TA**: 
+
+* Sundararajan Renganathan, rsundar@stanford.edu, Gates 418
+* Preey Shah, preey@stanford.edu, 
 
 **Lectures**: Monday/Wednesday 11:30AM - 1PM in person
 
@@ -27,7 +29,7 @@ The goals for this class are:
 * Sundararajan: Thu, 2:30pm - 3:30pm
 * Preey: Fri, 10:30am - 11:30am
 
-**Communication**: We will use [Piazza](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for Q&As, and we will use Slack for quick and immediate conversations. Please [sign up](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for the course on Piazza. We will share the Slack link later.
+**Communication**: We will use [Piazza](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for Q&As, and Slack for quick and immediate conversations. Please [sign up](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for the course on Piazza. We will share the Slack link later.
 
 **Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
 
@@ -65,7 +67,7 @@ We will have two programming assignments throughout the quarter.
 
 * Programming Assignment 1: Bufferbloat on Mininet
 * Programming Assignment 2: Bufferbloat on NS-3
-* Final Project: Reproducing research. You and a partner will reproduce the main result from a recent networking paper. We will be posting your reproductions on the [Reproducing Network Research blog](https://reproducingnetworkresearch.wordpress.com/){:target="_blank"}.
+* Final Project: Reproducing research. You and a partner will reproduce the main result from a recent networking paper. We will be posting your reproductions on the [Reproducing Network Research blog](https://reproducingnetworkresearch.wordpress.com/){:target="_blank"}. Let me know if you need help on finding a partner.
 
 You have one free 24 hour extension for either the programming assignment or final project. You must email the TA before the deadline. After this, if you hand in an assignment 0-24 hours late, you will lose 25% of the grade. 24-48 hours late and you will lose 50% of the grade. 48-72 hours late you will lose 75% of the grade. After 72 hours you will receive a zero.
 
@@ -82,3 +84,7 @@ We might ask all or some students to take a short oral examination as part of th
 * 15% Programming Assignment 1
 * 15% Programming Assignment 2
 * 35% Final Project
+
+# General Policy
+
+[Ethics Code]({{ site.baseurl }}/policy)
