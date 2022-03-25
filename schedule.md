@@ -29,6 +29,8 @@ permalink: /schedule/
     * [A Brief History of the Internet (Optional)]({{ site.baseurl }}/papers/L2-brief-history.pdf), B. Leiner, et al.
     * [On Distributed Communications Networks (Optional)]({{ site.baseurl }}/papers/L2-distributed-communications-networks.pdf), P. Baran
 
+* **Bufferbloat on Mininet assignment released** ** Due 4/8, Friday, 11:59pm on Canvas. **
+
 ---
 
 * **Critique for 4/4** ** Due 4/3, Sunday, 11:59pm on Canvas. **
@@ -59,10 +61,6 @@ permalink: /schedule/
 
 ---
 
-* **Bufferbloat on Mininet assignment** ** Due 4/8, Friday, 11:59pm on Canvas. **
-
----
-
 * **Critique for 4/11** ** Due 4/10, Sunday, 11:59pm on Canvas. **
 
 ---
@@ -90,6 +88,12 @@ permalink: /schedule/
 * Papers:
     * [VL2: A Scalable and Flexible Data Center Network]({{ site.baseurl }}/papers/L6-vl2.pdf), A. Greenberg, et al.
     * [EyeQ: Practical Network Performance Isolation at the Edge]({{ site.baseurl }}/papers/L6-eyeq.pdf), V. Jeyakumar, et al.
+
+* **Bufferbloat on NS-3 assignment released** ** Due 4/22, Friday, 11:59pm on Canvas. **
+
+---
+
+* **Bufferbloat on Mininet assignment due** ** Due 4/15, Friday, 11:59pm on Canvas. **
 
 ---
 
@@ -125,10 +129,6 @@ permalink: /schedule/
 
 ---
 
-* **Bufferbloat on NS-3 assignment** ** Due 4/22, Friday, 11:59pm on Canvas. **
-
----
-
 * **Critique for 4/25** ** Due 4/24, Sunday, 11:59pm on Canvas. **
 
 ---
@@ -160,7 +160,7 @@ permalink: /schedule/
 
 ---
 
-* **Project proposal** ** Due 4/29, Friday, 11:59pm on Canvas. **
+* **Bufferbloat on NS-3 assignment due** ** Due 4/29, Friday, 11:59pm on Canvas. **
 
 ---
 
@@ -195,6 +195,10 @@ permalink: /schedule/
 
 ---
 
+* **Project proposal** ** Due 5/6, Friday, 11:59pm on Canvas. **
+
+---
+
 * **Critique for 5/9** ** Due 5/8, Sunday, 11:59pm on Canvas. **
 
 ---
@@ -221,10 +225,6 @@ permalink: /schedule/
 * Papers:
     * [The nanoPU: A Nanosecond Network Stack for Datacenters]({{ site.baseurl }}/papers/L14-nanopu.pdf), S. Ibanez, et al.
     * NanoSort, T. Jepsen, et al.
-
----
-
-* **Project milestone** ** Due 5/13, Friday, 11:59pm on Canvas. **
 
 ---
 
@@ -256,6 +256,10 @@ permalink: /schedule/
 * Papers:
     * [Pantheon: The Training Ground for Internet Congestion-control Research]({{ site.baseurl }}/papers/L16-pantheon.pdf), F. Yan, et al.
     * [Learning In Situ: A Randomized Experiment in Video Streaming]({{ site.baseurl }}/papers/L16-learning-in-situ.pdf), F. Yan, et al.
+
+---
+
+* **Project milestone** ** Due 5/20, Friday, 11:59pm on Canvas. **
 
 ---
 
