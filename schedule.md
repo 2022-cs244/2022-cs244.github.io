@@ -133,11 +133,11 @@ permalink: /schedule/
 
 ---
 
-* **Critique for 4/25** ** Due 4/24, Sunday, 11:59pm on Canvas. **
-
+* **Proposal submission for final project!** ** Due 4/22, Friday, 11:59pm on Canvas. **
+ 
 ---
 
-* **Final project proposal submission!** ** Due 4/22, Friday, 11:59pm on Canvas. **
+* **Critique for 4/25** ** Due 4/24, Sunday, 11:59pm on Canvas. **
 
 ---
 
@@ -263,7 +263,7 @@ permalink: /schedule/
 
 ---
 
-* **Final project intermediate report submission!** ** Due 5/20, Friday, 11:59pm on Canvas. **
+* **Interim report submission for final project!** ** Due 5/20, Friday, 11:59pm on Canvas. **
 
 ---
 
