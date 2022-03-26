@@ -29,7 +29,9 @@ permalink: /schedule/
     * [A Brief History of the Internet (Optional)]({{ site.baseurl }}/papers/L2-brief-history.pdf), B. Leiner, et al.
     * [On Distributed Communications Networks (Optional)]({{ site.baseurl }}/papers/L2-distributed-communications-networks.pdf), P. Baran
 
-* **Bufferbloat on Mininet assignment released** ** Due 4/8, Friday, 11:59pm on Canvas. **
+---
+
+* **Bufferbloat on Mininet assignment released** ** Due 4/15, Friday, 11:59pm on Canvas. **
 
 ---
 
@@ -89,11 +91,13 @@ permalink: /schedule/
     * [VL2: A Scalable and Flexible Data Center Network]({{ site.baseurl }}/papers/L6-vl2.pdf), A. Greenberg, et al.
     * [EyeQ: Practical Network Performance Isolation at the Edge]({{ site.baseurl }}/papers/L6-eyeq.pdf), V. Jeyakumar, et al.
 
-* **Bufferbloat on NS-3 assignment released** ** Due 4/22, Friday, 11:59pm on Canvas. **
+---
+
+* **Bufferbloat on NS-3 assignment released** ** Due 4/29, Friday, 11:59pm on Canvas. **
 
 ---
 
-* **Bufferbloat on Mininet assignment due** ** Due 4/15, Friday, 11:59pm on Canvas. **
+* **Bufferbloat on Mininet assignment submission!** ** Due 4/15, Friday, 11:59pm on Canvas. **
 
 ---
 
@@ -133,6 +137,10 @@ permalink: /schedule/
 
 ---
 
+* **Final project proposal submission!** ** Due 4/22, Friday, 11:59pm on Canvas. **
+
+---
+
 ## **[Week 5]**
 
 4/25:
@@ -160,7 +168,7 @@ permalink: /schedule/
 
 ---
 
-* **Bufferbloat on NS-3 assignment due** ** Due 4/29, Friday, 11:59pm on Canvas. **
+* **Bufferbloat on NS-3 assignment submission!** ** Due 4/29, Friday, 11:59pm on Canvas. **
 
 ---
 
@@ -192,10 +200,6 @@ permalink: /schedule/
 * Papers:
     * [Header Space Analysis: Static Checking for Networks]({{ site.baseurl }}/papers/L12-hsa.pdf), P. Kazemian, et al.
     * [NetKAT: Semantic Foundations for Networks]({{ site.baseurl }}/papers/L12-frenetic-netkat.pdf), C. Anderson, et al.
-
----
-
-* **Project proposal** ** Due 5/6, Friday, 11:59pm on Canvas. **
 
 ---
 
@@ -259,7 +263,7 @@ permalink: /schedule/
 
 ---
 
-* **Project milestone** ** Due 5/20, Friday, 11:59pm on Canvas. **
+* **Final project intermediate report submission!** ** Due 5/20, Friday, 11:59pm on Canvas. **
 
 ---
 
