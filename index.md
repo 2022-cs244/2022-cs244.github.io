@@ -14,14 +14,14 @@ The goals for this class are:
 
 # Course Information
 
-**Professor**: Changhoon Kim, changhoon.kim@stanford.edu, Gates 433
+**Professor**: Changhoon Kim, changhoon.kim@stanford.edu, Gates 443
 
 **TA**: 
 
 * Sundararajan Renganathan, rsundar@stanford.edu, Gates 418
 * Preey Shah, preey@stanford.edu, 
 
-**Lectures**: Monday/Wednesday 11:30AM - 1PM in person
+**Lectures**: Monday/Wednesday 11:30AM - 1PM in person, Hewlett 102
 
 **Office Hours**: 
 
