@@ -232,6 +232,10 @@ permalink: /schedule/
 
 ---
 
+* **Interim report submission for final project!** ** Due 5/14, Saturday, 11:59pm on Canvas. **
+
+---
+
 * **Critique for 5/16** ** Due 5/15, Sunday, 11:59pm on Canvas. **
 
 ---
@@ -260,10 +264,6 @@ permalink: /schedule/
 * Papers:
     * [Pantheon: The Training Ground for Internet Congestion-control Research]({{ site.baseurl }}/papers/L16-pantheon.pdf), F. Yan, et al.
     * [Learning In Situ: A Randomized Experiment in Video Streaming]({{ site.baseurl }}/papers/L16-learning-in-situ.pdf), F. Yan, et al.
-
----
-
-* **Interim report submission for final project!** ** Due 5/20, Friday, 11:59pm on Canvas. **
 
 ---
 
