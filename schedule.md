@@ -7,7 +7,7 @@ permalink: /schedule/
 ## **[Week 1]**
 
 3/28:
-* Speaker: Chang [slides]({{ site.baseurl }}/slides/Lecture_01_2022.pdf)
+* Speaker: Chang [[slides]({{ site.baseurl }}/slides/Lecture_01_2022.pdf)]
 * Lecture 1 Topics:    
     * Intro to class
     * Logistics and administration
