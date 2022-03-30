@@ -21,7 +21,7 @@ permalink: /schedule/
 ---
 
 3/30:
-* Speaker: Chang [slides]
+* Speaker: Chang [[slides]({{ site.baseurl }}/slides/Lecture_02_2022.pdf)]
 * Lecture 2 Topics:
     * Architecture and Principles I
 * Papers:
