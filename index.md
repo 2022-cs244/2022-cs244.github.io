@@ -29,7 +29,7 @@ The goals for this class are:
 * Sundararajan: Thu, 2:30pm - 3:30pm
 * Preey: Fri, 10:30am - 11:30am
 
-**Communication**: We will use [Piazza](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for Q&As, and Slack for quick and immediate conversations. Please [sign up](https://piazza.com/stanford/spring2022/cs244){:target="_blank"} for the course on Piazza. We will share the Slack link later.
+**Communication**: We will use [Ed](https://edstem.org/us/courses/21621/discussion/){:target="_blank"} for Q&As, and Slack for quick and immediate conversations. 
 
 **Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
 
