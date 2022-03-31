@@ -31,7 +31,7 @@ permalink: /schedule/
 
 ---
 
-* **Bufferbloat on Mininet assignment released** ** Due 4/15, Friday, 11:59pm on Canvas. **
+* **Bufferbloat on Mininet assignment released** [[pdf]]({{ site.baseurl }}/assignments/a1.pdf) ** Due 4/15, Friday, 11:59pm on Canvas. **
 
 ---
 

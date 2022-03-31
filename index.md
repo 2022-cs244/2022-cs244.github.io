@@ -65,7 +65,7 @@ You may be sick, have to take some time to deal with family or personal matters,
 
 We will have two programming assignments throughout the quarter.
 
-* Programming Assignment 1: Bufferbloat on Mininet
+* Programming Assignment 1: Bufferbloat on Mininet [[pdf]]({{ site.baseurl }}/assignments/a1.pdf)
 * Programming Assignment 2: Bufferbloat on NS-3
 * Final Project: Reproducing research. You and a partner will reproduce the main result from a recent networking paper. We will be posting your reproductions on the [Reproducing Network Research blog](https://reproducingnetworkresearch.wordpress.com/){:target="_blank"}. Let me know if you need help on finding a partner.
 
