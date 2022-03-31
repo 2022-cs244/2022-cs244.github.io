@@ -31,7 +31,7 @@ The goals for this class are:
 
 **Communication**: We will use [Ed](https://edstem.org/us/courses/21621/discussion/){:target="_blank"} for Q&As, and Slack for quick and immediate conversations. 
 
-**Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. Make sure you are enrolled into our Gradescope page. (Enrollment Code: TBD)
+**Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. All assignments would be due on Canvas.
 
 **Prerequisites**: This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We strongly suggest taking [CS 144](https://cs144.github.io/){:target="_blank"}, EE 284, or equivalent. For a refresher, you could look at the textbook “Computer Networking: A Top-Down Approach” by J. Kurose and K. Ross or “Computer Networks: A Systems Approach” by L. Peterson and B. Davie.
 
@@ -43,7 +43,7 @@ The goals for this class are:
 
 The class consists of two main activities:
 
-**Papers and discussions:** We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will likely need to spend a few hours reading each paper and making notes, to prepare you to discuss them in class. This class only works if you come prepared to discuss the papers in detail, which is why 15\% of your grade is for in-class participation. Do not take this course unless you are willing and able to do a lot of reading.
+**Papers and discussions:** We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will likely need to spend a few hours reading each paper and making notes, to prepare you to discuss them in class. This class only works if you come prepared to discuss the papers in detail, which is why 15% of your grade is for in-class participation. Do not take this course unless you are willing and able to do a lot of reading.
 
 **Reproducing research:** You will do two projects which aim to reproduce a networking result: a guided assignment and an open-ended project. We've found that reproducing research results is a good way to get started doing networking research and contributing to the networking community.
 
