@@ -31,7 +31,7 @@ The goals for this class are:
 
 **Communication**: We will use [Ed](https://edstem.org/us/courses/21621/discussion/){:target="_blank"} for Q&As, and Slack for quick and immediate conversations. 
 
-**Assignments**: All course assignments will be published on this Web page. Please follow the instructions on documents for submissions. All assignments would be due on Canvas.
+**Assignments**: All course assignments will be published on this Web page. Please follow the submission instructions on the assignment handouts. All assignments submissions would be due on Canvas.
 
 **Prerequisites**: This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We strongly suggest taking [CS 144](https://cs144.github.io/){:target="_blank"}, EE 284, or equivalent. For a refresher, you could look at the textbook “Computer Networking: A Top-Down Approach” by J. Kurose and K. Ross or “Computer Networks: A Systems Approach” by L. Peterson and B. Davie.
 
