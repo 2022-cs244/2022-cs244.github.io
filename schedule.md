@@ -42,7 +42,7 @@ permalink: /schedule/
 ## **[Week 2]**
 
 4/4:
-* Speaker: Chang [slides]
+* Speaker: Chang [[slides]({{ site.baseurl }}/slides/Lecture_03_2022.pdf)]
 * Lecture 3 Topics:
     * Architecture and Principles II
 * Papers:
