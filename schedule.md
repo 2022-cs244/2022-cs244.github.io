@@ -73,7 +73,7 @@ permalink: /schedule/
 * Speaker: Nandita Dukkipati [slides]
 * Lecture 5 Topics:
     * Congestion Control
-* Papers: TBD
+* Papers:
     * [Congestion Avoidance and Control]({{ site.baseurl }}/papers/L5-congavoid.pdf), V. Jacobson, et al.
     * [Swift: Delay is Simple and Effective for Congestion Control in the Datacenter]({{ site.baseurl }}/papers/L5-swift.pdf), G. Kumar, et al.
 
