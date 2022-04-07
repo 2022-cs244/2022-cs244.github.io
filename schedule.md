@@ -55,7 +55,7 @@ permalink: /schedule/
 ---
 
 4/6:
-* Speaker: Nick Mckeown [slides]
+* Speaker: Nick Mckeown [[slides]({{ site.baseurl }}/slides/Lecture_04_2022.pdf)]
 * Lecture 4 Topics:
     * Switching Theory
 * Papers:
