@@ -70,7 +70,7 @@ permalink: /schedule/
 ## **[Week 3]**
 
 4/11:
-* Speaker: Nandita Dukkipati [slides]
+* Speaker: Nandita Dukkipati [{{ site.baseurl }}/slides/Lecture_05_2022.pdf)]
 * Lecture 5 Topics:
     * Congestion Control
 * Papers:
