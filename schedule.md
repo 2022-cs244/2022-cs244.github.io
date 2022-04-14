@@ -84,7 +84,7 @@ permalink: /schedule/
 ---
 
 4/13:
-* Speaker: Chang [slides]
+* Speaker: Chang [{{ site.baseurl }}/slides/Lecture_06_2022.pdf)]
 * Lecture 6 Topics:
     * Datacenter Networking
 * Papers:
