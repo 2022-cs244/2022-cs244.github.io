@@ -70,7 +70,7 @@ permalink: /schedule/
 ## **[Week 3]**
 
 4/11:
-* Speaker: Nandita Dukkipati [[slides]{{ site.baseurl }}/slides/Lecture_05_2022.pdf)]
+* Speaker: Nandita Dukkipati [[slides]({{ site.baseurl }}/slides/Lecture_05_2022.pdf)]
 * Lecture 5 Topics:
     * Congestion Control
 * Papers:
@@ -84,7 +84,7 @@ permalink: /schedule/
 ---
 
 4/13:
-* Speaker: Chang [[slides]{{ site.baseurl }}/slides/Lecture_06_2022.pdf)]
+* Speaker: Chang [[slides]({{ site.baseurl }}/slides/Lecture_06_2022.pdf)]
 * Lecture 6 Topics:
     * Datacenter Networking
 * Papers:
