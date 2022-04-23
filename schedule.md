@@ -108,7 +108,7 @@ permalink: /schedule/
 ## **[Week 4]**
 
 4/18:
-* Speaker: Chang [slides]
+* Speaker: Chang [[slides]({{ site.baseurl }}/slides/Lecture_07_2022.pdf)]
 * Lecture 7 Topics:
     * SDN
 * Papers:
@@ -133,7 +133,7 @@ permalink: /schedule/
 
 ---
 
-* **Proposal submission for final project!** ** Due 4/22, Friday, 11:59pm on Canvas. **
+* **Proposal submission for final project!** ** ~~Due 4/22, Friday, 11:59pm on Canvas.~~ Extended to 4/26, Tuesday, 11:59pm on Canvas **
  
 ---
 
