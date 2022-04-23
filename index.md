@@ -18,7 +18,7 @@ The goals for this class are:
 
 **TA**: 
 
-* Sundararajan Renganathan, rsundar@stanford.edu, Gates 418
+* Sundararajan Renganathan, rsundar@stanford.edu, Gates 415
 * Preey Shah, preey@stanford.edu, The common space on the 4th floor in the Gates building.
 
 **Lectures**: Monday/Wednesday 11:30AM - 1PM in person, Hewlett 102
