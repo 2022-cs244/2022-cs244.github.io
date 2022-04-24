@@ -123,7 +123,7 @@ permalink: /schedule/
 ---
 
 4/20:
-* Speaker: Sundararajan [slides]
+* Speaker: Sundararajan [[slides]({{ site.baseurl }}/slides/Lecture_08_2022.pdf)]
 * Lecture 8 Topics:
     * Programmable Forwarding
 * Papers:
