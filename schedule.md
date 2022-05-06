@@ -228,7 +228,7 @@ permalink: /schedule/
     * Super-low Latency Networking
 * Papers:
     * [The nanoPU: A Nanosecond Network Stack for Datacenters]({{ site.baseurl }}/papers/L14-nanopu.pdf), S. Ibanez, et al.
-    * NanoSort, T. Jepsen, et al.
+    * [From Sand to Flour: The Next Leap in Granular Computing with NanoSort] ({{ site.baseurl }}/papers/L14-nanosort.pdf), T. Jepsen, et al.
 
 ---
 
