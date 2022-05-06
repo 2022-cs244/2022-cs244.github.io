@@ -144,7 +144,7 @@ permalink: /schedule/
 ## **[Week 5]**
 
 4/25:
-* Speaker: Parveen Patel [slides]
+* Speaker: Parveen Patel [[slides]({{ site.baseurl }}/slides/Lecture_09_2022.pdf)]
 * Lecture 9 Topics: 
     * Host Networking    
 * Papers:
@@ -159,7 +159,7 @@ permalink: /schedule/
 ---
 
 4/27:
-* Speaker: Bruce Spang [slides]
+* Speaker: Bruce Spang [[slides]({{ site.baseurl }}/slides/Lecture_10_2022.pdf)]
 * Lecture 10 Topics:
     * Switch Buffer Sizing
 * Papers:
@@ -179,7 +179,7 @@ permalink: /schedule/
 ## **[Week 6]**
 
 5/2:
-* Speaker: JK Lee [slides]
+* Speaker: JK Lee [[slides]({{ site.baseurl }}/slides/Lecture_11_2022.pdf)]
 * Lecture 11 Topics: 
     * Measurement and Monitoring
 * Papers:
