@@ -194,7 +194,7 @@ permalink: /schedule/
 ---
 
 5/4:
-* Speaker: Nate Foster [slides]
+* Speaker: Nate Foster [[slides]({{ site.baseurl }}/slides/Lecture_12_2022.pdf)]
 * Lecture 12 Topics:
     * Programming Languages for Networking
 * Papers:
@@ -210,7 +210,7 @@ permalink: /schedule/
 ## **[Week 7]**
 
 5/9:
-* Speaker: Chang [slides]
+* Speaker: Chang [[slides]({{ site.baseurl }}/slides/Lecture_13_2022.pdf)]
 * Lecture 13 Topics: 
     * Edge Networking
 * Papers:
