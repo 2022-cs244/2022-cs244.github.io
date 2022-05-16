@@ -297,9 +297,11 @@ permalink: /schedule/
 ## **[Week 10]**
 
 5/30:
-* Final Project Presentations by students
-
+* No class. Memorial Day.
 ---
 
-6/1:
-* Finale Reports Due (no class)
+6/1: 11:30am - 1:30pm
+* Presentation for final projects
+
+---
+* **Finale Project Report** ** Due 6/3, Friday, 11:59pm on Canvas. **
