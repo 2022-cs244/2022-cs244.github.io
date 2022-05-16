@@ -297,7 +297,8 @@ permalink: /schedule/
 ## **[Week 10]**
 
 5/30:
-* No class. Memorial Day.
+* No class. Memorial Day
+
 ---
 
 6/1: 11:30am - 1:30pm
