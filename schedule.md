@@ -304,4 +304,4 @@ permalink: /schedule/
 * Presentation for final projects
 
 ---
-* **Finale Project Report** ** Due 6/3, Friday, 11:59pm on Canvas. **
+* **Final Project Report** ** Due 6/3, Friday, 11:59pm on Canvas. **
