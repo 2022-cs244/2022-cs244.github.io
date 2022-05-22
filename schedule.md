@@ -243,7 +243,7 @@ permalink: /schedule/
 ## **[Week 8]**
 
 5/16:
-* Speaker: Keith Winstein [slides]
+* Speaker: Keith Winstein
 * Lecture 15 Topics: 
     * ML for Networking I
 * Papers:
@@ -258,7 +258,7 @@ permalink: /schedule/
 ---
 
 5/18:
-* Speaker: Keith Winstein [slides]
+* Speaker: Keith Winstein
 * Lecture 16 Topics:
     * ML for Networking II
 * Papers:
@@ -290,7 +290,8 @@ permalink: /schedule/
 * Speaker: Sachin Katti [slides]
 * Lecture 18 Topics:
     * Wireless Networking II
-* Papers: TBD
+* Papers:
+    * [Democratizing Cellular Access with CellBricks]({{ site.baseurl }}/papers/L18-cellbricks.pdf), Z. Luo, et al.
 
 ---
 
